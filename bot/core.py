@@ -8,7 +8,6 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config.json"
-AFORISMI_PATH = ROOT / "data" / "aforismi.json"
 REGISTRO_PATH = ROOT / "data" / "pubblicati.json"
 FONTS = ROOT / "fonts"
 
@@ -84,41 +83,59 @@ def trova_fascia(cfg: dict, ora_fascia: str) -> dict:
     raise SystemExit(f"Fascia {ora_fascia!r} non presente nel programma")
 
 
-def scegli_aforisma(data: str, fascia: str) -> dict:
-    """L'aforisma della fascia: se già assegnato lo riusa, altrimenti prende il successivo
-    rispetto all'ultima uscita registrata (ricominciando dall'inizio a fine lista)."""
-    aforismi = load_json(AFORISMI_PATH)
-    if not aforismi:
-        raise SystemExit("data/aforismi.json è vuoto")
-    per_id = {a["id"]: a for a in aforismi}
+def raccolta_di(fascia: dict) -> str:
+    return fascia.get("raccolta", "aforismi")
+
+
+def _raccolta_voce(v: dict) -> str:
+    return v.get("raccolta", "aforismi")
+
+
+def carica_raccolta(nome: str, cfg: dict) -> list[dict]:
+    if nome not in cfg["raccolte"]:
+        raise SystemExit(f"Raccolta {nome!r} non definita in config.json")
+    elementi = load_json(ROOT / cfg["raccolte"][nome]["file"])
+    if not elementi:
+        raise SystemExit(f"La raccolta {nome!r} è vuota")
+    return elementi
+
+
+def scegli_aforisma(data: str, fascia: str, raccolta: str, cfg: dict) -> dict:
+    """La citazione della fascia: se già assegnata la riusa, altrimenti prende la successiva
+    all'ultima uscita della stessa raccolta (ricominciando dall'inizio a fine lista)."""
+    elementi = carica_raccolta(raccolta, cfg)
+    per_id = {a["id"]: a for a in elementi}
     reg = registro()
 
     voce = voce_di(data, fascia, reg)
-    if voce and voce["id"] in per_id:
+    if voce and _raccolta_voce(voce) == raccolta and voce["id"] in per_id:
         return per_id[voce["id"]]
 
-    precedenti = [v for v in reg if _chiave(v) < (data, fascia) and v["id"] in per_id]
+    precedenti = [v for v in reg if _chiave(v) < (data, fascia)
+                  and _raccolta_voce(v) == raccolta and v["id"] in per_id]
     if not precedenti:
-        return aforismi[0]
+        return elementi[0]
     ultimo = max(precedenti, key=_chiave)
-    idx = next(i for i, a in enumerate(aforismi) if a["id"] == ultimo["id"])
-    return aforismi[(idx + 1) % len(aforismi)]
+    idx = next(i for i, a in enumerate(elementi) if a["id"] == ultimo["id"])
+    return elementi[(idx + 1) % len(elementi)]
 
 
-def aggiorna_registro(data: str, fascia: str, aforisma_id: int, **campi) -> dict:
+def aggiorna_registro(data: str, fascia: str, raccolta: str, aforisma_id: int, **campi) -> dict:
     reg = registro()
     voce = voce_di(data, fascia, reg)
     if voce is None:
-        voce = {"data": data, "fascia": fascia, "id": aforisma_id}
+        voce = {"data": data, "fascia": fascia}
         reg.append(voce)
         reg.sort(key=_chiave)
+    voce.update({"raccolta": raccolta, "id": aforisma_id})
     voce.update({k: v for k, v in campi.items() if v is not None})
     save_json(REGISTRO_PATH, reg)
     return voce
 
 
-def didascalia(aforisma: dict, cfg: dict) -> str:
+def didascalia(aforisma: dict, raccolta: str, cfg: dict) -> str:
     testo = f"«{aforisma['testo']}»"
     if aforisma.get("autore"):
         testo += f"\n— {aforisma['autore']}"
-    return f"{testo}\n\n{' '.join(cfg['hashtag'])}"
+    hashtag = cfg["raccolte"][raccolta].get("hashtag", [])
+    return f"{testo}\n\n{' '.join(hashtag)}".rstrip()

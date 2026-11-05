@@ -1,23 +1,65 @@
 {
   "nome_pagina": "parole essenziali",
-  "firma": "@paroleessenziali",
+  "firma": "@parole.essenziali",
   "timezone": "Europe/Rome",
   "programma": [
-    { "ora": "09:00", "contenuti": ["post", "storia"] },
-    { "ora": "13:00", "contenuti": ["storia", "reel"] },
-    { "ora": "19:00", "contenuti": ["post", "storia"] }
+    {
+      "ora": "09:00",
+      "contenuti": [
+        "post",
+        "storia"
+      ],
+      "raccolta": "aforismi"
+    },
+    {
+      "ora": "13:00",
+      "contenuti": [
+        "storia",
+        "reel"
+      ],
+      "raccolta": "aforismi"
+    },
+    {
+      "ora": "19:00",
+      "contenuti": [
+        "post",
+        "storia"
+      ],
+      "raccolta": "film"
+    }
   ],
-  "giorni_reel": ["lun", "mer", "ven", "sab"],
+  "giorni_reel": [
+    "lun",
+    "mer",
+    "ven",
+    "sab"
+  ],
   "anticipo_minuti": 15,
   "ritardo_massimo_minuti": 180,
-  "hashtag": [
-    "#aforismi",
-    "#frasedelgiorno",
-    "#pensieri",
-    "#parole",
-    "#citazioni",
-    "#riflessioni"
-  ],
+  "raccolte": {
+    "aforismi": {
+      "file": "data/aforismi.json",
+      "hashtag": [
+        "#aforismi",
+        "#frasedelgiorno",
+        "#pensieri",
+        "#parole",
+        "#citazioni",
+        "#riflessioni"
+      ]
+    },
+    "film": {
+      "file": "data/film.json",
+      "hashtag": [
+        "#cinema",
+        "#film",
+        "#citazionifilm",
+        "#frasidifilm",
+        "#filmquotes",
+        "#cinefili"
+      ]
+    }
+  },
   "reel": {
     "durata_secondi": 9,
     "zoom_finale": 1.06,

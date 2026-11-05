@@ -3,7 +3,7 @@
   python -m bot prepara   [--fascia 09:00] [--forza]   genera i media della fascia dovuta in site/
   python -m bot pubblica  --base-url URL                pubblica su Instagram ciò che è stato preparato
   python -m bot verifica                                controlla il token e l'account collegato
-  python -m bot anteprima [--id N]                      genera post/storia/reel di prova in out/anteprima
+  python -m bot anteprima [--raccolta film] [--id N]                   genera post/storia/reel di prova in out/anteprima
   python -m bot rinnova-token --out F                   rinnova il token e lo scrive nel file --out
 """
 from __future__ import annotations
@@ -77,16 +77,17 @@ def cmd_prepara(args) -> None:
         gh_output(da_fare="false")
         return
 
-    aforisma = core.scegli_aforisma(data, fascia["ora"])
+    raccolta = core.raccolta_di(fascia)
+    aforisma = core.scegli_aforisma(data, fascia["ora"], raccolta, cfg)
     slug = f"{data}-{fascia['ora'].replace(':', '')}"
     genera(aforisma, contenuti, SITE / "m" / slug, cfg)
     (SITE / ".nojekyll").touch()
     (SITE / "index.html").write_text(f"<!doctype html><title>{cfg['nome_pagina']}</title>\n", "utf-8")
 
     OUT.mkdir(exist_ok=True)
-    core.save_json(LAVORO, {"data": data, "fascia": fascia["ora"], "aforisma": aforisma,
+    core.save_json(LAVORO, {"data": data, "fascia": fascia["ora"], "raccolta": raccolta, "aforisma": aforisma,
                             "contenuti": contenuti, "cartella": f"m/{slug}"})
-    print(f"{data} {fascia['ora']} → #{aforisma['id']} «{aforisma['testo']}» — {', '.join(contenuti)}")
+    print(f"{data} {fascia['ora']} → {raccolta} #{aforisma['id']} «{aforisma['testo']}» — {', '.join(contenuti)}")
     gh_output(da_fare="true")
 
 
@@ -106,13 +107,14 @@ def cmd_pubblica(args) -> None:
     cfg = core.config()
     lavoro = core.load_json(LAVORO)
     data, fascia, aforisma = lavoro["data"], lavoro["fascia"], lavoro["aforisma"]
+    raccolta = lavoro.get("raccolta", "aforismi")
     base = args.base_url.rstrip("/")
-    caption = core.didascalia(aforisma, cfg)
+    caption = core.didascalia(aforisma, raccolta, cfg)
 
     token = leggi_token()
     ig = Instagram(token, os.environ.get("IG_USER_ID", "").strip() or None, cfg["graph_api_version"])
 
-    core.aggiorna_registro(data, fascia, aforisma["id"])
+    core.aggiorna_registro(data, fascia, raccolta, aforisma["id"])
     errori = []
     for tipo in lavoro["contenuti"]:
         url = f"{base}/{lavoro['cartella']}/{FILE[tipo]}"
@@ -128,7 +130,7 @@ def cmd_pubblica(args) -> None:
             print(f"✗ {tipo}: {e}", file=sys.stderr)
             errori.append(tipo)
             continue
-        core.aggiorna_registro(data, fascia, aforisma["id"], **{tipo: media_id})
+        core.aggiorna_registro(data, fascia, raccolta, aforisma["id"], **{tipo: media_id})
         print(f"✓ {tipo} pubblicato ({media_id})")
 
     if errori:
@@ -137,7 +139,7 @@ def cmd_pubblica(args) -> None:
 
 def cmd_anteprima(args) -> None:
     cfg = core.config()
-    aforismi = core.load_json(core.AFORISMI_PATH)
+    aforismi = core.carica_raccolta(args.raccolta, cfg)
     scelti = [a for a in aforismi if a["id"] == args.id] if args.id else [max(aforismi, key=lambda a: len(a["testo"]))]
     if not scelti:
         raise SystemExit(f"Aforisma {args.id} non trovato")
@@ -177,6 +179,7 @@ def main() -> None:
     s.set_defaults(fn=cmd_pubblica)
     s = sub.add_parser("anteprima")
     s.add_argument("--id", type=int)
+    s.add_argument("--raccolta", default="aforismi", help="aforismi, film, …")
     s.set_defaults(fn=cmd_anteprima)
     s = sub.add_parser("verifica")
     s.set_defaults(fn=cmd_verifica)

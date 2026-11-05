@@ -10,9 +10,9 @@ pubblicazione usa l'**Instagram API** (gratuita).
 |------------|---------------------------------------------|
 | 09:00      | post (1080×1350) + storia (1080×1920)       |
 | 13:00      | storia + reel (solo lun, mer, ven, sab)     |
-| 19:00      | post + storia                               |
+| 19:00      | post + storia (citazione da film)           |
 
-Ogni fascia ha un aforisma diverso. Post, storia e reel della stessa fascia condividono lo stesso.
+Ogni fascia ha una citazione diversa. Post, storia e reel della stessa fascia condividono lo stesso.
 Il programma si cambia in `config.json` (`programma`, `giorni_reel`).
 
 Il reel dura 9 secondi: dissolvenza in entrata e in uscita, uno zoom lento e un sottofondo
@@ -84,18 +84,29 @@ python -m bot anteprima                  # post, storia e reel di prova in out/a
 python -m bot anteprima --id 42          # anteprima di un aforisma specifico
 ```
 
-## Aforismi
+## Raccolte
 
-Sono in `data/aforismi.json` e sono **originali**, quindi senza diritti né attribuzioni dubbie.
-Escono in ordine e, finita la lista, si ricomincia. Per aggiungerne:
+Le citazioni stanno in raccolte separate, ognuna con il suo ordine e i suoi hashtag (`raccolte` in `config.json`):
+
+| Raccolta   | File                  | Contenuto                                                   | Fascia |
+|------------|-----------------------|-------------------------------------------------------------|--------|
+| `aforismi` | `data/aforismi.json`  | aforismi originali (nessun problema di diritti)             | 09, 13 |
+| `film`     | `data/film.json`      | battute celebri del cinema, nel testo del doppiaggio italiano | 19   |
+
+Ogni fascia del `programma` sceglie la sua `raccolta`. Le citazioni escono in ordine e, finita la
+lista, si ricomincia. Per aggiungerne:
 
 ```json
-{ "id": 120, "testo": "…", "autore": null }
+{ "id": 57, "testo": "…", "autore": "Titolo del film (anno)" }
 ```
 
-Con 3 aforismi al giorno, 119 aforismi bastano per circa 40 giorni prima di ripetersi.
-Se aggiungi citazioni di altri, usa solo autori in pubblico dominio (morti da oltre 70 anni) con
-attribuzione verificata, e metti il nome in `autore`.
+`autore` compare sotto il testo in grigio corsivo. Per gli aforismi originali lascialo `null`.
+
+Le battute dei film sono state trascritte a memoria: conviene rileggerle una volta. Si usa solo il
+testo, mai fotogrammi, locandine o loghi. Per eventuali citazioni d'autore usa solo autori in
+pubblico dominio (morti da oltre 70 anni) con attribuzione verificata.
+
+Per un'anteprima: `python -m bot anteprima --raccolta film --id 3`.
 
 ## Note
 
