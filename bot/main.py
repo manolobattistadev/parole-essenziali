@@ -2,8 +2,9 @@
 
   python -m bot prepara   [--fascia 09:00] [--forza]   genera i media della fascia dovuta in site/
   python -m bot pubblica  --base-url URL                pubblica su Instagram ciò che è stato preparato
+  python -m bot verifica                                controlla il token e l'account collegato
   python -m bot anteprima [--id N]                      genera post/storia/reel di prova in out/anteprima
-  python -m bot rinnova-token --out F                      rinnova il token e lo scrive nel file --out
+  python -m bot rinnova-token --out F                   rinnova il token e lo scrive nel file --out
 """
 from __future__ import annotations
 
@@ -29,12 +30,7 @@ def leggi_token() -> str:
     token = os.environ.get("IG_ACCESS_TOKEN", "").strip().strip("\"'").strip()
     if not token:
         raise SystemExit("Manca il secret IG_ACCESS_TOKEN")
-    if token.startswith("EAA"):
-        raise SystemExit("IG_ACCESS_TOKEN è un token Facebook (inizia con EAA). Serve il token Instagram "
-                         "(inizia con IG) generato in Casi d'uso → Instagram → "
-                         "Configurazione dell'API con l'accesso a Instagram → Genera token.")
-    if not token.startswith("IG"):
-        print(f"Attenzione: il token non inizia con 'IG' (inizia con {token[:3]!r}…, {len(token)} caratteri).")
+    print(f"Token: inizia con {token[:3]!r}…, {len(token)} caratteri")
     return token
 
 
@@ -152,11 +148,20 @@ def cmd_anteprima(args) -> None:
 
 def cmd_rinnova_token(args) -> None:
     token = leggi_token()
-    nuovo = rinnova_token(token)
-    giorni = int(nuovo.get("expires_in", 0)) // 86400
+    nuovo = rinnova_token(token, core.config()["graph_api_version"],
+                          os.environ.get("FB_APP_ID") or None, os.environ.get("FB_APP_SECRET") or None)
+    if nuovo is None:
+        return
+    giorni = int(nuovo.get("expires_in") or 0) // 86400
     print(f"::add-mask::{nuovo['access_token']}")
     Path(args.out).write_text(nuovo["access_token"])
     print(f"Token rinnovato, valido per {giorni} giorni.")
+
+
+def cmd_verifica(_args) -> None:
+    ig = Instagram(leggi_token(), os.environ.get("IG_USER_ID", "").strip() or None,
+                   core.config()["graph_api_version"])
+    print(f"OK: il bot pubblicherà su @{ig.username}")
 
 
 def main() -> None:
@@ -173,6 +178,8 @@ def main() -> None:
     s = sub.add_parser("anteprima")
     s.add_argument("--id", type=int)
     s.set_defaults(fn=cmd_anteprima)
+    s = sub.add_parser("verifica")
+    s.set_defaults(fn=cmd_verifica)
     s = sub.add_parser("rinnova-token")
     s.add_argument("--out", required=True, help="file in cui scrivere il nuovo token")
     s.set_defaults(fn=cmd_rinnova_token)

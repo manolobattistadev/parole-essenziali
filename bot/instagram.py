@@ -1,4 +1,9 @@
-"""Instagram API (Instagram Login) — pubblicazione di post, storie e reel, rinnovo del token.
+"""Instagram API — pubblicazione di post, storie e reel, rinnovo del token.
+
+Funziona con entrambi i tipi di token:
+- token "Instagram Login" (iniziano con IG…)  → graph.instagram.com
+- token Facebook / accesso unificato (EA…)   → graph.facebook.com
+Il tipo viene rilevato da solo alla connessione.
 
 Docs: https://developers.facebook.com/docs/instagram-platform/content-publishing
 """
@@ -8,35 +13,75 @@ import time
 
 import requests
 
-BASE = "https://graph.instagram.com"
+IG_HOST = "https://graph.instagram.com"
+FB_HOST = "https://graph.facebook.com"
 
 
 class ErroreInstagram(RuntimeError):
     pass
 
 
+def _chiama(host: str, version: str, metodo: str, path: str, token: str, **params) -> dict:
+    params["access_token"] = token
+    url = f"{host}/{version}/{path}"
+    for tentativo in range(4):
+        r = requests.request(metodo, url, data=params if metodo == "POST" else None,
+                             params=params if metodo == "GET" else None, timeout=60)
+        if r.status_code < 500:
+            break
+        time.sleep(5 * (tentativo + 1))
+    data = r.json() if r.content else {}
+    if not r.ok or "error" in data:
+        raise ErroreInstagram(f"{metodo} {path}: {r.status_code} {data.get('error', r.text)}")
+    return data
+
+
 class Instagram:
     def __init__(self, token: str, user_id: str | None = None, version: str = "v23.0"):
         self.token = token
         self.v = version
-        self.user_id = user_id or self._me()
+        self.host, self.user_id, self.username = self._connetti(user_id)
+        print(f"Connesso a @{self.username or '?'} (id {self.user_id}) via {self.host}")
 
     def _req(self, metodo: str, path: str, **params) -> dict:
-        params["access_token"] = self.token
-        url = f"{BASE}/{self.v}/{path}"
-        for tentativo in range(4):
-            r = requests.request(metodo, url, data=params if metodo == "POST" else None,
-                                 params=params if metodo == "GET" else None, timeout=60)
-            if r.status_code < 500:
-                break
-            time.sleep(5 * (tentativo + 1))
-        data = r.json() if r.content else {}
-        if not r.ok or "error" in data:
-            raise ErroreInstagram(f"{metodo} {path}: {r.status_code} {data.get('error', r.text)}")
-        return data
+        return _chiama(self.host, self.v, metodo, path, self.token, **params)
 
-    def _me(self) -> str:
-        return self._req("GET", "me", fields="user_id,username")["user_id"]
+    def _connetti(self, user_id: str | None) -> tuple[str, str, str | None]:
+        errori = []
+        # 1) Token Instagram Login
+        try:
+            me = _chiama(IG_HOST, self.v, "GET", "me", self.token, fields="user_id,username")
+            return IG_HOST, user_id or me["user_id"], me.get("username")
+        except ErroreInstagram as e:
+            errori.append(f"graph.instagram.com → {e}")
+
+        # 2) Token Facebook / accesso unificato
+        def fb(path, **p):
+            return _chiama(FB_HOST, self.v, "GET", path, self.token, **p)
+
+        try:
+            if user_id:
+                try:
+                    info = fb(user_id, fields="id,username")
+                    return FB_HOST, info["id"], info.get("username")
+                except ErroreInstagram as e:
+                    errori.append(f"graph.facebook.com /{user_id} → {e} (provo senza IG_USER_ID)")
+            try:  # token legato direttamente all'account Instagram
+                me = fb("me", fields="id,username")
+                if me.get("username"):
+                    return FB_HOST, me["id"], me["username"]
+            except ErroreInstagram:
+                pass
+            pagine = fb("me/accounts", fields="name,instagram_business_account{id,username}")
+            for pagina in pagine.get("data", []):
+                ig = pagina.get("instagram_business_account")
+                if ig:
+                    return FB_HOST, ig["id"], ig.get("username")
+            errori.append("graph.facebook.com → token valido ma nessun account Instagram collegato")
+        except ErroreInstagram as e:
+            errori.append(f"graph.facebook.com → {e}")
+
+        raise ErroreInstagram("Token non accettato:\n  " + "\n  ".join(errori))
 
     def _attendi(self, container_id: str, timeout: int = 600) -> None:
         fine = time.time() + timeout
@@ -67,11 +112,31 @@ class Instagram:
                               thumb_offset="4000")
 
 
-def rinnova_token(token: str) -> dict:
-    """Restituisce {access_token, expires_in}. Il token deve avere almeno 24 ore."""
-    r = requests.get(f"{BASE}/refresh_access_token",
+def rinnova_token(token: str, version: str = "v23.0", app_id: str | None = None,
+                  app_secret: str | None = None) -> dict | None:
+    """Restituisce {access_token, expires_in?} oppure None se il token non va rinnovato."""
+    r = requests.get(f"{IG_HOST}/refresh_access_token",
                      params={"grant_type": "ig_refresh_token", "access_token": token}, timeout=60)
     data = r.json()
-    if not r.ok or "access_token" not in data:
-        raise ErroreInstagram(f"Rinnovo token fallito: {data}")
-    return data
+    if r.ok and "access_token" in data:
+        return data
+    errore_ig = data
+
+    # Token Facebook: se non scade (es. utente di sistema) non c'è niente da fare.
+    try:
+        info = _chiama(FB_HOST, version, "GET", "debug_token", token, input_token=token)["data"]
+        if info.get("expires_at", 0) == 0:
+            print("Token Facebook senza scadenza: nessun rinnovo necessario.")
+            return None
+    except ErroreInstagram:
+        pass
+    if app_id and app_secret:
+        r = requests.get(f"{FB_HOST}/{version}/oauth/access_token", params={
+            "grant_type": "fb_exchange_token", "client_id": app_id,
+            "client_secret": app_secret, "fb_exchange_token": token}, timeout=60)
+        data = r.json()
+        if r.ok and "access_token" in data:
+            return data
+        raise ErroreInstagram(f"Rinnovo token Facebook fallito: {data}")
+    raise ErroreInstagram(f"Rinnovo token fallito: {errore_ig}. Se è un token Facebook, "
+                          "aggiungi i secrets FB_APP_ID e FB_APP_SECRET.")
