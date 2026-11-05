@@ -1,282 +1,267 @@
 [
   {
     "id": 1,
-    "testo": "Le parole sono importanti!",
-    "autore": "Palombella rossa (1989)"
-  },
-  {
-    "id": 2,
-    "testo": "Domani è un altro giorno.",
-    "autore": "Via col vento (1939)"
-  },
-  {
-    "id": 3,
     "testo": "La vita è uguale a una scatola di cioccolatini: non sai mai quello che ti capita.",
     "autore": "Forrest Gump (1994)"
   },
   {
-    "id": 4,
-    "testo": "Carpe diem. Cogliete l'attimo, ragazzi. Rendete straordinaria la vostra vita.",
-    "autore": "L'attimo fuggente (1989)"
-  },
-  {
-    "id": 5,
-    "testo": "Fare o non fare. Non c'è provare.",
-    "autore": "L'Impero colpisce ancora (1980)"
-  },
-  {
-    "id": 6,
+    "id": 2,
     "testo": "Ciò che facciamo in vita riecheggia nell'eternità.",
     "autore": "Il gladiatore (2000)"
   },
   {
-    "id": 7,
+    "id": 3,
     "testo": "Ieri è storia, domani è un mistero, ma oggi è un dono. Per questo si chiama presente.",
     "autore": "Kung Fu Panda (2008)"
   },
   {
-    "id": 8,
+    "id": 4,
     "testo": "Non sei fregato veramente finché hai da parte una buona storia, e qualcuno a cui raccontarla.",
     "autore": "La leggenda del pianista sull'oceano (1998)"
   },
   {
-    "id": 9,
-    "testo": "Qualunque cosa farai, amala.",
-    "autore": "Nuovo Cinema Paradiso (1988)"
-  },
-  {
-    "id": 10,
+    "id": 5,
     "testo": "La poesia non è di chi la scrive, è di chi gli serve.",
     "autore": "Il postino (1994)"
   },
   {
-    "id": 11,
+    "id": 6,
     "testo": "Sono le nostre scelte che dimostrano quello che siamo veramente, molto più delle nostre capacità.",
     "autore": "Harry Potter e la camera dei segreti (2002)"
   },
   {
-    "id": 12,
+    "id": 7,
     "testo": "La felicità la si può trovare anche negli attimi più tenebrosi, se solo uno si ricorda di accendere la luce.",
     "autore": "Harry Potter e il prigioniero di Azkaban (2004)"
   },
   {
-    "id": 13,
+    "id": 8,
     "testo": "Non serve a niente rifugiarsi nei sogni e dimenticarsi di vivere.",
     "autore": "Harry Potter e la pietra filosofale (2001)"
   },
   {
-    "id": 14,
+    "id": 9,
     "testo": "Tutto ciò che dobbiamo decidere è cosa fare con il tempo che ci viene concesso.",
     "autore": "Il Signore degli Anelli – La Compagnia dell'Anello (2001)"
   },
   {
-    "id": 15,
-    "testo": "Anche la persona più piccola può cambiare il corso del futuro.",
-    "autore": "Il Signore degli Anelli – La Compagnia dell'Anello (2001)"
-  },
-  {
-    "id": 16,
+    "id": 10,
     "testo": "La felicità è reale solo quando è condivisa.",
     "autore": "Into the Wild (2007)"
   },
   {
-    "id": 17,
+    "id": 11,
+    "testo": "Anche la persona più piccola può cambiare il corso del futuro.",
+    "autore": "Il Signore degli Anelli – La Compagnia dell'Anello (2001)"
+  },
+  {
+    "id": 12,
     "testo": "Il passato può fare male. Ma dal passato puoi scappare, oppure imparare qualcosa.",
     "autore": "Il re leone (1994)"
   },
   {
-    "id": 18,
-    "testo": "Ricordati chi sei.",
-    "autore": "Il re leone (1994)"
-  },
-  {
-    "id": 19,
+    "id": 13,
     "testo": "Perché cadiamo? Per imparare a rimetterci in piedi.",
     "autore": "Batman Begins (2005)"
   },
   {
-    "id": 20,
+    "id": 14,
+    "testo": "Ricordati chi sei.",
+    "autore": "Il re leone (1994)"
+  },
+  {
+    "id": 15,
     "testo": "Non è tanto chi sei, quanto quello che fai che ti qualifica.",
     "autore": "Batman Begins (2005)"
   },
   {
-    "id": 21,
+    "id": 16,
     "testo": "Dopo tutto questo tempo? Sempre.",
     "autore": "Harry Potter e i Doni della Morte – Parte 2 (2011)"
   },
   {
-    "id": 22,
+    "id": 17,
     "testo": "Sono tempi difficili per i sognatori.",
     "autore": "Il favoloso mondo di Amélie (2001)"
   },
   {
-    "id": 23,
+    "id": 18,
     "testo": "Non è colpa tua.",
     "autore": "Will Hunting – Genio ribelle (1997)"
   },
   {
-    "id": 24,
+    "id": 19,
     "testo": "Non tutti possono diventare dei grandi artisti, ma un grande artista può celarsi in chiunque.",
     "autore": "Ratatouille (2007)"
   },
   {
-    "id": 25,
+    "id": 20,
     "testo": "L'avventura è là fuori!",
     "autore": "Up (2009)"
   },
   {
-    "id": 26,
+    "id": 21,
     "testo": "Zitto e nuota.",
     "autore": "Alla ricerca di Nemo (2003)"
   },
   {
-    "id": 27,
+    "id": 22,
     "testo": "Verso l'infinito e oltre!",
     "autore": "Toy Story (1995)"
   },
   {
-    "id": 28,
+    "id": 23,
     "testo": "Non è mai troppo tardi per essere quello che vuoi essere.",
     "autore": "Il curioso caso di Benjamin Button (2008)"
   },
   {
-    "id": 29,
-    "testo": "Avremo sempre Parigi.",
-    "autore": "Casablanca (1942)"
-  },
-  {
-    "id": 30,
-    "testo": "Questo è l'inizio di una bella amicizia.",
-    "autore": "Casablanca (1942)"
-  },
-  {
-    "id": 31,
-    "testo": "Nessun posto è bello come casa mia.",
-    "autore": "Il mago di Oz (1939)"
-  },
-  {
-    "id": 32,
+    "id": 24,
     "testo": "La speranza è una cosa buona, forse la migliore delle cose, e le cose buone non muoiono mai.",
     "autore": "Le ali della libertà (1994)"
   },
   {
-    "id": 33,
-    "testo": "Fai di tutto per vivere o fai di tutto per morire.",
-    "autore": "Le ali della libertà (1994)"
-  },
-  {
-    "id": 34,
+    "id": 25,
     "testo": "Io posso solo indicarti la porta. Sei tu quello che la deve attraversare.",
     "autore": "Matrix (1999)"
   },
   {
-    "id": 35,
-    "testo": "Solo nei sogni gli uomini sono veramente liberi.",
-    "autore": "L'attimo fuggente (1989)"
+    "id": 26,
+    "testo": "Fai di tutto per vivere o fai di tutto per morire.",
+    "autore": "Le ali della libertà (1994)"
   },
   {
-    "id": 36,
-    "testo": "Ogni volta che un campanello suona, un angelo mette le ali.",
-    "autore": "La vita è meravigliosa (1946)"
-  },
-  {
-    "id": 37,
-    "testo": "Nessun uomo è un fallito se ha degli amici.",
-    "autore": "La vita è meravigliosa (1946)"
-  },
-  {
-    "id": 38,
-    "testo": "Basta un poco di zucchero e la pillola va giù.",
-    "autore": "Mary Poppins (1964)"
-  },
-  {
-    "id": 39,
+    "id": 27,
     "testo": "Buongiorno, principessa!",
     "autore": "La vita è bella (1997)"
   },
   {
-    "id": 40,
-    "testo": "Che cos'è il genio? È fantasia, intuizione, colpo d'occhio e velocità d'esecuzione.",
-    "autore": "Amici miei (1975)"
-  },
-  {
-    "id": 41,
-    "testo": "Mi si nota di più se vengo e me ne sto in disparte, o se non vengo per niente?",
-    "autore": "Ecce bombo (1978)"
-  },
-  {
-    "id": 42,
-    "testo": "Chi parla male, pensa male e vive male.",
-    "autore": "Palombella rossa (1989)"
-  },
-  {
-    "id": 43,
+    "id": 28,
     "testo": "Non posso più perdere tempo a fare cose che non mi va di fare.",
     "autore": "La grande bellezza (2013)"
   },
   {
-    "id": 44,
+    "id": 29,
     "testo": "Fino a qui tutto bene. Il problema non è la caduta, ma l'atterraggio.",
     "autore": "L'odio (1995)"
   },
   {
-    "id": 45,
-    "testo": "La vita non è come l'hai vista al cinematografo. La vita è più difficile.",
-    "autore": "Nuovo Cinema Paradiso (1988)"
-  },
-  {
-    "id": 46,
-    "testo": "Si può fare!",
-    "autore": "Frankenstein Junior (1974)"
-  },
-  {
-    "id": 47,
-    "testo": "Dedicato a tutti quelli che stanno scappando.",
-    "autore": "Mediterraneo (1991)"
-  },
-  {
-    "id": 48,
-    "testo": "Che la Forza sia con te.",
-    "autore": "Guerre stellari (1977)"
-  },
-  {
-    "id": 49,
+    "id": 30,
     "testo": "Houston, abbiamo un problema.",
     "autore": "Apollo 13 (1995)"
   },
   {
-    "id": 50,
-    "testo": "Nessuno mette Baby in un angolo.",
-    "autore": "Dirty Dancing (1987)"
-  },
-  {
-    "id": 51,
+    "id": 31,
     "testo": "O muori da eroe, o vivi tanto a lungo da diventare il cattivo.",
     "autore": "Il cavaliere oscuro (2008)"
   },
   {
+    "id": 32,
+    "testo": "Sono il re del mondo!",
+    "autore": "Titanic (1997)"
+  },
+  {
+    "id": 33,
+    "testo": "Non permettere mai a nessuno di dirti che non sai fare qualcosa.",
+    "autore": "La ricerca della felicità (2006)"
+  },
+  {
+    "id": 34,
+    "testo": "Qual è il parassita più resistente? Un'idea.",
+    "autore": "Inception (2010)"
+  },
+  {
+    "id": 35,
+    "testo": "Se hai un sogno, tu lo devi proteggere.",
+    "autore": "La ricerca della felicità (2006)"
+  },
+  {
+    "id": 36,
+    "testo": "L'amore è l'unica cosa che trascende le dimensioni di tempo e spazio.",
+    "autore": "Interstellar (2014)"
+  },
+  {
+    "id": 37,
+    "testo": "Non vi dirò: non piangete, perché non tutte le lacrime sono un male.",
+    "autore": "Il Signore degli Anelli – Il ritorno del re (2003)"
+  },
+  {
+    "id": 38,
+    "testo": "C'è del buono in questo mondo, padron Frodo. È giusto combattere per questo.",
+    "autore": "Il Signore degli Anelli – Le due torri (2002)"
+  },
+  {
+    "id": 39,
+    "testo": "Le cose che possiedi alla fine ti possiedono.",
+    "autore": "Fight Club (1999)"
+  },
+  {
+    "id": 40,
+    "testo": "Al mio segnale, scatenate l'inferno.",
+    "autore": "Il gladiatore (2000)"
+  },
+  {
+    "id": 41,
+    "testo": "Chiunque può cucinare.",
+    "autore": "Ratatouille (2007)"
+  },
+  {
+    "id": 42,
+    "testo": "Il fiore che sboccia nelle avversità è il più raro e il più bello di tutti.",
+    "autore": "Mulan (1998)"
+  },
+  {
+    "id": 43,
+    "testo": "Perché così seri?",
+    "autore": "Il cavaliere oscuro (2008)"
+  },
+  {
+    "id": 44,
+    "testo": "Ti voglio bene tremila.",
+    "autore": "Avengers: Endgame (2019)"
+  },
+  {
+    "id": 45,
+    "testo": "Da un grande potere derivano grandi responsabilità.",
+    "autore": "Spider-Man (2002)"
+  },
+  {
+    "id": 46,
+    "testo": "Un uomo racconta le sue storie tante volte che alla fine diventa quelle storie.",
+    "autore": "Big Fish (2003)"
+  },
+  {
+    "id": 47,
+    "testo": "Caso mai non vi rivedessi: buon pomeriggio, buonasera e buonanotte!",
+    "autore": "The Truman Show (1998)"
+  },
+  {
+    "id": 48,
+    "testo": "Stupido è chi lo stupido fa.",
+    "autore": "Forrest Gump (1994)"
+  },
+  {
+    "id": 49,
+    "testo": "Sono solo una ragazza che sta davanti a un ragazzo e gli chiede di amarla.",
+    "autore": "Notting Hill (1999)"
+  },
+  {
+    "id": 50,
+    "testo": "L'amore davvero è dappertutto.",
+    "autore": "Love Actually (2003)"
+  },
+  {
+    "id": 51,
+    "testo": "Non ci sono incidenti.",
+    "autore": "Kung Fu Panda (2008)"
+  },
+  {
     "id": 52,
-    "testo": "Io ne ho viste cose che voi umani non potreste immaginarvi. E tutti quei momenti andranno perduti nel tempo, come lacrime nella pioggia.",
-    "autore": "Blade Runner (1982)"
+    "testo": "Gli orchi sono come le cipolle.",
+    "autore": "Shrek (2001)"
   },
   {
     "id": 53,
-    "testo": "Francamente me ne infischio.",
-    "autore": "Via col vento (1939)"
-  },
-  {
-    "id": 54,
-    "testo": "Gli farò un'offerta che non potrà rifiutare.",
-    "autore": "Il padrino (1972)"
-  },
-  {
-    "id": 55,
-    "testo": "Il mondo si divide in due categorie: chi ha la pistola carica e chi scava.",
-    "autore": "Il buono, il brutto, il cattivo (1966)"
-  },
-  {
-    "id": 56,
-    "testo": "Sono il re del mondo!",
-    "autore": "Titanic (1997)"
+    "testo": "Ho sempre pensato che la mia vita fosse una tragedia, ma ora mi rendo conto che è una commedia.",
+    "autore": "Joker (2019)"
   }
 ]

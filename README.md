@@ -91,7 +91,7 @@ Le citazioni stanno in raccolte separate, ognuna con il suo ordine e i suoi hash
 | Raccolta   | File                  | Contenuto                                                   | Fascia |
 |------------|-----------------------|-------------------------------------------------------------|--------|
 | `aforismi` | `data/aforismi.json`  | aforismi originali (nessun problema di diritti)             | 09, 13 |
-| `film`     | `data/film.json`      | battute celebri del cinema, nel testo del doppiaggio italiano | 19   |
+| `film`     | `data/film.json`      | battute celebri di film dal 1994 in poi, nel testo del doppiaggio italiano | 19   |
 
 Ogni fascia del `programma` sceglie la sua `raccolta`. Le citazioni escono in ordine e, finita la
 lista, si ricomincia. Per aggiungerne:
