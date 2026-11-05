@@ -31,7 +31,7 @@ ambient **sintetizzato al momento con ffmpeg**, quindi senza alcun problema di d
    cron dopo 60 giorni senza commit.
 
 Il workflow `Controllo settimanale` ogni domenica verifica il token, lo rinnova se è di quelli che
-scadono e riattiva i cron.
+scadono.
 
 ## Setup (una volta sola)
 

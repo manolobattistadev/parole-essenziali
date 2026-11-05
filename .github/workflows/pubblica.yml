@@ -17,7 +17,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
   pages: write
   id-token: write
 
@@ -85,10 +84,3 @@ jobs:
           git commit -m "Pubblicato $(jq -r '.data + " " + .fascia' out/lavoro.json)"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
 
-      # GitHub disattiva i cron dei repo pubblici dopo 60 giorni senza attività:
-      # riabilitare il workflow azzera il conteggio, anche se un giorno i commit non bastassero.
-      - name: Mantieni attivo il cron
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow enable pubblica.yml --repo "$GITHUB_REPOSITORY" || true
