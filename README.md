@@ -30,8 +30,8 @@ ambient **sintetizzato al momento con ffmpeg**, quindi senza alcun problema di d
    un contenuto fallito si ritenta al giro successivo e il repo resta attivo. GitHub disattiva i
    cron dopo 60 giorni senza commit.
 
-Il workflow `Rinnova token Instagram` rinnova ogni domenica il token, che dura 60 giorni, e lo
-salva da solo nei Secrets.
+Il workflow `Rinnova token Instagram` controlla ogni domenica il token. Se scade lo rinnova e lo
+salva nei Secrets, se è un token di sistema senza scadenza non fa nulla.
 
 ## Setup (una volta sola)
 
@@ -42,14 +42,14 @@ salva da solo nei Secrets.
 ### 2. App Meta
 
 1. Vai su <https://developers.facebook.com/apps> → **Crea app**.
-2. Come caso d'uso scegli **"Gestisci messaggi e contenuti su Instagram"** (Instagram API), tipo **Business**.
-3. Nel pannello dell'app: **Instagram → Configurazione dell'API con l'accesso a Instagram**.
-4. In **Ruoli dell'app → Ruoli** aggiungi il tuo account Instagram come **Tester di Instagram**.
-   Poi accetta l'invito dall'app Instagram: Impostazioni → Autorizzazioni sito web →
-   App e siti web → Inviti tester.
-5. Torna in *Configurazione dell'API* → **Genera token** accanto al tuo account, e accedi.
-   Ottieni un **token long-lived (60 giorni)** con i permessi `instagram_business_basic` e
-   `instagram_business_content_publish`. Copia anche l'**ID utente Instagram** mostrato lì.
+2. Tra i casi d'uso (filtro *Gestione dei contenuti*) scegli **"Gestisci messaggi e contenuti su Instagram"**.
+3. **Ruoli dell'app → Ruoli → Aggiungi persone → Tester di Instagram** con lo username della pagina.
+   Accetta l'invito da browser: <https://www.instagram.com/accounts/manage_access/> → *Inviti tester*.
+4. **Casi d'uso → Instagram → Personalizza → API setup with Unified login**:
+   - al punto **1** seleziona la configurazione *API Instagram (accesso unificato)*. Il token è
+     dell'utente di sistema e **non scade**, e include `instagram_basic` e `instagram_content_publish`;
+   - al punto **2** fai **Aggiungi account** → *parole.essenziali*, poi **Genera token**.
+     Il numero sotto il nome dell'account (`17841…`) è l'**ID utente Instagram**.
 
 L'app può restare in modalità sviluppo: per pubblicare sul **tuo** account non serve la review di Meta.
 
@@ -57,21 +57,23 @@ L'app può restare in modalità sviluppo: per pubblicare sul **tuo** account non
 
 1. Il repo deve essere **pubblico**: GitHub Pages è gratis solo sui repo pubblici.
 2. **Settings → Pages → Source: GitHub Actions**.
-3. Crea un **fine-grained personal access token** (<https://github.com/settings/personal-access-tokens>).
-   Limitalo a questo repo e dagli il permesso **Secrets: Read and write**. Serve per salvare il
-   token Instagram rinnovato.
-4. **Settings → Secrets and variables → Actions → New repository secret**:
+3. **Settings → Secrets and variables → Actions → New repository secret**:
 
-   | Nome              | Valore                                       |
-   |-------------------|----------------------------------------------|
-   | `IG_ACCESS_TOKEN` | il token Instagram del punto 2.5             |
-   | `IG_USER_ID`      | l'ID utente Instagram (facoltativo)          |
-   | `GH_PAT`          | il personal access token del punto 3.3       |
+   | Nome              | Valore                                                        |
+   |-------------------|---------------------------------------------------------------|
+   | `IG_ACCESS_TOKEN` | il token del punto 2.4                                        |
+   | `IG_USER_ID`      | l'ID dell'account Instagram (`17841…`)                        |
+   | `GH_PAT`          | *solo per token che scadono*: fine-grained PAT con **Secrets: Read and write** |
+   | `FB_APP_ID` / `FB_APP_SECRET` | *solo per token Facebook che scadono*: da Impostazioni app → Di base |
 
-5. **Actions → Pubblica → Run workflow** con `fascia = 09:00` per una prima prova.
-   Il token deve avere almeno 24 ore prima che il rinnovo funzioni.
+4. **Actions → Verifica token → Run workflow**: controlla il token senza pubblicare nulla.
+5. **Actions → Pubblica → Run workflow** con `fascia = 09:00` per una prima pubblicazione.
 
 Da qui in poi è tutto automatico.
+
+Il bot riconosce da solo il tipo di token. Un token Instagram Login (`IG…`) passa da
+`graph.instagram.com`, uno Facebook o dell'utente di sistema (`EA…`) da `graph.facebook.com`.
+Il workflow `Rinnova token Instagram` rinnova solo i token che scadono e ignora quelli di sistema.
 
 ## Uso locale
 
