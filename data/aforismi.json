@@ -1,0 +1,597 @@
+[
+  {
+    "id": 1,
+    "testo": "Non tutto ciò che tace è vuoto.",
+    "autore": null
+  },
+  {
+    "id": 2,
+    "testo": "Si arriva lontano anche camminando piano, purché non ci si fermi a guardare chi corre.",
+    "autore": null
+  },
+  {
+    "id": 3,
+    "testo": "Chi impara ad ascoltare il silenzio non ha più paura di restare solo.",
+    "autore": null
+  },
+  {
+    "id": 4,
+    "testo": "La gentilezza è una forza che non ha bisogno di dimostrarlo.",
+    "autore": null
+  },
+  {
+    "id": 5,
+    "testo": "Ogni porta chiusa insegna qualcosa sulla strada.",
+    "autore": null
+  },
+  {
+    "id": 6,
+    "testo": "Le parole più vere spesso arrivano tardi, ma arrivano.",
+    "autore": null
+  },
+  {
+    "id": 7,
+    "testo": "Non devi essere pronto. Devi solo cominciare.",
+    "autore": null
+  },
+  {
+    "id": 8,
+    "testo": "A volte lasciar andare è il modo più saggio di tenere.",
+    "autore": null
+  },
+  {
+    "id": 9,
+    "testo": "La pazienza non è attesa: è fiducia che lavora in silenzio.",
+    "autore": null
+  },
+  {
+    "id": 10,
+    "testo": "Il coraggio non fa rumore. Si alza ogni mattina e riprova.",
+    "autore": null
+  },
+  {
+    "id": 11,
+    "testo": "Chi semina con cura non conta i giorni.",
+    "autore": null
+  },
+  {
+    "id": 12,
+    "testo": "Si cresce nei momenti in cui nessuno guarda.",
+    "autore": null
+  },
+  {
+    "id": 13,
+    "testo": "Le ferite insegnano dove sei stato, non dove devi restare.",
+    "autore": null
+  },
+  {
+    "id": 14,
+    "testo": "Essere gentili con sé stessi non è debolezza, è manutenzione.",
+    "autore": null
+  },
+  {
+    "id": 15,
+    "testo": "Il tempo non guarisce tutto, ma insegna a portarlo meglio.",
+    "autore": null
+  },
+  {
+    "id": 16,
+    "testo": "La felicità non si cerca: si riconosce.",
+    "autore": null
+  },
+  {
+    "id": 17,
+    "testo": "Non c'è niente di piccolo in un gesto fatto con amore.",
+    "autore": null
+  },
+  {
+    "id": 18,
+    "testo": "Chi ha radici profonde non teme il vento.",
+    "autore": null
+  },
+  {
+    "id": 19,
+    "testo": "Ogni giorno è una pagina bianca: non serve scriverla tutta, basta una riga sincera.",
+    "autore": null
+  },
+  {
+    "id": 20,
+    "testo": "La calma è la risposta più difficile e la più forte.",
+    "autore": null
+  },
+  {
+    "id": 21,
+    "testo": "Non confondere il rumore con la vita.",
+    "autore": null
+  },
+  {
+    "id": 22,
+    "testo": "Ci vuole più forza a perdonare che a ricordare.",
+    "autore": null
+  },
+  {
+    "id": 23,
+    "testo": "Il meglio di noi spesso è nascosto dietro la paura di mostrarlo.",
+    "autore": null
+  },
+  {
+    "id": 24,
+    "testo": "Rallentare non è perdere tempo: è ritrovarlo.",
+    "autore": null
+  },
+  {
+    "id": 25,
+    "testo": "Le persone giuste non ti chiedono di essere un altro.",
+    "autore": null
+  },
+  {
+    "id": 26,
+    "testo": "Ciò che non dici pesa più di ciò che dici.",
+    "autore": null
+  },
+  {
+    "id": 27,
+    "testo": "La luce passa anche dalle crepe più sottili.",
+    "autore": null
+  },
+  {
+    "id": 28,
+    "testo": "Non si torna indietro, ma si può tornare a sé.",
+    "autore": null
+  },
+  {
+    "id": 29,
+    "testo": "Ogni fine porta in tasca un inizio.",
+    "autore": null
+  },
+  {
+    "id": 30,
+    "testo": "Saper aspettare è un'arte che si impara aspettando.",
+    "autore": null
+  },
+  {
+    "id": 31,
+    "testo": "Chi ti vuole bene vede la stanchezza dietro il sorriso.",
+    "autore": null
+  },
+  {
+    "id": 32,
+    "testo": "Il silenzio giusto vale più di cento risposte.",
+    "autore": null
+  },
+  {
+    "id": 33,
+    "testo": "Non tutte le tempeste arrivano per distruggere: alcune puliscono il cielo.",
+    "autore": null
+  },
+  {
+    "id": 34,
+    "testo": "La semplicità è il punto d'arrivo, non di partenza.",
+    "autore": null
+  },
+  {
+    "id": 35,
+    "testo": "Sii il posto sicuro che avresti voluto trovare.",
+    "autore": null
+  },
+  {
+    "id": 36,
+    "testo": "Anche il mare più calmo è fatto di onde.",
+    "autore": null
+  },
+  {
+    "id": 37,
+    "testo": "Ciò che ami ti somiglia più di ciò che possiedi.",
+    "autore": null
+  },
+  {
+    "id": 38,
+    "testo": "Non serve gridare per essere ascoltati: serve essere veri.",
+    "autore": null
+  },
+  {
+    "id": 39,
+    "testo": "Il futuro si costruisce con le abitudini, non con le promesse.",
+    "autore": null
+  },
+  {
+    "id": 40,
+    "testo": "A volte l'unica risposta è respirare.",
+    "autore": null
+  },
+  {
+    "id": 41,
+    "testo": "Le cose importanti raramente sono urgenti.",
+    "autore": null
+  },
+  {
+    "id": 42,
+    "testo": "L'anima si riconosce dai dettagli.",
+    "autore": null
+  },
+  {
+    "id": 43,
+    "testo": "Chi non ha mai sbagliato non ha mai provato davvero.",
+    "autore": null
+  },
+  {
+    "id": 44,
+    "testo": "La gratitudine trasforma ciò che abbiamo in abbastanza.",
+    "autore": null
+  },
+  {
+    "id": 45,
+    "testo": "Non misurare il tuo cammino con i passi degli altri.",
+    "autore": null
+  },
+  {
+    "id": 46,
+    "testo": "Ogni ricordo è una casa in cui si può tornare senza bagagli.",
+    "autore": null
+  },
+  {
+    "id": 47,
+    "testo": "La verità non ha fretta.",
+    "autore": null
+  },
+  {
+    "id": 48,
+    "testo": "Accogli il dubbio: è la porta da cui entra la conoscenza.",
+    "autore": null
+  },
+  {
+    "id": 49,
+    "testo": "Si diventa leggeri solo dopo aver capito cosa lasciare.",
+    "autore": null
+  },
+  {
+    "id": 50,
+    "testo": "Un abbraccio dice ciò che le parole cercano ancora.",
+    "autore": null
+  },
+  {
+    "id": 51,
+    "testo": "Il buio non è assenza di luce: è attesa.",
+    "autore": null
+  },
+  {
+    "id": 52,
+    "testo": "Non ti serve un permesso per ricominciare.",
+    "autore": null
+  },
+  {
+    "id": 53,
+    "testo": "Le radici non si vedono, ma tengono in piedi tutto.",
+    "autore": null
+  },
+  {
+    "id": 54,
+    "testo": "Il cuore ha una memoria che la mente non conosce.",
+    "autore": null
+  },
+  {
+    "id": 55,
+    "testo": "Ciò che è vero resiste anche al tempo.",
+    "autore": null
+  },
+  {
+    "id": 56,
+    "testo": "Non rincorrere chi cammina in un'altra direzione.",
+    "autore": null
+  },
+  {
+    "id": 57,
+    "testo": "La bellezza è spesso una questione di attenzione.",
+    "autore": null
+  },
+  {
+    "id": 58,
+    "testo": "Imparare a dire no è imparare a dire sì a sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 59,
+    "testo": "Ogni passo, anche incerto, è un passo.",
+    "autore": null
+  },
+  {
+    "id": 60,
+    "testo": "L'umiltà è la forma più alta di sicurezza.",
+    "autore": null
+  },
+  {
+    "id": 61,
+    "testo": "Non esiste vento favorevole per chi non sa ascoltarsi.",
+    "autore": null
+  },
+  {
+    "id": 62,
+    "testo": "Chi ha paura di perdere non ha ancora capito cosa possiede.",
+    "autore": null
+  },
+  {
+    "id": 63,
+    "testo": "La fiducia si costruisce in anni e si spiega in un istante.",
+    "autore": null
+  },
+  {
+    "id": 64,
+    "testo": "Il tempo che dedichi a qualcosa è la sua misura vera.",
+    "autore": null
+  },
+  {
+    "id": 65,
+    "testo": "Ci sono silenzi che abbracciano.",
+    "autore": null
+  },
+  {
+    "id": 66,
+    "testo": "Le stelle non competono: brillano.",
+    "autore": null
+  },
+  {
+    "id": 67,
+    "testo": "Non tutto va capito, alcune cose vanno solo vissute.",
+    "autore": null
+  },
+  {
+    "id": 68,
+    "testo": "Ogni mattina il mondo ti offre un'altra possibilità di essere gentile.",
+    "autore": null
+  },
+  {
+    "id": 69,
+    "testo": "Il carattere si vede quando nessuno ti costringe.",
+    "autore": null
+  },
+  {
+    "id": 70,
+    "testo": "Le cose belle crescono lente.",
+    "autore": null
+  },
+  {
+    "id": 71,
+    "testo": "Non smettere di meravigliarti: è il primo segno che sei vivo.",
+    "autore": null
+  },
+  {
+    "id": 72,
+    "testo": "Chi conosce le proprie ombre cammina più sicuro nella luce.",
+    "autore": null
+  },
+  {
+    "id": 73,
+    "testo": "Si è ricchi di ciò che si sa dare.",
+    "autore": null
+  },
+  {
+    "id": 74,
+    "testo": "Una parola gentile può cambiare il giorno di qualcuno, anche il tuo.",
+    "autore": null
+  },
+  {
+    "id": 75,
+    "testo": "La pace non è assenza di problemi, è presenza di senso.",
+    "autore": null
+  },
+  {
+    "id": 76,
+    "testo": "Non vivere di rimpianti: sono lettere spedite a un indirizzo che non esiste più.",
+    "autore": null
+  },
+  {
+    "id": 77,
+    "testo": "Il viaggio più lungo è quello verso sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 78,
+    "testo": "A volte cadere è il solo modo per guardare il cielo.",
+    "autore": null
+  },
+  {
+    "id": 79,
+    "testo": "La libertà comincia dove finisce il bisogno di approvazione.",
+    "autore": null
+  },
+  {
+    "id": 80,
+    "testo": "Ogni stagione ha il suo raccolto.",
+    "autore": null
+  },
+  {
+    "id": 81,
+    "testo": "Non sono gli anni a pesare, ma ciò che non abbiamo lasciato andare.",
+    "autore": null
+  },
+  {
+    "id": 82,
+    "testo": "Le persone non ricordano cosa hai detto, ma come le hai fatte sentire.",
+    "autore": null
+  },
+  {
+    "id": 83,
+    "testo": "Chi sa ridere di sé non sarà mai a corto di gioia.",
+    "autore": null
+  },
+  {
+    "id": 84,
+    "testo": "La costanza batte il talento quando il talento si addormenta.",
+    "autore": null
+  },
+  {
+    "id": 85,
+    "testo": "Il mare insegna che si può tornare sempre, anche dopo essersi ritirati.",
+    "autore": null
+  },
+  {
+    "id": 86,
+    "testo": "Non spegnere la tua luce per non disturbare gli occhi degli altri.",
+    "autore": null
+  },
+  {
+    "id": 87,
+    "testo": "L'ordine fuori comincia dall'ordine dentro.",
+    "autore": null
+  },
+  {
+    "id": 88,
+    "testo": "Il presente è l'unico posto dove la vita accade.",
+    "autore": null
+  },
+  {
+    "id": 89,
+    "testo": "Si può essere fragili e forti nello stesso respiro.",
+    "autore": null
+  },
+  {
+    "id": 90,
+    "testo": "Ogni scelta è anche una rinuncia, e va bene così.",
+    "autore": null
+  },
+  {
+    "id": 91,
+    "testo": "Chi coltiva la pazienza raccoglie la pace.",
+    "autore": null
+  },
+  {
+    "id": 92,
+    "testo": "Non si possiede ciò che si ama: lo si custodisce.",
+    "autore": null
+  },
+  {
+    "id": 93,
+    "testo": "La vita non chiede di essere perfetta, ma presente.",
+    "autore": null
+  },
+  {
+    "id": 94,
+    "testo": "Lo sguardo cambia il paesaggio.",
+    "autore": null
+  },
+  {
+    "id": 95,
+    "testo": "Dove metti l'attenzione, lì metti la tua vita.",
+    "autore": null
+  },
+  {
+    "id": 96,
+    "testo": "Anche la notte più lunga finisce in un'alba.",
+    "autore": null
+  },
+  {
+    "id": 97,
+    "testo": "Chi accende una luce per un altro illumina anche la propria strada.",
+    "autore": null
+  },
+  {
+    "id": 98,
+    "testo": "Il rispetto è il linguaggio che tutti capiscono.",
+    "autore": null
+  },
+  {
+    "id": 99,
+    "testo": "Ci si salva spesso con piccole cose: un caffè, una telefonata, una finestra aperta.",
+    "autore": null
+  },
+  {
+    "id": 100,
+    "testo": "Non è tardi finché respiri.",
+    "autore": null
+  },
+  {
+    "id": 101,
+    "testo": "Ogni nodo si scioglie con calma, mai con forza.",
+    "autore": null
+  },
+  {
+    "id": 102,
+    "testo": "La saggezza è sapere cosa ignorare.",
+    "autore": null
+  },
+  {
+    "id": 103,
+    "testo": "Il silenzio non mente.",
+    "autore": null
+  },
+  {
+    "id": 104,
+    "testo": "Non ti serve tutto il percorso, ti basta il prossimo passo.",
+    "autore": null
+  },
+  {
+    "id": 105,
+    "testo": "Si impara a nuotare solo entrando in acqua.",
+    "autore": null
+  },
+  {
+    "id": 106,
+    "testo": "L'amore vero non stringe: sostiene.",
+    "autore": null
+  },
+  {
+    "id": 107,
+    "testo": "Chi ti somiglia davvero non ti chiede di cambiare, ti invita a crescere.",
+    "autore": null
+  },
+  {
+    "id": 108,
+    "testo": "L'essenziale non fa rumore, ma resta.",
+    "autore": null
+  },
+  {
+    "id": 109,
+    "testo": "Ogni giorno vissuto con cura è un giorno salvato.",
+    "autore": null
+  },
+  {
+    "id": 110,
+    "testo": "Ascoltare è il primo modo di voler bene.",
+    "autore": null
+  },
+  {
+    "id": 111,
+    "testo": "La strada si fa chiara solo camminando.",
+    "autore": null
+  },
+  {
+    "id": 112,
+    "testo": "Non tutto ciò che perdi era tuo.",
+    "autore": null
+  },
+  {
+    "id": 113,
+    "testo": "Ci sono giorni per fiorire e giorni per mettere radici.",
+    "autore": null
+  },
+  {
+    "id": 114,
+    "testo": "Il coraggio a volte è solo una frase detta con la voce che trema.",
+    "autore": null
+  },
+  {
+    "id": 115,
+    "testo": "Cura ciò che ti cura.",
+    "autore": null
+  },
+  {
+    "id": 116,
+    "testo": "Una vita semplice non è una vita piccola.",
+    "autore": null
+  },
+  {
+    "id": 117,
+    "testo": "Chi trova pace in sé la porta ovunque.",
+    "autore": null
+  },
+  {
+    "id": 118,
+    "testo": "Ricomincia da ciò che sei, non da ciò che ti manca.",
+    "autore": null
+  },
+  {
+    "id": 119,
+    "testo": "Alla fine resta quello che abbiamo dato.",
+    "autore": null
+  }
+]

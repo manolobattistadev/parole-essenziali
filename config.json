@@ -1,0 +1,28 @@
+{
+  "nome_pagina": "parole essenziali",
+  "firma": "@paroleessenziali",
+  "timezone": "Europe/Rome",
+  "programma": [
+    { "ora": "09:00", "contenuti": ["post", "storia"] },
+    { "ora": "13:00", "contenuti": ["storia", "reel"] },
+    { "ora": "19:00", "contenuti": ["post", "storia"] }
+  ],
+  "giorni_reel": ["lun", "mer", "ven", "sab"],
+  "anticipo_minuti": 15,
+  "ritardo_massimo_minuti": 180,
+  "hashtag": [
+    "#aforismi",
+    "#frasedelgiorno",
+    "#pensieri",
+    "#parole",
+    "#citazioni",
+    "#riflessioni"
+  ],
+  "reel": {
+    "durata_secondi": 9,
+    "zoom_finale": 1.06,
+    "audio": true,
+    "condividi_nel_feed": false
+  },
+  "graph_api_version": "v23.0"
+}
