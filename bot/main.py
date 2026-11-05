@@ -25,6 +25,19 @@ LAVORO = OUT / "lavoro.json"
 FILE = {"post": "post.jpg", "storia": "storia.jpg", "reel": "reel.mp4"}
 
 
+def leggi_token() -> str:
+    token = os.environ.get("IG_ACCESS_TOKEN", "").strip().strip("\"'").strip()
+    if not token:
+        raise SystemExit("Manca il secret IG_ACCESS_TOKEN")
+    if token.startswith("EAA"):
+        raise SystemExit("IG_ACCESS_TOKEN è un token Facebook (inizia con EAA). Serve il token Instagram "
+                         "(inizia con IG) generato in Casi d'uso → Instagram → "
+                         "Configurazione dell'API con l'accesso a Instagram → Genera token.")
+    if not token.startswith("IG"):
+        print(f"Attenzione: il token non inizia con 'IG' (inizia con {token[:3]!r}…, {len(token)} caratteri).")
+    return token
+
+
 def gh_output(**valori) -> None:
     path = os.environ.get("GITHUB_OUTPUT")
     for k, v in valori.items():
@@ -100,10 +113,8 @@ def cmd_pubblica(args) -> None:
     base = args.base_url.rstrip("/")
     caption = core.didascalia(aforisma, cfg)
 
-    token = os.environ.get("IG_ACCESS_TOKEN")
-    if not token:
-        raise SystemExit("Manca IG_ACCESS_TOKEN")
-    ig = Instagram(token, os.environ.get("IG_USER_ID") or None, cfg["graph_api_version"])
+    token = leggi_token()
+    ig = Instagram(token, os.environ.get("IG_USER_ID", "").strip() or None, cfg["graph_api_version"])
 
     core.aggiorna_registro(data, fascia, aforisma["id"])
     errori = []
@@ -140,9 +151,7 @@ def cmd_anteprima(args) -> None:
 
 
 def cmd_rinnova_token(args) -> None:
-    token = os.environ.get("IG_ACCESS_TOKEN")
-    if not token:
-        raise SystemExit("Manca IG_ACCESS_TOKEN")
+    token = leggi_token()
     nuovo = rinnova_token(token)
     giorni = int(nuovo.get("expires_in", 0)) // 86400
     print(f"::add-mask::{nuovo['access_token']}")
