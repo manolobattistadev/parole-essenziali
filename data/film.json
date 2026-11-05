@@ -263,5 +263,305 @@
     "id": 53,
     "testo": "Ho sempre pensato che la mia vita fosse una tragedia, ma ora mi rendo conto che è una commedia.",
     "autore": "Joker (2019)"
+  },
+  {
+    "id": 54,
+    "testo": "Forza e onore.",
+    "autore": "Il gladiatore (2000)"
+  },
+  {
+    "id": 55,
+    "testo": "Promettimi che non ti arrenderai, qualunque cosa accada.",
+    "autore": "Titanic (1997)"
+  },
+  {
+    "id": 56,
+    "testo": "Hakuna matata.",
+    "autore": "Il re leone (1994)"
+  },
+  {
+    "id": 57,
+    "testo": "Il cuore di una donna è un profondo oceano di segreti.",
+    "autore": "Titanic (1997)"
+  },
+  {
+    "id": 58,
+    "testo": "Corri, Forrest, corri!",
+    "autore": "Forrest Gump (1994)"
+  },
+  {
+    "id": 59,
+    "testo": "Non c'è nessun cucchiaio.",
+    "autore": "Matrix (1999)"
+  },
+  {
+    "id": 60,
+    "testo": "Io non sono un uomo intelligente, ma so che cos'è l'amore.",
+    "autore": "Forrest Gump (1994)"
+  },
+  {
+    "id": 61,
+    "testo": "Benvenuto nel mondo reale.",
+    "autore": "Matrix (1999)"
+  },
+  {
+    "id": 62,
+    "testo": "Hai un amico in me.",
+    "autore": "Toy Story (1995)"
+  },
+  {
+    "id": 63,
+    "testo": "Tu non puoi passare!",
+    "autore": "Il Signore degli Anelli – La Compagnia dell'Anello (2001)"
+  },
+  {
+    "id": 64,
+    "testo": "Sono le piccole cose, le azioni quotidiane della gente comune, che tengono a bada l'oscurità.",
+    "autore": "Lo Hobbit – Un viaggio inaspettato (2012)"
+  },
+  {
+    "id": 65,
+    "testo": "Un mago non è mai in ritardo, né in anticipo: arriva precisamente quando intende farlo.",
+    "autore": "Il Signore degli Anelli – La Compagnia dell'Anello (2001)"
+  },
+  {
+    "id": 66,
+    "testo": "Le parole sono, nella mia non così modesta opinione, la nostra più inesauribile fonte di magia.",
+    "autore": "Harry Potter e i Doni della Morte – Parte 2 (2011)"
+  },
+  {
+    "id": 67,
+    "testo": "Io sono uno con la Forza, la Forza è con me.",
+    "autore": "Rogue One (2016)"
+  },
+  {
+    "id": 68,
+    "testo": "Non avere pietà dei morti. Abbi pietà dei vivi.",
+    "autore": "Harry Potter e i Doni della Morte – Parte 2 (2011)"
+  },
+  {
+    "id": 69,
+    "testo": "Un eroe può essere chiunque.",
+    "autore": "Il cavaliere oscuro – Il ritorno (2012)"
+  },
+  {
+    "id": 70,
+    "testo": "Certo che sta succedendo dentro la tua testa. Ma perché diavolo dovrebbe voler dire che non è reale?",
+    "autore": "Harry Potter e i Doni della Morte – Parte 2 (2011)"
+  },
+  {
+    "id": 71,
+    "testo": "Io sono Iron Man.",
+    "autore": "Iron Man (2008)"
+  },
+  {
+    "id": 72,
+    "testo": "Wakanda per sempre!",
+    "autore": "Black Panther (2018)"
+  },
+  {
+    "id": 73,
+    "testo": "Io sono Groot.",
+    "autore": "Guardiani della Galassia (2014)"
+  },
+  {
+    "id": 74,
+    "testo": "Per alcune persone vale la pena sciogliersi.",
+    "autore": "Frozen (2013)"
+  },
+  {
+    "id": 75,
+    "testo": "Grazie per l'avventura. Ora vai a vivertene una nuova!",
+    "autore": "Up (2009)"
+  },
+  {
+    "id": 76,
+    "testo": "Ricordami.",
+    "autore": "Coco (2017)"
+  },
+  {
+    "id": 77,
+    "testo": "Niente mantelli!",
+    "autore": "Gli Incredibili (2004)"
+  },
+  {
+    "id": 78,
+    "testo": "Gli squali sono amici, non cibo.",
+    "autore": "Alla ricerca di Nemo (2003)"
+  },
+  {
+    "id": 79,
+    "testo": "Sorridete e salutate, ragazzi.",
+    "autore": "Madagascar (2005)"
+  },
+  {
+    "id": 80,
+    "testo": "Possono toglierci la vita, ma non ci toglieranno mai la libertà!",
+    "autore": "Braveheart (1995)"
+  },
+  {
+    "id": 81,
+    "testo": "Sono il signor Wolf. Risolvo problemi.",
+    "autore": "Pulp Fiction (1994)"
+  },
+  {
+    "id": 82,
+    "testo": "Il mondo è un bel posto e vale la pena lottare per esso. Condivido la seconda parte.",
+    "autore": "Seven (1995)"
+  },
+  {
+    "id": 83,
+    "testo": "La più grande beffa che il diavolo abbia mai fatto è stata convincere il mondo che lui non esiste.",
+    "autore": "I soliti sospetti (1995)"
+  },
+  {
+    "id": 84,
+    "testo": "La prima regola del Fight Club è: non parlate mai del Fight Club.",
+    "autore": "Fight Club (1999)"
+  },
+  {
+    "id": 85,
+    "testo": "Vedo la gente morta.",
+    "autore": "Il sesto senso (1999)"
+  },
+  {
+    "id": 86,
+    "testo": "Sono stanco, capo.",
+    "autore": "Il miglio verde (1999)"
+  },
+  {
+    "id": 87,
+    "testo": "Mostrami i soldi!",
+    "autore": "Jerry Maguire (1996)"
+  },
+  {
+    "id": 88,
+    "testo": "È tutto.",
+    "autore": "Il diavolo veste Prada (2006)"
+  },
+  {
+    "id": 89,
+    "testo": "Mi avevi già al «ciao».",
+    "autore": "Jerry Maguire (1996)"
+  },
+  {
+    "id": 90,
+    "testo": "Abbiamo vinto!",
+    "autore": "La vita è bella (1997)"
+  },
+  {
+    "id": 91,
+    "testo": "Quando un forestiero viene al Sud piange due volte: quando arriva e quando se ne va.",
+    "autore": "Benvenuti al Sud (2010)"
+  },
+  {
+    "id": 92,
+    "testo": "Beati gli smemorati, perché avranno la meglio anche sui loro errori.",
+    "autore": "Se mi lasci ti cancello (2004)"
+  },
+  {
+    "id": 93,
+    "testo": "Vendimi questa penna.",
+    "autore": "The Wolf of Wall Street (2013)"
+  },
+  {
+    "id": 94,
+    "testo": "Non devi aver paura di sognare un po' più in grande, tesoro.",
+    "autore": "Inception (2010)"
+  },
+  {
+    "id": 95,
+    "testo": "L'umanità è nata sulla Terra. Non era destinata a morirci.",
+    "autore": "Interstellar (2014)"
+  },
+  {
+    "id": 96,
+    "testo": "Io ti vedo.",
+    "autore": "Avatar (2009)"
+  },
+  {
+    "id": 97,
+    "testo": "Mi piaci moltissimo, così come sei.",
+    "autore": "Il diario di Bridget Jones (2001)"
+  },
+  {
+    "id": 98,
+    "testo": "Se tu sei un uccello, io sono un uccello.",
+    "autore": "Le pagine della nostra vita (2004)"
+  },
+  {
+    "id": 99,
+    "testo": "Per me tu sei perfetta.",
+    "autore": "Love Actually (2003)"
+  },
+  {
+    "id": 100,
+    "testo": "Devo continuare a respirare. Perché domani sorgerà il sole, e chissà cosa porterà la marea.",
+    "autore": "Cast Away (2000)"
+  },
+  {
+    "id": 101,
+    "testo": "Chiunque può essere qualunque cosa.",
+    "autore": "Zootropolis (2016)"
+  },
+  {
+    "id": 102,
+    "testo": "Non c'è nessun ingrediente segreto.",
+    "autore": "Kung Fu Panda (2008)"
+  },
+  {
+    "id": 103,
+    "testo": "Tu sei chi scegli di essere.",
+    "autore": "Il gigante di ferro (1999)"
+  },
+  {
+    "id": 104,
+    "testo": "Ka-ciao!",
+    "autore": "Cars (2006)"
+  },
+  {
+    "id": 105,
+    "testo": "Sai qual è il piano che non fallisce mai? Non avere nessun piano.",
+    "autore": "Parasite (2019)"
+  },
+  {
+    "id": 106,
+    "testo": "Ricorderete questo come il giorno in cui avete quasi catturato il capitano Jack Sparrow!",
+    "autore": "Pirati dei Caraibi – La maledizione della prima luna (2003)"
+  },
+  {
+    "id": 107,
+    "testo": "Questa è Sparta!",
+    "autore": "300 (2006)"
+  },
+  {
+    "id": 108,
+    "testo": "Le idee sono a prova di proiettile.",
+    "autore": "V per Vendetta (2005)"
+  },
+  {
+    "id": 109,
+    "testo": "Non è importante come colpisci. L'importante è come sai resistere ai colpi.",
+    "autore": "Rocky Balboa (2006)"
+  },
+  {
+    "id": 110,
+    "testo": "Ricorda, ricorda il cinque novembre.",
+    "autore": "V per Vendetta (2005)"
+  },
+  {
+    "id": 111,
+    "testo": "La vita è un gioco di centimetri.",
+    "autore": "Ogni maledetta domenica (1999)"
+  },
+  {
+    "id": 112,
+    "testo": "La cosa più bella che tu possa imparare è amare e lasciarti amare.",
+    "autore": "Moulin Rouge! (2001)"
+  },
+  {
+    "id": 113,
+    "testo": "Quando devi scegliere tra avere ragione ed essere gentile, scegli di essere gentile.",
+    "autore": "Wonder (2017)"
   }
 ]
