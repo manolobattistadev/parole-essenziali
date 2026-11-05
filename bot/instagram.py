@@ -70,9 +70,28 @@ class Instagram:
                 me = fb("me", fields="id,username")
                 if me.get("username"):
                     return FB_HOST, me["id"], me["username"]
-            except ErroreInstagram:
-                pass
+            except ErroreInstagram as e:
+                errori.append(f"graph.facebook.com /me → {e}")
+
+            # Gli account a cui il token dà accesso sono elencati nei granular_scopes.
+            try:
+                info = fb("debug_token", input_token=self.token).get("data", {})
+                print(f"Token Facebook: tipo={info.get('type')} app={info.get('application')} "
+                      f"scade={info.get('expires_at')} permessi={info.get('scopes')}")
+                for g in info.get("granular_scopes", []):
+                    print(f"  {g.get('scope')}: {g.get('target_ids', 'tutti')}")
+                    if "instagram" in g.get("scope", "") and "publish" in g.get("scope", ""):
+                        for tid in g.get("target_ids", []):
+                            try:
+                                ig = fb(tid, fields="id,username")
+                                return FB_HOST, ig["id"], ig.get("username")
+                            except ErroreInstagram as e:
+                                errori.append(f"graph.facebook.com /{tid} → {e}")
+            except ErroreInstagram as e:
+                errori.append(f"graph.facebook.com debug_token → {e}")
+
             pagine = fb("me/accounts", fields="name,instagram_business_account{id,username}")
+            print(f"Pagine Facebook visibili: {[p.get('name') for p in pagine.get('data', [])]}")
             for pagina in pagine.get("data", []):
                 ig = pagina.get("instagram_business_account")
                 if ig:
