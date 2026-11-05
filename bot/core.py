@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import random
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -101,8 +102,9 @@ def carica_raccolta(nome: str, cfg: dict) -> list[dict]:
 
 
 def scegli_aforisma(data: str, fascia: str, raccolta: str, cfg: dict) -> dict:
-    """La citazione della fascia: se già assegnata la riusa, altrimenti prende la successiva
-    all'ultima uscita della stessa raccolta (ricominciando dall'inizio a fine lista)."""
+    """La citazione della fascia. Se è già assegnata la riusa. Altrimenti sceglie la prossima
+    non ancora uscita nel giro corrente: il primo giro segue l'ordine del file, i successivi
+    un ordine rimescolato (diverso per ogni giro). Le citazioni aggiunte al file entrano subito."""
     elementi = carica_raccolta(raccolta, cfg)
     per_id = {a["id"]: a for a in elementi}
     reg = registro()
@@ -111,13 +113,18 @@ def scegli_aforisma(data: str, fascia: str, raccolta: str, cfg: dict) -> dict:
     if voce and _raccolta_voce(voce) == raccolta and voce["id"] in per_id:
         return per_id[voce["id"]]
 
-    precedenti = [v for v in reg if _chiave(v) < (data, fascia)
-                  and _raccolta_voce(v) == raccolta and v["id"] in per_id]
-    if not precedenti:
-        return elementi[0]
-    ultimo = max(precedenti, key=_chiave)
-    idx = next(i for i, a in enumerate(elementi) if a["id"] == ultimo["id"])
-    return elementi[(idx + 1) % len(elementi)]
+    giro, usati = 0, set()
+    for v in sorted(reg, key=_chiave):
+        if _chiave(v) >= (data, fascia) or _raccolta_voce(v) != raccolta or v["id"] not in per_id:
+            continue
+        usati.add(v["id"])
+        if usati >= per_id.keys():
+            giro, usati = giro + 1, set()
+
+    ordine = list(elementi)
+    if giro:
+        random.Random(f"{raccolta}-{giro}").shuffle(ordine)
+    return next(a for a in ordine if a["id"] not in usati)
 
 
 def aggiorna_registro(data: str, fascia: str, raccolta: str, aforisma_id: int, **campi) -> dict:

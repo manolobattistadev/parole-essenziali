@@ -1,6 +1,7 @@
-name: Rinnova token Instagram
+name: Controllo settimanale
 
-# Il token long-lived dura 60 giorni: lo rinnoviamo ogni settimana e lo salviamo nei Secrets.
+# Ogni domenica: verifica che il token funzioni (se no il workflow fallisce e GitHub ti manda una mail),
+# rinnova il token se è di quelli che scadono e tiene attivi i cron.
 on:
   schedule:
     - cron: "17 3 * * 0"
@@ -8,9 +9,10 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 jobs:
-  rinnova:
+  controllo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -22,7 +24,13 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Rinnova e salva il token
+      - name: Verifica il token
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python -m bot verifica
+
+      - name: Rinnova il token (solo se scade)
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           FB_APP_ID: ${{ secrets.FB_APP_ID }}
@@ -34,3 +42,10 @@ jobs:
             gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" < "$RUNNER_TEMP/token"
           fi
           rm -f "$RUNNER_TEMP/token"
+
+      - name: Mantieni attivi i cron
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow enable pubblica.yml --repo "$GITHUB_REPOSITORY" || true
+          gh workflow enable rinnova-token.yml --repo "$GITHUB_REPOSITORY" || true

@@ -30,8 +30,8 @@ ambient **sintetizzato al momento con ffmpeg**, quindi senza alcun problema di d
    un contenuto fallito si ritenta al giro successivo e il repo resta attivo. GitHub disattiva i
    cron dopo 60 giorni senza commit.
 
-Il workflow `Rinnova token Instagram` controlla ogni domenica il token. Se scade lo rinnova e lo
-salva nei Secrets, se è un token di sistema senza scadenza non fa nulla.
+Il workflow `Controllo settimanale` ogni domenica verifica il token, lo rinnova se è di quelli che
+scadono e riattiva i cron.
 
 ## Setup (una volta sola)
 
@@ -73,7 +73,7 @@ Da qui in poi è tutto automatico.
 
 Il bot riconosce da solo il tipo di token. Un token Instagram Login (`IG…`) passa da
 `graph.instagram.com`, uno Facebook o dell'utente di sistema (`EA…`) da `graph.facebook.com`.
-Il workflow `Rinnova token Instagram` rinnova solo i token che scadono e ignora quelli di sistema.
+Il `Controllo settimanale` rinnova solo i token che scadono e ignora quelli di sistema.
 
 ## Uso locale
 
@@ -93,8 +93,9 @@ Le citazioni stanno in raccolte separate, ognuna con il suo ordine e i suoi hash
 | `aforismi` | `data/aforismi.json`  | aforismi originali (nessun problema di diritti)             | 09, 13 |
 | `film`     | `data/film.json`      | battute celebri di film dal 1994 in poi, nel testo del doppiaggio italiano | 19   |
 
-Ogni fascia del `programma` sceglie la sua `raccolta`. Le citazioni escono in ordine e, finita la
-lista, si ricomincia. Per aggiungerne:
+Ogni fascia del `programma` sceglie la sua `raccolta`. Il primo giro segue l'ordine del file. Finita la
+lista si ricomincia con un ordine rimescolato, diverso per ogni giro. Le citazioni aggiunte entrano
+subito nel giro in corso. Per aggiungerne:
 
 ```json
 { "id": 57, "testo": "…", "autore": "Titolo del film (anno)" }
@@ -114,3 +115,16 @@ Per un'anteprima: `python -m bot anteprima --raccolta film --id 3`.
 - Via API non si può usare la libreria musicale di Instagram: per questo l'audio è generato.
 - `reel.condividi_nel_feed` in `config.json` decide se il reel appare anche nella griglia del profilo.
 - Il font è Playfair Display (SIL Open Font License, vedi `fonts/OFL.txt`).
+
+## Manutenzione: cosa può fermarlo
+
+Il bot è pensato per andare avanti senza interventi. Questi sono i soli punti da tenere d'occhio:
+
+- **Mail di GitHub "Run failed".** Arrivano all'account che ha modificato per ultimo i workflow.
+  Un errore isolato si ritenta da solo al giro successivo, uno che si ripete va guardato.
+- **Mail di Meta.** Meta può chiedere una volta l'anno la *Verifica dell'utilizzo dei dati*
+  (Data Use Checkup) o altre conferme sull'app. Se non rispondi può limitare l'app, e il token smette di funzionare.
+- **Il repo deve restare pubblico**, altrimenti GitHub Pages non è più gratis.
+- **Versione API** (`graph_api_version`). Quando Meta ritira una versione, le chiamate passano da
+  sole alla più vecchia ancora attiva. Se un giorno qualcosa si rompe, alzare il numero è il primo tentativo.
+

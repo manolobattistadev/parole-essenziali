@@ -157,5 +157,9 @@ def rinnova_token(token: str, version: str = "v23.0", app_id: str | None = None,
         if r.ok and "access_token" in data:
             return data
         raise ErroreInstagram(f"Rinnovo token Facebook fallito: {data}")
+    if not token.startswith("IG"):
+        print("Token Facebook/di sistema senza credenziali dell'app: nessun rinnovo "
+              "(i token dell'utente di sistema non scadono).")
+        return None
     raise ErroreInstagram(f"Rinnovo token fallito: {errore_ig}. Se è un token Facebook, "
                           "aggiungi i secrets FB_APP_ID e FB_APP_SECRET.")
