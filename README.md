@@ -90,8 +90,8 @@ Le citazioni stanno in raccolte separate, ognuna con il suo ordine e i suoi hash
 
 | Raccolta   | File                  | Contenuto                                                   | Fascia |
 |------------|-----------------------|-------------------------------------------------------------|--------|
-| `aforismi` | `data/aforismi.json`  | aforismi originali (nessun problema di diritti)             | 09, 13 |
-| `film`     | `data/film.json`      | battute celebri di film dal 1994 in poi, nel testo del doppiaggio italiano | 19   |
+| `aforismi` | `data/aforismi.json`  | ~1.500 aforismi originali, circa 2 anni (nessun problema di diritti) | 09, 13 |
+| `film`     | `data/film.json`      | 113 battute celebri di film dal 1994 in poi, nel testo del doppiaggio italiano | 19   |
 
 Ogni fascia del `programma` sceglie la sua `raccolta`. Il primo giro segue l'ordine del file. Finita la
 lista si ricomincia con un ordine rimescolato, diverso per ogni giro. Le citazioni aggiunte entrano
