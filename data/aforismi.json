@@ -1,597 +1,4492 @@
 [
   {
     "id": 1,
-    "testo": "Non tutto ciò che tace è vuoto.",
+    "testo": "Amare qualcuno è ricordarsi come prende il caffè.",
     "autore": null
   },
   {
     "id": 2,
-    "testo": "Si arriva lontano anche camminando piano, purché non ci si fermi a guardare chi corre.",
+    "testo": "La paura è una stanza piccola: sembra enorme solo finché si resta seduti al buio.",
     "autore": null
   },
   {
     "id": 3,
-    "testo": "Chi impara ad ascoltare il silenzio non ha più paura di restare solo.",
+    "testo": "Il pane ha il profumo di chi si è alzato presto per gli altri.",
     "autore": null
   },
   {
     "id": 4,
-    "testo": "La gentilezza è una forza che non ha bisogno di dimostrarlo.",
+    "testo": "L'albero non sa di essere bello: sa solo dove andare a cercare l'acqua.",
     "autore": null
   },
   {
     "id": 5,
-    "testo": "Ogni porta chiusa insegna qualcosa sulla strada.",
+    "testo": "Certe frasi si capiscono solo quando smetti di rispondere.",
     "autore": null
   },
   {
     "id": 6,
-    "testo": "Le parole più vere spesso arrivano tardi, ma arrivano.",
+    "testo": "La speranza non promette niente. Resta, e questo basta.",
     "autore": null
   },
   {
     "id": 7,
-    "testo": "Non devi essere pronto. Devi solo cominciare.",
+    "testo": "Il pane lievita al buio, senza che nessuno lo guardi.",
     "autore": null
   },
   {
     "id": 8,
-    "testo": "A volte lasciar andare è il modo più saggio di tenere.",
+    "testo": "Si arriva lontano anche camminando piano, purché non ci si fermi a guardare chi corre.",
     "autore": null
   },
   {
     "id": 9,
-    "testo": "La pazienza non è attesa: è fiducia che lavora in silenzio.",
+    "testo": "Le amicizie lunghe conoscono silenzi comodi come vecchie poltrone.",
     "autore": null
   },
   {
     "id": 10,
-    "testo": "Il coraggio non fa rumore. Si alza ogni mattina e riprova.",
+    "testo": "Ho sbagliato strada così tante volte che ormai conosco bene la città.",
     "autore": null
   },
   {
     "id": 11,
-    "testo": "Chi semina con cura non conta i giorni.",
+    "testo": "Certe mattine la felicità è solo una tazza calda tra le mani fredde.",
     "autore": null
   },
   {
     "id": 12,
-    "testo": "Si cresce nei momenti in cui nessuno guarda.",
+    "testo": "Il mare non chiede scusa per la marea.",
     "autore": null
   },
   {
     "id": 13,
-    "testo": "Le ferite insegnano dove sei stato, non dove devi restare.",
+    "testo": "Una parola detta piano arriva più lontano di quanto pensi.",
     "autore": null
   },
   {
     "id": 14,
-    "testo": "Essere gentili con sé stessi non è debolezza, è manutenzione.",
+    "testo": "Domani è una stanza che nessuno ha ancora arredato.",
     "autore": null
   },
   {
     "id": 15,
-    "testo": "Il tempo non guarisce tutto, ma insegna a portarlo meglio.",
+    "testo": "Certe risposte arrivano solo quando smetti di fare la domanda.",
     "autore": null
   },
   {
     "id": 16,
-    "testo": "La felicità non si cerca: si riconosce.",
+    "testo": "Chi impara ad ascoltare il silenzio non ha più paura di restare solo.",
     "autore": null
   },
   {
     "id": 17,
-    "testo": "Non c'è niente di piccolo in un gesto fatto con amore.",
+    "testo": "Casa è dove qualcuno si accorge che sei rientrato.",
     "autore": null
   },
   {
     "id": 18,
-    "testo": "Chi ha radici profonde non teme il vento.",
+    "testo": "Un errore ammesso pesa meno di uno nascosto.",
     "autore": null
   },
   {
     "id": 19,
-    "testo": "Ogni giorno è una pagina bianca: non serve scriverla tutta, basta una riga sincera.",
+    "testo": "Ringraziare apre una finestra nella stanza dove eravamo chiusi.",
     "autore": null
   },
   {
     "id": 20,
-    "testo": "La calma è la risposta più difficile e la più forte.",
+    "testo": "Anche il cielo più grande sta tutto in una pozzanghera, se la guardi bene.",
     "autore": null
   },
   {
     "id": 21,
-    "testo": "Non confondere il rumore con la vita.",
+    "testo": "Il silenzio di chi ti conosce non ha bisogno di traduzione.",
     "autore": null
   },
   {
     "id": 22,
-    "testo": "Ci vuole più forza a perdonare che a ricordare.",
+    "testo": "Un seme non sa cosa diventerà, eppure si apre.",
     "autore": null
   },
   {
     "id": 23,
-    "testo": "Il meglio di noi spesso è nascosto dietro la paura di mostrarlo.",
+    "testo": "L'attesa ha un suono: è il cuore che impara a stare fermo.",
     "autore": null
   },
   {
     "id": 24,
-    "testo": "Rallentare non è perdere tempo: è ritrovarlo.",
+    "testo": "La gentilezza è una forza che non ha bisogno di dimostrarlo.",
     "autore": null
   },
   {
     "id": 25,
-    "testo": "Le persone giuste non ti chiedono di essere un altro.",
+    "testo": "Si impara a voler bene sbagliando i tempi, e poi tornando.",
     "autore": null
   },
   {
     "id": 26,
-    "testo": "Ciò che non dici pesa più di ciò che dici.",
+    "testo": "Anche il ramo che si piega sta imparando il vento.",
     "autore": null
   },
   {
     "id": 27,
-    "testo": "La luce passa anche dalle crepe più sottili.",
+    "testo": "Abbiamo inseguito il grande giorno e intanto passavano quelli buoni.",
     "autore": null
   },
   {
     "id": 28,
-    "testo": "Non si torna indietro, ma si può tornare a sé.",
+    "testo": "Le foglie cadono senza rumore. Così se ne vanno le cose che non ci servono più.",
     "autore": null
   },
   {
     "id": 29,
-    "testo": "Ogni fine porta in tasca un inizio.",
+    "testo": "Scrivere è mettere ordine nella stanza prima di invitare qualcuno.",
     "autore": null
   },
   {
     "id": 30,
-    "testo": "Saper aspettare è un'arte che si impara aspettando.",
+    "testo": "Basta una finestra accesa per rendere abitata una strada intera.",
     "autore": null
   },
   {
     "id": 31,
-    "testo": "Chi ti vuole bene vede la stanchezza dietro il sorriso.",
+    "testo": "Le stagioni non chiedono scusa per cambiare.",
     "autore": null
   },
   {
     "id": 32,
-    "testo": "Il silenzio giusto vale più di cento risposte.",
+    "testo": "Ogni porta chiusa insegna qualcosa sulla strada.",
     "autore": null
   },
   {
     "id": 33,
-    "testo": "Non tutte le tempeste arrivano per distruggere: alcune puliscono il cielo.",
+    "testo": "La gentilezza si misura nei giorni storti, non in quelli facili.",
     "autore": null
   },
   {
     "id": 34,
-    "testo": "La semplicità è il punto d'arrivo, non di partenza.",
+    "testo": "Si trema e intanto si fa un passo: non c'è altro segreto.",
     "autore": null
   },
   {
     "id": 35,
-    "testo": "Sii il posto sicuro che avresti voluto trovare.",
+    "testo": "Una tovaglia stesa al sole sa già cosa vuol dire festa.",
     "autore": null
   },
   {
     "id": 36,
-    "testo": "Anche il mare più calmo è fatto di onde.",
+    "testo": "In inverno l'albero non è morto: sta facendo i conti con sé stesso.",
     "autore": null
   },
   {
     "id": 37,
-    "testo": "Ciò che ami ti somiglia più di ciò che possiedi.",
+    "testo": "Chi legge con lentezza trova le porte che gli altri scambiano per muri.",
     "autore": null
   },
   {
     "id": 38,
-    "testo": "Non serve gridare per essere ascoltati: serve essere veri.",
+    "testo": "Fidarsi è lasciare un po' di spazio libero al tavolo.",
     "autore": null
   },
   {
     "id": 39,
-    "testo": "Il futuro si costruisce con le abitudini, non con le promesse.",
+    "testo": "Si lascia andare una cosa alla volta, come si svuota una casa.",
     "autore": null
   },
   {
     "id": 40,
-    "testo": "A volte l'unica risposta è respirare.",
+    "testo": "Le parole più vere spesso arrivano tardi, ma arrivano.",
     "autore": null
   },
   {
     "id": 41,
-    "testo": "Le cose importanti raramente sono urgenti.",
+    "testo": "Certi amici non chiedono come stai: si siedono accanto e aspettano.",
     "autore": null
   },
   {
     "id": 42,
-    "testo": "L'anima si riconosce dai dettagli.",
+    "testo": "Il fallimento ha un difetto: parla forte. E un pregio: dice la verità.",
     "autore": null
   },
   {
     "id": 43,
-    "testo": "Chi non ha mai sbagliato non ha mai provato davvero.",
+    "testo": "Chi sa sedersi su una panchina senza guardare l'ora possiede più di quanto crede.",
     "autore": null
   },
   {
     "id": 44,
-    "testo": "La gratitudine trasforma ciò che abbiamo in abbastanza.",
+    "testo": "Un faro sta da solo perché altri non lo siano.",
     "autore": null
   },
   {
     "id": 45,
-    "testo": "Non misurare il tuo cammino con i passi degli altri.",
+    "testo": "Una lettera scritta a mano porta con sé anche il tempo che ci è voluto.",
     "autore": null
   },
   {
     "id": 46,
-    "testo": "Ogni ricordo è una casa in cui si può tornare senza bagagli.",
+    "testo": "Il futuro arriva un giorno alla volta, come la posta.",
     "autore": null
   },
   {
     "id": 47,
-    "testo": "La verità non ha fretta.",
+    "testo": "Il fiume non torna indietro, eppure non smette di essere fiume.",
     "autore": null
   },
   {
     "id": 48,
-    "testo": "Accogli il dubbio: è la porta da cui entra la conoscenza.",
+    "testo": "Non devi essere pronto. Devi solo cominciare.",
     "autore": null
   },
   {
     "id": 49,
-    "testo": "Si diventa leggeri solo dopo aver capito cosa lasciare.",
+    "testo": "Una lettera scritta a mano pesa più di cento messaggi.",
     "autore": null
   },
   {
     "id": 50,
-    "testo": "Un abbraccio dice ciò che le parole cercano ancora.",
+    "testo": "Chi chiede aiuto non è caduto. Sta scegliendo come rialzarsi.",
     "autore": null
   },
   {
     "id": 51,
-    "testo": "Il buio non è assenza di luce: è attesa.",
+    "testo": "Andando piano si leggono anche i nomi delle strade.",
     "autore": null
   },
   {
     "id": 52,
-    "testo": "Non ti serve un permesso per ricominciare.",
+    "testo": "Conoscersi è un lavoro lento, fatto più di domande che di risposte.",
     "autore": null
   },
   {
     "id": 53,
-    "testo": "Le radici non si vedono, ma tengono in piedi tutto.",
+    "testo": "Si può mentire con le parole giuste e dire il vero con quelle sbagliate.",
     "autore": null
   },
   {
     "id": 54,
-    "testo": "Il cuore ha una memoria che la mente non conosce.",
+    "testo": "Certe mattine il primo miracolo è avere ancora voglia di caffè.",
     "autore": null
   },
   {
     "id": 55,
-    "testo": "Ciò che è vero resiste anche al tempo.",
+    "testo": "Anche l'inverno sta lavorando, sotto la terra.",
     "autore": null
   },
   {
     "id": 56,
-    "testo": "Non rincorrere chi cammina in un'altra direzione.",
+    "testo": "A volte lasciar andare è il modo più saggio di tenere.",
     "autore": null
   },
   {
     "id": 57,
-    "testo": "La bellezza è spesso una questione di attenzione.",
+    "testo": "Nelle famiglie si litiga a voce alta e si perdona sottovoce.",
     "autore": null
   },
   {
     "id": 58,
-    "testo": "Imparare a dire no è imparare a dire sì a sé stessi.",
+    "testo": "Una cicatrice è solo una ferita che ha finito il suo lavoro.",
     "autore": null
   },
   {
     "id": 59,
-    "testo": "Ogni passo, anche incerto, è un passo.",
+    "testo": "Il presente non chiede di essere capito, solo abitato.",
     "autore": null
   },
   {
     "id": 60,
-    "testo": "L'umiltà è la forma più alta di sicurezza.",
+    "testo": "Libero è chi può restare, non solo chi può partire.",
     "autore": null
   },
   {
     "id": 61,
-    "testo": "Non esiste vento favorevole per chi non sa ascoltarsi.",
+    "testo": "Ascoltare davvero significa lasciare che l'altro finisca anche il pensiero, non solo la frase.",
     "autore": null
   },
   {
     "id": 62,
-    "testo": "Chi ha paura di perdere non ha ancora capito cosa possiede.",
+    "testo": "C'è sempre un punto in cui la salita smette di essere salita.",
     "autore": null
   },
   {
     "id": 63,
-    "testo": "La fiducia si costruisce in anni e si spiega in un istante.",
+    "testo": "Ciò che lasci cadere fa spazio a ciò che ti viene incontro.",
     "autore": null
   },
   {
     "id": 64,
-    "testo": "Il tempo che dedichi a qualcosa è la sua misura vera.",
+    "testo": "La pazienza non è attesa: è fiducia che lavora in silenzio.",
     "autore": null
   },
   {
     "id": 65,
-    "testo": "Ci sono silenzi che abbracciano.",
+    "testo": "Prendersi cura è un lavoro che nessuno vede finché non si ferma.",
     "autore": null
   },
   {
     "id": 66,
-    "testo": "Le stelle non competono: brillano.",
+    "testo": "Mostrarsi fragili è aprire una finestra in una casa rimasta chiusa troppo a lungo.",
     "autore": null
   },
   {
     "id": 67,
-    "testo": "Non tutto va capito, alcune cose vanno solo vissute.",
+    "testo": "Grazie è una parola corta che allunga le giornate.",
     "autore": null
   },
   {
     "id": 68,
-    "testo": "Ogni mattina il mondo ti offre un'altra possibilità di essere gentile.",
+    "testo": "Siamo fatti anche di quello che abbiamo smesso di fingere.",
     "autore": null
   },
   {
     "id": 69,
-    "testo": "Il carattere si vede quando nessuno ti costringe.",
+    "testo": "La sincerità senza delicatezza è soltanto un sasso lanciato bene.",
     "autore": null
   },
   {
     "id": 70,
-    "testo": "Le cose belle crescono lente.",
+    "testo": "Anche un fiammifero, al buio, sembra un sole.",
     "autore": null
   },
   {
     "id": 71,
-    "testo": "Non smettere di meravigliarti: è il primo segno che sei vivo.",
+    "testo": "Le mani aperte trattengono più luce dei pugni chiusi.",
     "autore": null
   },
   {
     "id": 72,
-    "testo": "Chi conosce le proprie ombre cammina più sicuro nella luce.",
+    "testo": "Il coraggio non fa rumore. Si alza ogni mattina e riprova.",
     "autore": null
   },
   {
     "id": 73,
-    "testo": "Si è ricchi di ciò che si sa dare.",
+    "testo": "L'amore maturo non chiede prove, offre presenza.",
     "autore": null
   },
   {
     "id": 74,
-    "testo": "Una parola gentile può cambiare il giorno di qualcuno, anche il tuo.",
+    "testo": "Non si diventa forti evitando il peso, ma imparando a portarlo con grazia.",
     "autore": null
   },
   {
     "id": 75,
-    "testo": "La pace non è assenza di problemi, è presenza di senso.",
+    "testo": "Le cose semplici non sono facili: sono soltanto sincere.",
     "autore": null
   },
   {
     "id": 76,
-    "testo": "Non vivere di rimpianti: sono lettere spedite a un indirizzo che non esiste più.",
+    "testo": "La luce del mattino non ha fretta di riempire la stanza.",
     "autore": null
   },
   {
     "id": 77,
-    "testo": "Il viaggio più lungo è quello verso sé stessi.",
+    "testo": "Ci sono pause, in una conversazione, che valgono quanto una carezza.",
     "autore": null
   },
   {
     "id": 78,
-    "testo": "A volte cadere è il solo modo per guardare il cielo.",
+    "testo": "Ricominciare non cancella niente: aggiunge.",
     "autore": null
   },
   {
     "id": 79,
-    "testo": "La libertà comincia dove finisce il bisogno di approvazione.",
+    "testo": "Non si guarisce in linea retta.",
     "autore": null
   },
   {
     "id": 80,
-    "testo": "Ogni stagione ha il suo raccolto.",
+    "testo": "Chi semina con cura non conta i giorni.",
     "autore": null
   },
   {
     "id": 81,
-    "testo": "Non sono gli anni a pesare, ma ciò che non abbiamo lasciato andare.",
+    "testo": "C'è chi ti tiene la porta aperta senza sapere quanto ne avevi bisogno.",
     "autore": null
   },
   {
     "id": 82,
-    "testo": "Le persone non ricordano cosa hai detto, ma come le hai fatte sentire.",
+    "testo": "Il primo passo trema sempre. Il secondo un po' meno.",
     "autore": null
   },
   {
     "id": 83,
-    "testo": "Chi sa ridere di sé non sarà mai a corto di gioia.",
+    "testo": "Un letto rifatto è una piccola promessa mantenuta.",
     "autore": null
   },
   {
     "id": 84,
-    "testo": "La costanza batte il talento quando il talento si addormenta.",
+    "testo": "Il fiume non porta con sé la sponda: la saluta e va.",
     "autore": null
   },
   {
     "id": 85,
-    "testo": "Il mare insegna che si può tornare sempre, anche dopo essersi ritirati.",
+    "testo": "Ogni libro chiuso continua a parlare per qualche giorno.",
     "autore": null
   },
   {
     "id": 86,
-    "testo": "Non spegnere la tua luce per non disturbare gli occhi degli altri.",
+    "testo": "Il possibile è più largo di quanto la paura riesca a misurare.",
     "autore": null
   },
   {
     "id": 87,
-    "testo": "L'ordine fuori comincia dall'ordine dentro.",
+    "testo": "Il tempo non ha fretta, ed è per questo che arriva ovunque.",
     "autore": null
   },
   {
     "id": 88,
-    "testo": "Il presente è l'unico posto dove la vita accade.",
+    "testo": "Si cresce nei momenti in cui nessuno guarda.",
     "autore": null
   },
   {
     "id": 89,
-    "testo": "Si può essere fragili e forti nello stesso respiro.",
+    "testo": "Un piatto lasciato in caldo è una forma di tenerezza.",
     "autore": null
   },
   {
     "id": 90,
-    "testo": "Ogni scelta è anche una rinuncia, e va bene così.",
+    "testo": "Ricominciare non è tornare al punto di partenza: è partire sapendo di più.",
     "autore": null
   },
   {
     "id": 91,
-    "testo": "Chi coltiva la pazienza raccoglie la pace.",
+    "testo": "A tavola, il silenzio di chi mangia bene è già un complimento.",
     "autore": null
   },
   {
     "id": 92,
-    "testo": "Non si possiede ciò che si ama: lo si custodisce.",
+    "testo": "Stare soli con sé stessi è il primo appuntamento da non rimandare.",
     "autore": null
   },
   {
     "id": 93,
-    "testo": "La vita non chiede di essere perfetta, ma presente.",
+    "testo": "Non sempre chi parla poco ha poco da dire. A volte sceglie.",
     "autore": null
   },
   {
     "id": 94,
-    "testo": "Lo sguardo cambia il paesaggio.",
+    "testo": "Chi pianta un albero parla con qualcuno che non conoscerà.",
     "autore": null
   },
   {
     "id": 95,
-    "testo": "Dove metti l'attenzione, lì metti la tua vita.",
+    "testo": "A volte cambiare è solo smettere di fingere di non essere già cambiati.",
     "autore": null
   },
   {
     "id": 96,
-    "testo": "Anche la notte più lunga finisce in un'alba.",
+    "testo": "Le ferite insegnano dove sei stato, non dove devi restare.",
     "autore": null
   },
   {
     "id": 97,
-    "testo": "Chi accende una luce per un altro illumina anche la propria strada.",
+    "testo": "Voler bene è anche saper aspettare che l'altro sia pronto.",
     "autore": null
   },
   {
     "id": 98,
-    "testo": "Il rispetto è il linguaggio che tutti capiscono.",
+    "testo": "La paura misura quanto tieni a qualcosa, non quanto vali.",
     "autore": null
   },
   {
     "id": 99,
-    "testo": "Ci si salva spesso con piccole cose: un caffè, una telefonata, una finestra aperta.",
+    "testo": "Domani è un luogo dove nessuno ha mai abitato.",
     "autore": null
   },
   {
     "id": 100,
-    "testo": "Non è tardi finché respiri.",
+    "testo": "Ci sono parti di me che ho incontrato solo nel silenzio di una sera qualunque.",
     "autore": null
   },
   {
     "id": 101,
-    "testo": "Ogni nodo si scioglie con calma, mai con forza.",
+    "testo": "Le parole che pesi prima di dirle pesano meno dopo.",
     "autore": null
   },
   {
     "id": 102,
-    "testo": "La saggezza è sapere cosa ignorare.",
+    "testo": "Meravigliarsi è guardare una cosa come se fosse la prima volta, anche se è la millesima.",
     "autore": null
   },
   {
     "id": 103,
-    "testo": "Il silenzio non mente.",
+    "testo": "Ogni ritorno ha un passo diverso dalla partenza.",
     "autore": null
   },
   {
     "id": 104,
-    "testo": "Non ti serve tutto il percorso, ti basta il prossimo passo.",
+    "testo": "Essere gentili con sé stessi non è debolezza, è manutenzione.",
     "autore": null
   },
   {
     "id": 105,
-    "testo": "Si impara a nuotare solo entrando in acqua.",
+    "testo": "I genitori invecchiano proprio mentre smettiamo di guardarli.",
     "autore": null
   },
   {
     "id": 106,
-    "testo": "L'amore vero non stringe: sostiene.",
+    "testo": "Si cresce come gli alberi: in silenzio, e per anelli.",
     "autore": null
   },
   {
     "id": 107,
-    "testo": "Chi ti somiglia davvero non ti chiede di cambiare, ti invita a crescere.",
+    "testo": "Basta poco per stare bene, ma quel poco va guardato.",
     "autore": null
   },
   {
     "id": 108,
-    "testo": "L'essenziale non fa rumore, ma resta.",
+    "testo": "La libertà somiglia più a un respiro lungo che a un grido.",
     "autore": null
   },
   {
     "id": 109,
-    "testo": "Ogni giorno vissuto con cura è un giorno salvato.",
+    "testo": "Una verità detta con calma trova sempre un posto dove sedersi.",
     "autore": null
   },
   {
     "id": 110,
-    "testo": "Ascoltare è il primo modo di voler bene.",
+    "testo": "Le giornate grigie hanno una luce morbida che quelle limpide non conoscono.",
     "autore": null
   },
   {
     "id": 111,
-    "testo": "La strada si fa chiara solo camminando.",
+    "testo": "Aspettare bene è saper fare altro nel frattempo.",
     "autore": null
   },
   {
     "id": 112,
-    "testo": "Non tutto ciò che perdi era tuo.",
+    "testo": "Il tempo non guarisce tutto, ma insegna a portarlo meglio.",
     "autore": null
   },
   {
     "id": 113,
-    "testo": "Ci sono giorni per fiorire e giorni per mettere radici.",
+    "testo": "Un amico vero ricorda le tue storie meglio di te.",
     "autore": null
   },
   {
     "id": 114,
-    "testo": "Il coraggio a volte è solo una frase detta con la voce che trema.",
+    "testo": "Chi resiste non è chi non si piega, ma chi sa tornare dritto.",
     "autore": null
   },
   {
     "id": 115,
-    "testo": "Cura ciò che ti cura.",
+    "testo": "Le domeniche lente insegnano più di molti libri.",
     "autore": null
   },
   {
     "id": 116,
-    "testo": "Una vita semplice non è una vita piccola.",
+    "testo": "L'identità non è un ritratto, è un diario.",
     "autore": null
   },
   {
     "id": 117,
-    "testo": "Chi trova pace in sé la porta ovunque.",
+    "testo": "Chi scrive per capire, prima o poi capisce anche chi legge.",
     "autore": null
   },
   {
     "id": 118,
-    "testo": "Ricomincia da ciò che sei, non da ciò che ti manca.",
+    "testo": "Si spera meglio a mani aperte.",
     "autore": null
   },
   {
     "id": 119,
+    "testo": "Le cicatrici sono il calendario della pelle.",
+    "autore": null
+  },
+  {
+    "id": 120,
+    "testo": "La felicità non si cerca: si riconosce.",
+    "autore": null
+  },
+  {
+    "id": 121,
+    "testo": "La tenerezza è una forza che ha scelto le mani aperte.",
+    "autore": null
+  },
+  {
+    "id": 122,
+    "testo": "Le cose che temiamo, viste da vicino, hanno quasi sempre una faccia più piccola.",
+    "autore": null
+  },
+  {
+    "id": 123,
+    "testo": "La gioia vera non ha bisogno di testimoni.",
+    "autore": null
+  },
+  {
+    "id": 124,
+    "testo": "Il nido si costruisce un filo alla volta, e nessuno applaude.",
+    "autore": null
+  },
+  {
+    "id": 125,
+    "testo": "Il silenzio di una casa la sera racconta chi la abita.",
+    "autore": null
+  },
+  {
+    "id": 126,
+    "testo": "Ogni inizio è goffo. È così che si riconosce.",
+    "autore": null
+  },
+  {
+    "id": 127,
+    "testo": "Ci sono addii che somigliano a un respiro lungo.",
+    "autore": null
+  },
+  {
+    "id": 128,
+    "testo": "Non c'è niente di piccolo in un gesto fatto con amore.",
+    "autore": null
+  },
+  {
+    "id": 129,
+    "testo": "Ci si conosce davvero nei viaggi in macchina e nelle sale d'attesa.",
+    "autore": null
+  },
+  {
+    "id": 130,
+    "testo": "Sbagliare in buona fede è già una forma di onestà.",
+    "autore": null
+  },
+  {
+    "id": 131,
+    "testo": "Una finestra accesa la sera racconta una storia senza parole.",
+    "autore": null
+  },
+  {
+    "id": 132,
+    "testo": "La neve copre tutto per un po', poi restituisce ogni cosa al suo colore.",
+    "autore": null
+  },
+  {
+    "id": 133,
+    "testo": "Si comunica anche col modo in cui si chiude una porta.",
+    "autore": null
+  },
+  {
+    "id": 134,
+    "testo": "Il cielo non smette di esserci solo perché oggi è coperto.",
+    "autore": null
+  },
+  {
+    "id": 135,
+    "testo": "Si può ricominciare anche di martedì, anche a metà mattina.",
+    "autore": null
+  },
+  {
+    "id": 136,
+    "testo": "Chi ha radici profonde non teme il vento.",
+    "autore": null
+  },
+  {
+    "id": 137,
+    "testo": "Amare è restare anche quando la conversazione si fa difficile.",
+    "autore": null
+  },
+  {
+    "id": 138,
+    "testo": "Il coraggio ha quasi sempre le mani fredde.",
+    "autore": null
+  },
+  {
+    "id": 139,
+    "testo": "La felicità ha passi leggeri: per sentirla bisogna fare silenzio.",
+    "autore": null
+  },
+  {
+    "id": 140,
+    "testo": "La luna non ha luce propria, eppure nessuno la chiama povera.",
+    "autore": null
+  },
+  {
+    "id": 141,
+    "testo": "Leggere ad alta voce a qualcuno è prestargli il proprio respiro.",
+    "autore": null
+  },
+  {
+    "id": 142,
+    "testo": "Quello che ancora non è successo ha diritto a una possibilità.",
+    "autore": null
+  },
+  {
+    "id": 143,
+    "testo": "Il seme non sa nulla del fiore, eppure non smette di provarci.",
+    "autore": null
+  },
+  {
+    "id": 144,
+    "testo": "Ogni giorno è una pagina bianca: non serve scriverla tutta, basta una riga sincera.",
+    "autore": null
+  },
+  {
+    "id": 145,
+    "testo": "Le relazioni non si rompono di colpo: si sfilacciano nelle piccole assenze.",
+    "autore": null
+  },
+  {
+    "id": 146,
+    "testo": "Un seme non sa di essere coraggioso. Si apre e basta.",
+    "autore": null
+  },
+  {
+    "id": 147,
+    "testo": "Anche lavare i piatti, fatto con calma, diventa un modo di pensare.",
+    "autore": null
+  },
+  {
+    "id": 148,
+    "testo": "Un seme non sa cosa diventerà, e cresce lo stesso.",
+    "autore": null
+  },
+  {
+    "id": 149,
+    "testo": "Le domande sincere aprono più finestre delle risposte brillanti.",
+    "autore": null
+  },
+  {
+    "id": 150,
+    "testo": "A volte la fiducia è solo decidere di non chiudere la porta a chiave.",
+    "autore": null
+  },
+  {
+    "id": 151,
+    "testo": "Lasciar andare non è dimenticare. È ricordare senza trattenere il fiato.",
+    "autore": null
+  },
+  {
+    "id": 152,
+    "testo": "La calma è la risposta più difficile e la più forte.",
+    "autore": null
+  },
+  {
+    "id": 153,
+    "testo": "Chiedere scusa è aprire una finestra in una stanza chiusa da troppo.",
+    "autore": null
+  },
+  {
+    "id": 154,
+    "testo": "La resilienza è una parola lunga per una cosa semplice: rialzarsi ancora una volta.",
+    "autore": null
+  },
+  {
+    "id": 155,
+    "testo": "Un giorno qualunque è un regalo con la carta più modesta.",
+    "autore": null
+  },
+  {
+    "id": 156,
+    "testo": "Quando smetti di somigliare agli altri, cominci a somigliare a te.",
+    "autore": null
+  },
+  {
+    "id": 157,
+    "testo": "Una matita consumata sa più cose di una penna nuova.",
+    "autore": null
+  },
+  {
+    "id": 158,
+    "testo": "Un bambino che impara a camminare cade cento volte e non pensa mai di smettere.",
+    "autore": null
+  },
+  {
+    "id": 159,
+    "testo": "Il tè ha bisogno dei suoi minuti. Anche certe parole.",
+    "autore": null
+  },
+  {
+    "id": 160,
+    "testo": "Non confondere il rumore con la vita.",
+    "autore": null
+  },
+  {
+    "id": 161,
+    "testo": "Il bene fatto senza testimoni è il più sincero.",
+    "autore": null
+  },
+  {
+    "id": 162,
+    "testo": "La paura fa i conti. Il coraggio, a volte, si dimentica di farli.",
+    "autore": null
+  },
+  {
+    "id": 163,
+    "testo": "La gratitudine è memoria che ha imparato a sorridere.",
+    "autore": null
+  },
+  {
+    "id": 164,
+    "testo": "La solitudine non è un vuoto: è una stanza dove i pensieri si tolgono le scarpe.",
+    "autore": null
+  },
+  {
+    "id": 165,
+    "testo": "Chi interrompe sempre non sa mai come finiscono le storie.",
+    "autore": null
+  },
+  {
+    "id": 166,
+    "testo": "La notte serve anche a far vedere le lanterne.",
+    "autore": null
+  },
+  {
+    "id": 167,
+    "testo": "Non tutto ciò che è lento è fermo.",
+    "autore": null
+  },
+  {
+    "id": 168,
+    "testo": "Ci vuole più forza a perdonare che a ricordare.",
+    "autore": null
+  },
+  {
+    "id": 169,
+    "testo": "Una telefonata senza motivo è spesso il motivo migliore.",
+    "autore": null
+  },
+  {
+    "id": 170,
+    "testo": "Si inciampa solo camminando.",
+    "autore": null
+  },
+  {
+    "id": 171,
+    "testo": "Chi corre sempre arriva dappertutto e non abita da nessuna parte.",
+    "autore": null
+  },
+  {
+    "id": 172,
+    "testo": "Il vento non si tiene in pugno: si sente sulla pelle, e basta.",
+    "autore": null
+  },
+  {
+    "id": 173,
+    "testo": "La verità è semplice. Complicato è il coraggio di pronunciarla.",
+    "autore": null
+  },
+  {
+    "id": 174,
+    "testo": "Nessuno sa come andrà. È proprio lì che c'è spazio.",
+    "autore": null
+  },
+  {
+    "id": 175,
+    "testo": "Le foglie cadono senza drammi. Sanno che è solo un passaggio.",
+    "autore": null
+  },
+  {
+    "id": 176,
+    "testo": "Il meglio di noi spesso è nascosto dietro la paura di mostrarlo.",
+    "autore": null
+  },
+  {
+    "id": 177,
+    "testo": "Si diventa famiglia anche senza lo stesso sangue: basta la stessa tavola.",
+    "autore": null
+  },
+  {
+    "id": 178,
+    "testo": "Le mani che hanno sbagliato sono le più attente quando riprovano.",
+    "autore": null
+  },
+  {
+    "id": 179,
+    "testo": "Il presente è stretto, ma è l'unica porta che si apre.",
+    "autore": null
+  },
+  {
+    "id": 180,
+    "testo": "Il mare d'inverno è lo stesso mare, solo più sincero.",
+    "autore": null
+  },
+  {
+    "id": 181,
+    "testo": "Ci sono parole che si dicono una volta sola, e bastano per sempre.",
+    "autore": null
+  },
+  {
+    "id": 182,
+    "testo": "Il primo passo pesa più di tutti gli altri messi insieme.",
+    "autore": null
+  },
+  {
+    "id": 183,
+    "testo": "Il tempo perso a capire non è mai perso davvero.",
+    "autore": null
+  },
+  {
+    "id": 184,
+    "testo": "Rallentare non è perdere tempo: è ritrovarlo.",
+    "autore": null
+  },
+  {
+    "id": 185,
+    "testo": "Prendersi cura di qualcuno insegna una pazienza che nessun libro spiega.",
+    "autore": null
+  },
+  {
+    "id": 186,
+    "testo": "A volte essere forti significa solo restare, quando tutto dice di andare.",
+    "autore": null
+  },
+  {
+    "id": 187,
+    "testo": "Le mani che impastano non hanno fretta, e il pane lo sa.",
+    "autore": null
+  },
+  {
+    "id": 188,
+    "testo": "Chi sei si vede in ciò a cui torni, anche dopo anni.",
+    "autore": null
+  },
+  {
+    "id": 189,
+    "testo": "Il margine di una pagina è il posto dove il lettore prende la parola.",
+    "autore": null
+  },
+  {
+    "id": 190,
+    "testo": "Le cose buone arrivano spesso senza bussare.",
+    "autore": null
+  },
+  {
+    "id": 191,
+    "testo": "Ogni cambiamento comincia come un disagio.",
+    "autore": null
+  },
+  {
+    "id": 192,
+    "testo": "Le persone giuste non ti chiedono di essere un altro.",
+    "autore": null
+  },
+  {
+    "id": 193,
+    "testo": "In due anche gli errori pesano la metà.",
+    "autore": null
+  },
+  {
+    "id": 194,
+    "testo": "La fragilità custodita diventa delicatezza verso gli altri.",
+    "autore": null
+  },
+  {
+    "id": 195,
+    "testo": "La felicità abita bene anche nelle case piccole.",
+    "autore": null
+  },
+  {
+    "id": 196,
+    "testo": "La corteccia racconta gli inverni che l'albero ha attraversato.",
+    "autore": null
+  },
+  {
+    "id": 197,
+    "testo": "Tacere per rispetto e tacere per paura hanno lo stesso suono, ma non lo stesso peso.",
+    "autore": null
+  },
+  {
+    "id": 198,
+    "testo": "Il mattino non chiede scusa per la notte: semplicemente arriva.",
+    "autore": null
+  },
+  {
+    "id": 199,
+    "testo": "Si cambia piano, poi tutto insieme.",
+    "autore": null
+  },
+  {
+    "id": 200,
+    "testo": "Ciò che non dici pesa più di ciò che dici.",
+    "autore": null
+  },
+  {
+    "id": 201,
+    "testo": "L'amore si rinnova nei gesti ripetuti, non nelle grandi promesse.",
+    "autore": null
+  },
+  {
+    "id": 202,
+    "testo": "Chi ha paura e va lo stesso conosce un coraggio che gli impavidi ignorano.",
+    "autore": null
+  },
+  {
+    "id": 203,
+    "testo": "Ogni sera c'è almeno una cosa da ringraziare, anche solo il fatto che è sera.",
+    "autore": null
+  },
+  {
+    "id": 204,
+    "testo": "Essere liberi a volte significa solo poter dire: non lo so.",
+    "autore": null
+  },
+  {
+    "id": 205,
+    "testo": "Una parola di troppo rovina una frase; una di meno, a volte, la salva.",
+    "autore": null
+  },
+  {
+    "id": 206,
+    "testo": "Si può avere paura e andare avanti lo stesso.",
+    "autore": null
+  },
+  {
+    "id": 207,
+    "testo": "L'attesa più lunga è quella di chi aspetta di sentirsi pronto.",
+    "autore": null
+  },
+  {
+    "id": 208,
+    "testo": "La luce passa anche dalle crepe più sottili.",
+    "autore": null
+  },
+  {
+    "id": 209,
+    "testo": "Chi ascolta fino in fondo regala più di un consiglio.",
+    "autore": null
+  },
+  {
+    "id": 210,
+    "testo": "Ciò che ci spaventa perde forza quando lo si chiama per nome.",
+    "autore": null
+  },
+  {
+    "id": 211,
+    "testo": "Un fiore sul davanzale cambia l'umore di tutta la via.",
+    "autore": null
+  },
+  {
+    "id": 212,
+    "testo": "L'orizzonte si sposta con noi: forse non è una meta, ma una compagnia.",
+    "autore": null
+  },
+  {
+    "id": 213,
+    "testo": "L'ascolto vero si riconosce dalla domanda che segue.",
+    "autore": null
+  },
+  {
+    "id": 214,
+    "testo": "Una crepa nel muro è anche il punto in cui entra l'aria.",
+    "autore": null
+  },
+  {
+    "id": 215,
+    "testo": "Il ghiaccio non si rompe: si scioglie, quando è il momento.",
+    "autore": null
+  },
+  {
+    "id": 216,
+    "testo": "Non si torna indietro, ma si può tornare a sé.",
+    "autore": null
+  },
+  {
+    "id": 217,
+    "testo": "Le mani dei nonni sanno cose che non hanno mai detto.",
+    "autore": null
+  },
+  {
+    "id": 218,
+    "testo": "Gli errori sono maestri scomodi: non avvisano mai prima della lezione.",
+    "autore": null
+  },
+  {
+    "id": 219,
+    "testo": "La quotidianità è un miracolo che si ripete così spesso da sembrare normale.",
+    "autore": null
+  },
+  {
+    "id": 220,
+    "testo": "Il tramonto non trattiene la luce: la restituisce con calma.",
+    "autore": null
+  },
+  {
+    "id": 221,
+    "testo": "Scrivere una cosa è il primo modo di guardarla in faccia.",
+    "autore": null
+  },
+  {
+    "id": 222,
+    "testo": "Il futuro non è un muro. È una nebbia, e la nebbia si attraversa.",
+    "autore": null
+  },
+  {
+    "id": 223,
+    "testo": "Quello che è stato non pesa. Pesa portarlo come se fosse adesso.",
+    "autore": null
+  },
+  {
+    "id": 224,
+    "testo": "Ogni fine porta in tasca un inizio.",
+    "autore": null
+  },
+  {
+    "id": 225,
+    "testo": "Anche l'amore ha le sue stagioni: conta restare durante l'inverno.",
+    "autore": null
+  },
+  {
+    "id": 226,
+    "testo": "Crescere è smettere di chiedere il permesso alla parte più spaventata di sé.",
+    "autore": null
+  },
+  {
+    "id": 227,
+    "testo": "C'è una pace precisa nel rumore della pioggia sul tetto.",
+    "autore": null
+  },
+  {
+    "id": 228,
+    "testo": "Ognuno ha una stagione che gli somiglia più delle altre.",
+    "autore": null
+  },
+  {
+    "id": 229,
+    "testo": "Si dice molto anche scegliendo cosa non spiegare.",
+    "autore": null
+  },
+  {
+    "id": 230,
+    "testo": "Dentro ogni inverno c'è una gemma che aspetta il suo turno.",
+    "autore": null
+  },
+  {
+    "id": 231,
+    "testo": "Ricominciare è un verbo umile: non promette, prova.",
+    "autore": null
+  },
+  {
+    "id": 232,
+    "testo": "Saper aspettare è un'arte che si impara aspettando.",
+    "autore": null
+  },
+  {
+    "id": 233,
+    "testo": "Gli amici d'infanzia custodiscono la versione di te che hai dimenticato.",
+    "autore": null
+  },
+  {
+    "id": 234,
+    "testo": "La paura ripete sempre la stessa frase. Il coraggio prova a scriverne un'altra.",
+    "autore": null
+  },
+  {
+    "id": 235,
+    "testo": "Le cose fatte piano restano più a lungo.",
+    "autore": null
+  },
+  {
+    "id": 236,
+    "testo": "Certe solitudini sono solo il tempo che serve per tornare interi.",
+    "autore": null
+  },
+  {
+    "id": 237,
+    "testo": "Il libro giusto arriva quando hai finito di cercarlo.",
+    "autore": null
+  },
+  {
+    "id": 238,
+    "testo": "Quando non vedi la strada, guarda i tuoi piedi: stanno ancora camminando.",
+    "autore": null
+  },
+  {
+    "id": 239,
+    "testo": "Anche la neve, prima o poi, diventa acqua che va.",
+    "autore": null
+  },
+  {
+    "id": 240,
+    "testo": "Chi ti vuole bene vede la stanchezza dietro il sorriso.",
+    "autore": null
+  },
+  {
+    "id": 241,
+    "testo": "La gentilezza più pura è quella che non aspetta il resto.",
+    "autore": null
+  },
+  {
+    "id": 242,
+    "testo": "Anche i ponti oscillano. È così che restano in piedi.",
+    "autore": null
+  },
+  {
+    "id": 243,
+    "testo": "Saper dire basta, a tavola e nella vita, è una forma di eleganza.",
+    "autore": null
+  },
+  {
+    "id": 244,
+    "testo": "Non si conosce un bosco dal sentiero principale.",
+    "autore": null
+  },
+  {
+    "id": 245,
+    "testo": "Essere sinceri non vuol dire dire tutto, ma non fingere niente.",
+    "autore": null
+  },
+  {
+    "id": 246,
+    "testo": "La speranza è un lavoro artigianale, si fa a mano ogni giorno.",
+    "autore": null
+  },
+  {
+    "id": 247,
+    "testo": "Ci vuole tempo per diventare chi eri già.",
+    "autore": null
+  },
+  {
+    "id": 248,
+    "testo": "Il silenzio giusto vale più di cento risposte.",
+    "autore": null
+  },
+  {
+    "id": 249,
+    "testo": "Un sorriso a uno sconosciuto è un piccolo prestito che il mondo restituisce.",
+    "autore": null
+  },
+  {
+    "id": 250,
+    "testo": "Il fallimento racconta dove sei arrivato, non chi sei.",
+    "autore": null
+  },
+  {
+    "id": 251,
+    "testo": "Il sole del mattino non chiede niente in cambio della sua luce.",
+    "autore": null
+  },
+  {
+    "id": 252,
+    "testo": "Il mare non ha muri, eppure sa dove fermarsi.",
+    "autore": null
+  },
+  {
+    "id": 253,
+    "testo": "Le voci che ricordiamo di più sono quelle che non alzavano il tono.",
+    "autore": null
+  },
+  {
+    "id": 254,
+    "testo": "Credere in qualcosa che non si vede ancora è il primo modo di costruirlo.",
+    "autore": null
+  },
+  {
+    "id": 255,
+    "testo": "La pazienza non conta i minuti, li abita.",
+    "autore": null
+  },
+  {
+    "id": 256,
+    "testo": "Non tutte le tempeste arrivano per distruggere: alcune puliscono il cielo.",
+    "autore": null
+  },
+  {
+    "id": 257,
+    "testo": "A volte voler bene significa fare un passo indietro e lasciare spazio.",
+    "autore": null
+  },
+  {
+    "id": 258,
+    "testo": "Chi non si concede di sbagliare si condanna a non imparare.",
+    "autore": null
+  },
+  {
+    "id": 259,
+    "testo": "Si può essere felici anche senza un motivo da raccontare.",
+    "autore": null
+  },
+  {
+    "id": 260,
+    "testo": "Siamo nomi che impariamo a pronunciare con il tempo.",
+    "autore": null
+  },
+  {
+    "id": 261,
+    "testo": "Tra due persone che si capiscono, le parole servono per piacere, non per bisogno.",
+    "autore": null
+  },
+  {
+    "id": 262,
+    "testo": "Ci sono porte che si aprono solo quando smetti di spingere.",
+    "autore": null
+  },
+  {
+    "id": 263,
+    "testo": "Le cose che vanno via lasciano sempre una forma: è lì che cresce il nuovo.",
+    "autore": null
+  },
+  {
+    "id": 264,
+    "testo": "La semplicità è il punto d'arrivo, non di partenza.",
+    "autore": null
+  },
+  {
+    "id": 265,
+    "testo": "Le parole dette a cena restano più a lungo dei discorsi importanti.",
+    "autore": null
+  },
+  {
+    "id": 266,
+    "testo": "Si cresce davvero quando cambia il modo in cui si reagisce.",
+    "autore": null
+  },
+  {
+    "id": 267,
+    "testo": "Una lettera scritta a mano arriva due volte: alla porta e al cuore.",
+    "autore": null
+  },
+  {
+    "id": 268,
+    "testo": "La libertà vera ha spesso la forma di una giornata senza testimoni.",
+    "autore": null
+  },
+  {
+    "id": 269,
+    "testo": "Una pagina riletta dieci anni dopo ti mostra chi eri, non chi l'ha scritta.",
+    "autore": null
+  },
+  {
+    "id": 270,
+    "testo": "Il buio insegna a riconoscere anche la luce più piccola.",
+    "autore": null
+  },
+  {
+    "id": 271,
+    "testo": "Un giorno ti accorgi che non fa più male, e non sai dire quando è successo.",
+    "autore": null
+  },
+  {
+    "id": 272,
+    "testo": "Sii il posto sicuro che avresti voluto trovare.",
+    "autore": null
+  },
+  {
+    "id": 273,
+    "testo": "Ci sono distanze che si misurano in chilometri e altre in silenzi sullo stesso divano.",
+    "autore": null
+  },
+  {
+    "id": 274,
+    "testo": "Certi atti di coraggio durano un secondo: il tempo di dire no.",
+    "autore": null
+  },
+  {
+    "id": 275,
+    "testo": "Il tempo libero non è vuoto: è terra lasciata respirare.",
+    "autore": null
+  },
+  {
+    "id": 276,
+    "testo": "Un albero storto racconta il vento meglio di un albero dritto.",
+    "autore": null
+  },
+  {
+    "id": 277,
+    "testo": "Chi ascolta con gli occhi sente anche quello che non viene detto.",
+    "autore": null
+  },
+  {
+    "id": 278,
+    "testo": "Una pagina nuova non deve essere bella. Deve solo essere nuova.",
+    "autore": null
+  },
+  {
+    "id": 279,
+    "testo": "Il cambiamento vero non si annuncia. Lo noti dalle scarpe consumate.",
+    "autore": null
+  },
+  {
+    "id": 280,
+    "testo": "Anche il mare più calmo è fatto di onde.",
+    "autore": null
+  },
+  {
+    "id": 281,
+    "testo": "Chi ti accompagna alla stazione ha capito qualcosa dell'amore.",
+    "autore": null
+  },
+  {
+    "id": 282,
+    "testo": "Una caduta non è la storia. È una riga della storia.",
+    "autore": null
+  },
+  {
+    "id": 283,
+    "testo": "Ci sono abbracci che durano un secondo e scaldano una settimana.",
+    "autore": null
+  },
+  {
+    "id": 284,
+    "testo": "La rugiada dura poco e nessuno la chiama inutile.",
+    "autore": null
+  },
+  {
+    "id": 285,
+    "testo": "La sincerità è una lingua che si impara prima di tutto con sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 286,
+    "testo": "Le rondini tornano senza che nessuno le richiami.",
+    "autore": null
+  },
+  {
+    "id": 287,
+    "testo": "Lasciare la presa è un gesto, non una sconfitta.",
+    "autore": null
+  },
+  {
+    "id": 288,
+    "testo": "Ciò che ami ti somiglia più di ciò che possiedi.",
+    "autore": null
+  },
+  {
+    "id": 289,
+    "testo": "La cura è attenzione che non si stanca.",
+    "autore": null
+  },
+  {
+    "id": 290,
+    "testo": "Rialzarsi è un gesto che nessuno applaude, ed è il più importante.",
+    "autore": null
+  },
+  {
+    "id": 291,
+    "testo": "Le briciole sulla tovaglia dicono che qualcuno è stato bene.",
+    "autore": null
+  },
+  {
+    "id": 292,
+    "testo": "Le nuvole cambiano forma senza chiedere il permesso.",
+    "autore": null
+  },
+  {
+    "id": 293,
+    "testo": "Un messaggio breve, scritto con cura, vale più di un discorso improvvisato.",
+    "autore": null
+  },
+  {
+    "id": 294,
+    "testo": "Basta un sì detto piano per cambiare una giornata.",
+    "autore": null
+  },
+  {
+    "id": 295,
+    "testo": "L'orologio misura le ore, non quello che diventano.",
+    "autore": null
+  },
+  {
+    "id": 296,
+    "testo": "Non serve gridare per essere ascoltati: serve essere veri.",
+    "autore": null
+  },
+  {
+    "id": 297,
+    "testo": "Litigare bene è un'arte: si discute il problema, non la persona.",
+    "autore": null
+  },
+  {
+    "id": 298,
+    "testo": "La paura promette protezione e consegna prigioni.",
+    "autore": null
+  },
+  {
+    "id": 299,
+    "testo": "Il presente ha la voce bassa: si sente solo smettendo di parlare del futuro.",
+    "autore": null
+  },
+  {
+    "id": 300,
+    "testo": "Stare da soli insegna a distinguere la propria voce dall'eco degli altri.",
+    "autore": null
+  },
+  {
+    "id": 301,
+    "testo": "Il silenzio dopo una domanda importante è parte della risposta.",
+    "autore": null
+  },
+  {
+    "id": 302,
+    "testo": "Il domani non ha memoria dei nostri errori di ieri.",
+    "autore": null
+  },
+  {
+    "id": 303,
+    "testo": "Ci sono attese che sono già un viaggio.",
+    "autore": null
+  },
+  {
+    "id": 304,
+    "testo": "Il futuro si costruisce con le abitudini, non con le promesse.",
+    "autore": null
+  },
+  {
+    "id": 305,
+    "testo": "Rispettarsi in coppia è lasciare all'altro le sue stanze interiori.",
+    "autore": null
+  },
+  {
+    "id": 306,
+    "testo": "Non c'è crescita senza un po' di disordine.",
+    "autore": null
+  },
+  {
+    "id": 307,
+    "testo": "Ringraziare non cambia le cose, cambia il modo di tenerle in mano.",
+    "autore": null
+  },
+  {
+    "id": 308,
+    "testo": "Il fondo del mare è calmo anche quando la superficie urla.",
+    "autore": null
+  },
+  {
+    "id": 309,
+    "testo": "Le parole gentili non costano poco: costano attenzione.",
+    "autore": null
+  },
+  {
+    "id": 310,
+    "testo": "Fidarsi della vita è come fare il morto in acqua: più ti irrigidisci, più affondi.",
+    "autore": null
+  },
+  {
+    "id": 311,
+    "testo": "Quando sembra che non succeda niente, spesso sta succedendo tutto.",
+    "autore": null
+  },
+  {
+    "id": 312,
+    "testo": "A volte l'unica risposta è respirare.",
+    "autore": null
+  },
+  {
+    "id": 313,
+    "testo": "Una famiglia è un coro stonato che continua a cantare insieme.",
+    "autore": null
+  },
+  {
+    "id": 314,
+    "testo": "La resilienza non è durezza: è elasticità.",
+    "autore": null
+  },
+  {
+    "id": 315,
+    "testo": "La lentezza è un modo di voler bene a ciò che si fa.",
+    "autore": null
+  },
+  {
+    "id": 316,
+    "testo": "Conoscere sé stessi è anche accettare di non finire mai di farlo.",
+    "autore": null
+  },
+  {
+    "id": 317,
+    "testo": "Leggere è l'unico viaggio in cui si torna con più spazio dentro.",
+    "autore": null
+  },
+  {
+    "id": 318,
+    "testo": "Anche le radici, sotto terra, lavorano per il sole.",
+    "autore": null
+  },
+  {
+    "id": 319,
+    "testo": "Si invecchia bene quando si impara a salutare.",
+    "autore": null
+  },
+  {
+    "id": 320,
+    "testo": "Le cose importanti raramente sono urgenti.",
+    "autore": null
+  },
+  {
+    "id": 321,
+    "testo": "Gli amici veri non tengono il conto dei favori.",
+    "autore": null
+  },
+  {
+    "id": 322,
+    "testo": "Gli errori di ieri reggono il pavimento su cui cammino oggi.",
+    "autore": null
+  },
+  {
+    "id": 323,
+    "testo": "Un pomeriggio senza programmi è una piccola vacanza dell'anima.",
+    "autore": null
+  },
+  {
+    "id": 324,
+    "testo": "L'autunno ha il coraggio di spogliarsi davanti a tutti.",
+    "autore": null
+  },
+  {
+    "id": 325,
+    "testo": "Mentire stanca. La verità, almeno, si ricorda da sola.",
+    "autore": null
+  },
+  {
+    "id": 326,
+    "testo": "La meraviglia è la stessa strada di sempre, vista dopo la pioggia.",
+    "autore": null
+  },
+  {
+    "id": 327,
+    "testo": "La luna non si affretta, eppure muove i mari.",
+    "autore": null
+  },
+  {
+    "id": 328,
+    "testo": "L'anima si riconosce dai dettagli.",
+    "autore": null
+  },
+  {
+    "id": 329,
+    "testo": "Amare è imparare il nome delle paure dell'altro.",
+    "autore": null
+  },
+  {
+    "id": 330,
+    "testo": "Ammettere di avere paura è già smettere di obbedirle.",
+    "autore": null
+  },
+  {
+    "id": 331,
+    "testo": "Anche il cortile di casa ha il suo pezzo di cielo.",
+    "autore": null
+  },
+  {
+    "id": 332,
+    "testo": "Una candela non ha bisogno di sapere quanto è grande il buio.",
+    "autore": null
+  },
+  {
+    "id": 333,
+    "testo": "Ci sono frasi che si scrivono per non doverle dire, e altre che si dicono per non doverle scrivere.",
+    "autore": null
+  },
+  {
+    "id": 334,
+    "testo": "Non c'è età per le prime volte.",
+    "autore": null
+  },
+  {
+    "id": 335,
+    "testo": "Il passato è una stanza: si può visitarla senza trasferirsi.",
+    "autore": null
+  },
+  {
+    "id": 336,
+    "testo": "Chi non ha mai sbagliato non ha mai provato davvero.",
+    "autore": null
+  },
+  {
+    "id": 337,
+    "testo": "La gentilezza è contagiosa, ma ha bisogno di qualcuno che cominci.",
+    "autore": null
+  },
+  {
+    "id": 338,
+    "testo": "Fragile non vuol dire rotto. Vuol dire da maneggiare con cura.",
+    "autore": null
+  },
+  {
+    "id": 339,
+    "testo": "La felicità ha spesso l'aspetto di un martedì qualunque.",
+    "autore": null
+  },
+  {
+    "id": 340,
+    "testo": "Un'isola non è sola: è circondata da tutto il mare.",
+    "autore": null
+  },
+  {
+    "id": 341,
+    "testo": "A volte la risposta più onesta è: non lo so ancora.",
+    "autore": null
+  },
+  {
+    "id": 342,
+    "testo": "Ogni alba è un invito, non un obbligo.",
+    "autore": null
+  },
+  {
+    "id": 343,
+    "testo": "Ricominciare da capo è impossibile. Si ricomincia da qui.",
+    "autore": null
+  },
+  {
+    "id": 344,
+    "testo": "La gratitudine trasforma ciò che abbiamo in abbastanza.",
+    "autore": null
+  },
+  {
+    "id": 345,
+    "testo": "A volte il regalo più grande è il tempo che avresti potuto spendere altrove.",
+    "autore": null
+  },
+  {
+    "id": 346,
+    "testo": "Ogni volta che non ci si arrende, qualcosa dentro prende nota.",
+    "autore": null
+  },
+  {
+    "id": 347,
+    "testo": "Ogni gesto ripetuto con cura diventa una preghiera senza parole.",
+    "autore": null
+  },
+  {
+    "id": 348,
+    "testo": "Libertà è anche cambiare idea senza chiedere scusa.",
+    "autore": null
+  },
+  {
+    "id": 349,
+    "testo": "Le parole hanno un peso che si sente soprattutto quando restano.",
+    "autore": null
+  },
+  {
+    "id": 350,
+    "testo": "Si diventa più forti nel tratto che nessuno racconta.",
+    "autore": null
+  },
+  {
+    "id": 351,
+    "testo": "Ciò che trattieni a forza ti trattiene a sua volta.",
+    "autore": null
+  },
+  {
+    "id": 352,
+    "testo": "Non misurare il tuo cammino con i passi degli altri.",
+    "autore": null
+  },
+  {
+    "id": 353,
+    "testo": "Chi cucina per te sta dicendo qualcosa che non sa dire a parole.",
+    "autore": null
+  },
+  {
+    "id": 354,
+    "testo": "Un fallimento è un'informazione con un brutto carattere.",
+    "autore": null
+  },
+  {
+    "id": 355,
+    "testo": "Un piatto di minestra calda ha consolato più persone di molti discorsi.",
+    "autore": null
+  },
+  {
+    "id": 356,
+    "testo": "Le radici non scelgono la terra, ma imparano a farla propria.",
+    "autore": null
+  },
+  {
+    "id": 357,
+    "testo": "Una risposta data subito è spesso una risposta data a sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 358,
+    "testo": "La luce non fa domande: entra dove trova spazio.",
+    "autore": null
+  },
+  {
+    "id": 359,
+    "testo": "Certi frutti si raccolgono solo quando smetti di scuotere l'albero.",
+    "autore": null
+  },
+  {
+    "id": 360,
+    "testo": "Ogni ricordo è una casa in cui si può tornare senza bagagli.",
+    "autore": null
+  },
+  {
+    "id": 361,
+    "testo": "Ci sono legami che resistono a ogni silenzio, perché non ne hanno paura.",
+    "autore": null
+  },
+  {
+    "id": 362,
+    "testo": "Si diventa adulti il giorno in cui si smette di dare la colpa al vento.",
+    "autore": null
+  },
+  {
+    "id": 363,
+    "testo": "Chi sa godersi l'attesa ha già ricevuto metà del dono.",
+    "autore": null
+  },
+  {
+    "id": 364,
+    "testo": "La primavera non chiede all'inverno di scusarsi.",
+    "autore": null
+  },
+  {
+    "id": 365,
+    "testo": "Un libro prestato torna diverso, come chi lo ha letto.",
+    "autore": null
+  },
+  {
+    "id": 366,
+    "testo": "Quel che sembra una fine, da lontano, spesso è una curva.",
+    "autore": null
+  },
+  {
+    "id": 367,
+    "testo": "Il tempo non restituisce, ma trasforma.",
+    "autore": null
+  },
+  {
+    "id": 368,
+    "testo": "La verità non ha fretta.",
+    "autore": null
+  },
+  {
+    "id": 369,
+    "testo": "Spesso la pace comincia con due parole: avevi ragione.",
+    "autore": null
+  },
+  {
+    "id": 370,
+    "testo": "Il ghiaccio sottile insegna a pesare meno, non a restare a riva.",
+    "autore": null
+  },
+  {
+    "id": 371,
+    "testo": "Le cose piccole non chiedono attenzione: la meritano.",
+    "autore": null
+  },
+  {
+    "id": 372,
+    "testo": "Siamo più di ciò che sappiamo spiegare di noi.",
+    "autore": null
+  },
+  {
+    "id": 373,
+    "testo": "Comunicare non è riempire un vuoto, è costruire un ponte.",
+    "autore": null
+  },
+  {
+    "id": 374,
+    "testo": "Aspettare con fiducia è diverso dall'aspettare e basta.",
+    "autore": null
+  },
+  {
+    "id": 375,
+    "testo": "Domani non è una promessa. È un invito.",
+    "autore": null
+  },
+  {
+    "id": 376,
+    "testo": "Accogli il dubbio: è la porta da cui entra la conoscenza.",
+    "autore": null
+  },
+  {
+    "id": 377,
+    "testo": "Le persone fragili hanno bisogno di mani, non di giudizi.",
+    "autore": null
+  },
+  {
+    "id": 378,
+    "testo": "Non tutte le cadute sono cadute: alcune sono atterraggi.",
+    "autore": null
+  },
+  {
+    "id": 379,
+    "testo": "Il profumo del bucato steso sa di cose che tornano al loro posto.",
+    "autore": null
+  },
+  {
+    "id": 380,
+    "testo": "Ogni onda torna al mare senza sentirsi sconfitta.",
+    "autore": null
+  },
+  {
+    "id": 381,
+    "testo": "Il silenzio tra due note è ciò che fa di un suono una musica.",
+    "autore": null
+  },
+  {
+    "id": 382,
+    "testo": "La primavera non chiede il permesso al gelo.",
+    "autore": null
+  },
+  {
+    "id": 383,
+    "testo": "Le valigie più pesanti sono quelle che non apriamo mai.",
+    "autore": null
+  },
+  {
+    "id": 384,
+    "testo": "Si diventa leggeri solo dopo aver capito cosa lasciare.",
+    "autore": null
+  },
+  {
+    "id": 385,
+    "testo": "Un'amicizia si annaffia con piccole attenzioni, non con grandi occasioni.",
+    "autore": null
+  },
+  {
+    "id": 386,
+    "testo": "La paura è un'ottima sentinella e una pessima guida.",
+    "autore": null
+  },
+  {
+    "id": 387,
+    "testo": "Si vive davvero soltanto il giorno in cui ci si trova.",
+    "autore": null
+  },
+  {
+    "id": 388,
+    "testo": "La sera ha una luce che perdona.",
+    "autore": null
+  },
+  {
+    "id": 389,
+    "testo": "Scrivere bene è togliere finché resta solo quello che serve.",
+    "autore": null
+  },
+  {
+    "id": 390,
+    "testo": "Le cose che contano di più cominciano quasi sempre in piccolo.",
+    "autore": null
+  },
+  {
+    "id": 391,
+    "testo": "Si può essere in ritardo sugli altri e in perfetto orario con sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 392,
+    "testo": "Un abbraccio dice ciò che le parole cercano ancora.",
+    "autore": null
+  },
+  {
+    "id": 393,
+    "testo": "Prendersi cura di sé è anche un regalo per chi ci vuole bene.",
+    "autore": null
+  },
+  {
+    "id": 394,
+    "testo": "Chi ha toccato il fondo sa almeno dove appoggiare i piedi.",
+    "autore": null
+  },
+  {
+    "id": 395,
+    "testo": "Essere grati è accorgersi di chi ci ha preceduto sulla strada.",
+    "autore": null
+  },
+  {
+    "id": 396,
+    "testo": "Ci si conosce un po' di più ogni volta che ci si sorprende.",
+    "autore": null
+  },
+  {
+    "id": 397,
+    "testo": "Una verità a metà è la forma più comoda di bugia.",
+    "autore": null
+  },
+  {
+    "id": 398,
+    "testo": "Si può ripartire anche da una sola certezza.",
+    "autore": null
+  },
+  {
+    "id": 399,
+    "testo": "La vita cambia indirizzo senza avvisare. Conviene viaggiare leggeri.",
+    "autore": null
+  },
+  {
+    "id": 400,
+    "testo": "Il buio non è assenza di luce: è attesa.",
+    "autore": null
+  },
+  {
+    "id": 401,
+    "testo": "L'amore si nota nei dettagli: chi ti lascia l'ultimo pezzo di pane.",
+    "autore": null
+  },
+  {
+    "id": 402,
+    "testo": "L'errore più comune è credere di non poterne fare più.",
+    "autore": null
+  },
+  {
+    "id": 403,
+    "testo": "Ci sono ricchezze che non stanno in tasca: una risata in cucina, per esempio.",
+    "autore": null
+  },
+  {
+    "id": 404,
+    "testo": "Stare soli non spaventa. Spaventa non piacersi quando si è in propria compagnia.",
+    "autore": null
+  },
+  {
+    "id": 405,
+    "testo": "Ci si capisce meglio quando nessuno ha fretta di avere ragione.",
+    "autore": null
+  },
+  {
+    "id": 406,
+    "testo": "Il mondo ha ancora angoli che nessuno ha guardato con i tuoi occhi.",
+    "autore": null
+  },
+  {
+    "id": 407,
+    "testo": "Nessun ramo trattiene una foglia a ottobre.",
+    "autore": null
+  },
+  {
+    "id": 408,
+    "testo": "Non ti serve un permesso per ricominciare.",
+    "autore": null
+  },
+  {
+    "id": 409,
+    "testo": "Tra fratelli le liti passano, la complicità resta.",
+    "autore": null
+  },
+  {
+    "id": 410,
+    "testo": "Le ginocchia sbucciate sono la prova che si stava correndo.",
+    "autore": null
+  },
+  {
+    "id": 411,
+    "testo": "Spegnere lo schermo, a volte, è accendere la stanza.",
+    "autore": null
+  },
+  {
+    "id": 412,
+    "testo": "Il cielo non trattiene gli uccelli.",
+    "autore": null
+  },
+  {
+    "id": 413,
+    "testo": "Le parole scritte di notte vanno rilette al mattino.",
+    "autore": null
+  },
+  {
+    "id": 414,
+    "testo": "Una candela non vince il buio. Lo rende abitabile.",
+    "autore": null
+  },
+  {
+    "id": 415,
+    "testo": "Il cambiamento fa paura finché non ha un nome. Poi ha un volto, e spesso è il tuo.",
+    "autore": null
+  },
+  {
+    "id": 416,
+    "testo": "Le radici non si vedono, ma tengono in piedi tutto.",
+    "autore": null
+  },
+  {
+    "id": 417,
+    "testo": "Chi ha ricevuto molta cura impara a restituirla senza accorgersene.",
+    "autore": null
+  },
+  {
+    "id": 418,
+    "testo": "Mostrare una ferita a qualcuno è un atto di fiducia, non di debolezza.",
+    "autore": null
+  },
+  {
+    "id": 419,
+    "testo": "Le case più calde hanno pochi oggetti e molte voci.",
+    "autore": null
+  },
+  {
+    "id": 420,
+    "testo": "L'ultima foglia sul ramo non è triste: è l'unica a ricordare com'era l'estate.",
+    "autore": null
+  },
+  {
+    "id": 421,
+    "testo": "Si ascolta meglio quando non si sta già preparando la risposta.",
+    "autore": null
+  },
+  {
+    "id": 422,
+    "testo": "Anche chi non sa dove va può sapere con chi andare.",
+    "autore": null
+  },
+  {
+    "id": 423,
+    "testo": "Imparare a lasciare è il compito più lungo di tutti.",
+    "autore": null
+  },
+  {
+    "id": 424,
+    "testo": "Il cuore ha una memoria che la mente non conosce.",
+    "autore": null
+  },
+  {
+    "id": 425,
+    "testo": "Gentilezza è anche abbassare la voce quando avresti ragione ad alzarla.",
+    "autore": null
+  },
+  {
+    "id": 426,
+    "testo": "Nessun albero cresce senza perdere foglie.",
+    "autore": null
+  },
+  {
+    "id": 427,
+    "testo": "Un ritmo lento non è un ritardo: è un'altra musica.",
+    "autore": null
+  },
+  {
+    "id": 428,
+    "testo": "Il sale resta anche quando l'acqua se ne va.",
+    "autore": null
+  },
+  {
+    "id": 429,
+    "testo": "Una voce sincera trema un po'. Ed è per questo che ci crediamo.",
+    "autore": null
+  },
+  {
+    "id": 430,
+    "testo": "La speranza ha la voce bassa, ma non tace mai del tutto.",
+    "autore": null
+  },
+  {
+    "id": 431,
+    "testo": "La pazienza è la forma più quieta della speranza.",
+    "autore": null
+  },
+  {
+    "id": 432,
+    "testo": "Ciò che è vero resiste anche al tempo.",
+    "autore": null
+  },
+  {
+    "id": 433,
+    "testo": "Si cresce insieme quando nessuno dei due ha paura di cambiare.",
+    "autore": null
+  },
+  {
+    "id": 434,
+    "testo": "Ci vuole forza anche per ammettere di non farcela.",
+    "autore": null
+  },
+  {
+    "id": 435,
+    "testo": "La felicità non fa rumore: al massimo sbuccia un'arancia in cucina.",
+    "autore": null
+  },
+  {
+    "id": 436,
+    "testo": "Nessuno può darti il tuo nome intero: una parte la scrivi tu.",
+    "autore": null
+  },
+  {
+    "id": 437,
+    "testo": "I libri non danno risposte: insegnano a fare domande migliori.",
+    "autore": null
+  },
+  {
+    "id": 438,
+    "testo": "Il nuovo spaventa perché non ha ancora un nome.",
+    "autore": null
+  },
+  {
+    "id": 439,
+    "testo": "Le cose che tornano non sono mai le stesse. Neanche noi.",
+    "autore": null
+  },
+  {
+    "id": 440,
+    "testo": "Non rincorrere chi cammina in un'altra direzione.",
+    "autore": null
+  },
+  {
+    "id": 441,
+    "testo": "Un amico è chi ti dice la verità e poi resta a cena.",
+    "autore": null
+  },
+  {
+    "id": 442,
+    "testo": "Le montagne di paura, una volta salite, sono spesso colline.",
+    "autore": null
+  },
+  {
+    "id": 443,
+    "testo": "Adesso è una parola piccola che contiene tutto.",
+    "autore": null
+  },
+  {
+    "id": 444,
+    "testo": "Il bosco d'inverno lascia vedere il cielo che d'estate nascondeva.",
+    "autore": null
+  },
+  {
+    "id": 445,
+    "testo": "Il silenzio condiviso è una forma di fiducia.",
+    "autore": null
+  },
+  {
+    "id": 446,
+    "testo": "Quante cose belle ci sono capitate senza che le avessimo previste.",
+    "autore": null
+  },
+  {
+    "id": 447,
+    "testo": "Ogni volta che ricominci, ricominci un po' più saggio.",
+    "autore": null
+  },
+  {
+    "id": 448,
+    "testo": "La bellezza è spesso una questione di attenzione.",
+    "autore": null
+  },
+  {
+    "id": 449,
+    "testo": "Certe madri aspettano sveglie anche quando i figli hanno quarant'anni.",
+    "autore": null
+  },
+  {
+    "id": 450,
+    "testo": "Dopo una tempesta si contano i danni. Poi, piano, le cose rimaste in piedi.",
+    "autore": null
+  },
+  {
+    "id": 451,
+    "testo": "Nei giorni uguali si nasconde la tenerezza delle abitudini.",
+    "autore": null
+  },
+  {
+    "id": 452,
+    "testo": "Libero non è chi non ha legami, ma chi ha scelto i propri.",
+    "autore": null
+  },
+  {
+    "id": 453,
+    "testo": "Una parola sbagliata si perdona; una parola mancata, a volte, no.",
+    "autore": null
+  },
+  {
+    "id": 454,
+    "testo": "Ogni giorno lascia la porta socchiusa per il successivo.",
+    "autore": null
+  },
+  {
+    "id": 455,
+    "testo": "Ci sono giorni che servono solo a passare. Va bene anche così.",
+    "autore": null
+  },
+  {
+    "id": 456,
+    "testo": "Imparare a dire no è imparare a dire sì a sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 457,
+    "testo": "Le relazioni sane hanno porte aperte, non serrature.",
+    "autore": null
+  },
+  {
+    "id": 458,
+    "testo": "Imparare costa sempre qualcosa. Di solito, un po' d'orgoglio.",
+    "autore": null
+  },
+  {
+    "id": 459,
+    "testo": "Chi saluta il vicino ogni mattina costruisce una città migliore.",
+    "autore": null
+  },
+  {
+    "id": 460,
+    "testo": "La nebbia non cancella la strada: chiede solo di guardare più vicino.",
+    "autore": null
+  },
+  {
+    "id": 461,
+    "testo": "Leggere è stare in silenzio con qualcuno che ti parla.",
+    "autore": null
+  },
+  {
+    "id": 462,
+    "testo": "Si guarisce un po' anche solo guardando lontano.",
+    "autore": null
+  },
+  {
+    "id": 463,
+    "testo": "L'attesa toglie il superfluo dal desiderio.",
+    "autore": null
+  },
+  {
+    "id": 464,
+    "testo": "Ogni passo, anche incerto, è un passo.",
+    "autore": null
+  },
+  {
+    "id": 465,
+    "testo": "Ringraziare chi ci è vicino è un'abitudine che si perde troppo facilmente.",
+    "autore": null
+  },
+  {
+    "id": 466,
+    "testo": "L'orgoglio ferito guarisce in fretta. È la paura di ferirlo che non passa mai.",
+    "autore": null
+  },
+  {
+    "id": 467,
+    "testo": "Una passeggiata senza meta è il modo più onesto di arrivare.",
+    "autore": null
+  },
+  {
+    "id": 468,
+    "testo": "Le montagne non hanno fretta di essere scalate.",
+    "autore": null
+  },
+  {
+    "id": 469,
+    "testo": "La verità non ha bisogno di testimoni, ma di qualcuno disposto a vederla.",
+    "autore": null
+  },
+  {
+    "id": 470,
+    "testo": "La fiducia è una corda tesa tra due persone che non guardano giù.",
+    "autore": null
+  },
+  {
+    "id": 471,
+    "testo": "Non si lascia andare per perdere, ma per avere le mani libere.",
+    "autore": null
+  },
+  {
+    "id": 472,
+    "testo": "L'umiltà è la forma più alta di sicurezza.",
+    "autore": null
+  },
+  {
+    "id": 473,
+    "testo": "La vera intimità è poter essere stanchi davanti a qualcuno.",
+    "autore": null
+  },
+  {
+    "id": 474,
+    "testo": "Resistere non è stringere i denti per sempre: è sapere quando respirare.",
+    "autore": null
+  },
+  {
+    "id": 475,
+    "testo": "Il troppo stanca; il giusto riposa.",
+    "autore": null
+  },
+  {
+    "id": 476,
+    "testo": "Il primo sole di marzo non scalda, ma promette.",
+    "autore": null
+  },
+  {
+    "id": 477,
+    "testo": "Ogni nome pronunciato con cura diventa un piccolo regalo.",
+    "autore": null
+  },
+  {
+    "id": 478,
+    "testo": "Le stelle si vedono meglio lontano dalle città: anche la calma ha i suoi cieli.",
+    "autore": null
+  },
+  {
+    "id": 479,
+    "testo": "Il fiore non si apre prima perché lo guardi di più.",
+    "autore": null
+  },
+  {
+    "id": 480,
+    "testo": "Non esiste vento favorevole per chi non sa ascoltarsi.",
+    "autore": null
+  },
+  {
+    "id": 481,
+    "testo": "L'amicizia è una strada fatta in due anche quando uno dei due rallenta.",
+    "autore": null
+  },
+  {
+    "id": 482,
+    "testo": "Ogni sbaglio corretto lascia un segno di matita: si vede, e va bene così.",
+    "autore": null
+  },
+  {
+    "id": 483,
+    "testo": "Un bambino davanti a una pozzanghera è filosofia allo stato puro.",
+    "autore": null
+  },
+  {
+    "id": 484,
+    "testo": "Diventare sé stessi richiede anche di disimparare qualcuno.",
+    "autore": null
+  },
+  {
+    "id": 485,
+    "testo": "Scrivere a qualcuno è pensarlo abbastanza a lungo da trovare le parole.",
+    "autore": null
+  },
+  {
+    "id": 486,
+    "testo": "Ripartire è un verbo che si coniuga al presente.",
+    "autore": null
+  },
+  {
+    "id": 487,
+    "testo": "Le risposte vere maturano come la frutta: dal sole, non dalla fretta.",
+    "autore": null
+  },
+  {
+    "id": 488,
+    "testo": "Chi ha paura di perdere non ha ancora capito cosa possiede.",
+    "autore": null
+  },
+  {
+    "id": 489,
+    "testo": "Perdonare non significa dimenticare il torto, ma smettere di nutrirlo.",
+    "autore": null
+  },
+  {
+    "id": 490,
+    "testo": "La fragilità di un fiore non gli impedisce di aprirsi.",
+    "autore": null
+  },
+  {
+    "id": 491,
+    "testo": "Apparecchiare per due è già una dichiarazione d'amore.",
+    "autore": null
+  },
+  {
+    "id": 492,
+    "testo": "Le conchiglie conservano il mare anche lontano dalla riva.",
+    "autore": null
+  },
+  {
+    "id": 493,
+    "testo": "Chi racconta tutto, spesso, non ha ancora detto niente.",
+    "autore": null
+  },
+  {
+    "id": 494,
+    "testo": "Niente è più fragile di un germoglio, niente è più ostinato.",
+    "autore": null
+  },
+  {
+    "id": 495,
+    "testo": "Il cambiamento più grande, a volte, è smettere di aspettare che cambino gli altri.",
+    "autore": null
+  },
+  {
+    "id": 496,
+    "testo": "La fiducia si costruisce in anni e si spiega in un istante.",
+    "autore": null
+  },
+  {
+    "id": 497,
+    "testo": "Rimboccare una coperta è una preghiera senza parole.",
+    "autore": null
+  },
+  {
+    "id": 498,
+    "testo": "Nessuno chiede di essere senza paura. Basta che non sia lei a guidare.",
+    "autore": null
+  },
+  {
+    "id": 499,
+    "testo": "Chi aspetta che sia tutto in ordine per essere felice aspetterà a lungo.",
+    "autore": null
+  },
+  {
+    "id": 500,
+    "testo": "C'è una solitudine che pesa e una che riposa: la differenza è chi l'ha scelta.",
+    "autore": null
+  },
+  {
+    "id": 501,
+    "testo": "Il rumore copre le parole; il silenzio le rende chiare.",
+    "autore": null
+  },
+  {
+    "id": 502,
+    "testo": "Lo stupore non invecchia, se lo lasci uscire ogni tanto.",
+    "autore": null
+  },
+  {
+    "id": 503,
+    "testo": "Sotto ogni addio c'è un posto che si libera.",
+    "autore": null
+  },
+  {
+    "id": 504,
+    "testo": "Il tempo che dedichi a qualcosa è la sua misura vera.",
+    "autore": null
+  },
+  {
+    "id": 505,
+    "testo": "Chi ti chiede com'è andata e aspetta davvero la risposta vale oro.",
+    "autore": null
+  },
+  {
+    "id": 506,
+    "testo": "Le seconde volte hanno un vantaggio: si sa già dove fa male.",
+    "autore": null
+  },
+  {
+    "id": 507,
+    "testo": "Le stagioni passano piano proprio per farsi guardare.",
+    "autore": null
+  },
+  {
+    "id": 508,
+    "testo": "Lo specchio mostra il volto, non la strada che l'ha disegnato.",
+    "autore": null
+  },
+  {
+    "id": 509,
+    "testo": "Si diventa sinceri un giorno alla volta, una piccola ammissione alla volta.",
+    "autore": null
+  },
+  {
+    "id": 510,
+    "testo": "Ciò che oggi pesa, domani potrebbe essere solo un ricordo da raccontare.",
+    "autore": null
+  },
+  {
+    "id": 511,
+    "testo": "Ricominciare ha l'odore delle lenzuola pulite.",
+    "autore": null
+  },
+  {
+    "id": 512,
+    "testo": "Ci sono silenzi che abbracciano.",
+    "autore": null
+  },
+  {
+    "id": 513,
+    "testo": "Ci vuole coraggio a dire ti voglio bene prima che sia tardi.",
+    "autore": null
+  },
+  {
+    "id": 514,
+    "testo": "Il fallimento non chiude la strada: cambia soltanto l'insegna.",
+    "autore": null
+  },
+  {
+    "id": 515,
+    "testo": "Il mondo è pieno di meraviglie che hanno il difetto di essere vicine.",
+    "autore": null
+  },
+  {
+    "id": 516,
+    "testo": "Il ramo spezzato insegna all'albero dove crescere di nuovo.",
+    "autore": null
+  },
+  {
+    "id": 517,
+    "testo": "Le storie più vere si raccontano sottovoce.",
+    "autore": null
+  },
+  {
+    "id": 518,
+    "testo": "La luce del mattino arriva prima che ci si alzi.",
+    "autore": null
+  },
+  {
+    "id": 519,
+    "testo": "Non tutto finisce quando smette.",
+    "autore": null
+  },
+  {
+    "id": 520,
+    "testo": "Le stelle non competono: brillano.",
+    "autore": null
+  },
+  {
+    "id": 521,
+    "testo": "Un vicino che saluta rende una strada un posto abitato.",
+    "autore": null
+  },
+  {
+    "id": 522,
+    "testo": "Si cresce anche così: quando le vecchie abitudini cominciano a stringere come scarpe piccole.",
+    "autore": null
+  },
+  {
+    "id": 523,
+    "testo": "Ogni tramonto è un invito a fermarsi, e nessuno ci obbliga ad accettarlo.",
+    "autore": null
+  },
+  {
+    "id": 524,
+    "testo": "Un cielo nuvoloso è comunque un cielo.",
+    "autore": null
+  },
+  {
+    "id": 525,
+    "testo": "Un diario non giudica: aspetta.",
+    "autore": null
+  },
+  {
+    "id": 526,
+    "testo": "Ogni tanto il futuro manda un anticipo: un sorriso, una lettera, un'idea.",
+    "autore": null
+  },
+  {
+    "id": 527,
+    "testo": "Si cresce anche aspettando, se l'attesa è abitata.",
+    "autore": null
+  },
+  {
+    "id": 528,
+    "testo": "Non tutto va capito, alcune cose vanno solo vissute.",
+    "autore": null
+  },
+  {
+    "id": 529,
+    "testo": "Ciò che si dà con leggerezza arriva più lontano.",
+    "autore": null
+  },
+  {
+    "id": 530,
+    "testo": "Il coraggio quotidiano non ha medaglie: ha la sveglia alle sette.",
+    "autore": null
+  },
+  {
+    "id": 531,
+    "testo": "La gratitudine non ha bisogno di grandi motivi: le basta un pomeriggio di sole.",
+    "autore": null
+  },
+  {
+    "id": 532,
+    "testo": "L'alba arriva ogni giorno senza sapere se qualcuno la sta aspettando.",
+    "autore": null
+  },
+  {
+    "id": 533,
+    "testo": "La parola giusta non è la più bella, è quella che arriva.",
+    "autore": null
+  },
+  {
+    "id": 534,
+    "testo": "Si costruiscono ponti anche con le mani che tremano.",
+    "autore": null
+  },
+  {
+    "id": 535,
+    "testo": "Il caffè lasciato a raffreddare racconta una conversazione che contava di più.",
+    "autore": null
+  },
+  {
+    "id": 536,
+    "testo": "Ogni mattina il mondo ti offre un'altra possibilità di essere gentile.",
+    "autore": null
+  },
+  {
+    "id": 537,
+    "testo": "Un compleanno ricordato senza promemoria è una piccola prova d'affetto.",
+    "autore": null
+  },
+  {
+    "id": 538,
+    "testo": "Un no ricevuto non è un giudizio sulla persona: è la risposta a una domanda.",
+    "autore": null
+  },
+  {
+    "id": 539,
+    "testo": "Sedersi sui gradini di casa a fine giornata: una ricchezza senza conto in banca.",
+    "autore": null
+  },
+  {
+    "id": 540,
+    "testo": "Ci vuole tempo per riconoscere la propria voce tra tutte quelle che abbiamo imitato.",
+    "autore": null
+  },
+  {
+    "id": 541,
+    "testo": "Leggere una poesia due volte è come tornare in un posto e notare la finestra.",
+    "autore": null
+  },
+  {
+    "id": 542,
+    "testo": "Il cuore impara a sperare come i polmoni imparano a respirare: da soli.",
+    "autore": null
+  },
+  {
+    "id": 543,
+    "testo": "Ogni ruga è un'attesa che ha avuto risposta.",
+    "autore": null
+  },
+  {
+    "id": 544,
+    "testo": "Il carattere si vede quando nessuno ti costringe.",
+    "autore": null
+  },
+  {
+    "id": 545,
+    "testo": "In una coppia vince chi smette di contare i punti.",
+    "autore": null
+  },
+  {
+    "id": 546,
+    "testo": "Le paure, a guardarle bene, sono quasi sempre ipotesi.",
+    "autore": null
+  },
+  {
+    "id": 547,
+    "testo": "A volte la vita migliore è quella che stiamo già facendo senza accorgercene.",
+    "autore": null
+  },
+  {
+    "id": 548,
+    "testo": "La libertà ha un prezzo piccolo e quotidiano: la responsabilità.",
+    "autore": null
+  },
+  {
+    "id": 549,
+    "testo": "Ascoltare è prestare la propria attenzione senza chiedere interessi.",
+    "autore": null
+  },
+  {
+    "id": 550,
+    "testo": "Una strada nuova all'inizio è solo erba un po' calpestata.",
+    "autore": null
+  },
+  {
+    "id": 551,
+    "testo": "Lasciar andare è dire grazie a qualcosa che non tornerà.",
+    "autore": null
+  },
+  {
+    "id": 552,
+    "testo": "Le cose belle crescono lente.",
+    "autore": null
+  },
+  {
+    "id": 553,
+    "testo": "I figli imparano la gentilezza guardando, non ascoltando.",
+    "autore": null
+  },
+  {
+    "id": 554,
+    "testo": "La pazienza con sé stessi è la forma più silenziosa di coraggio.",
+    "autore": null
+  },
+  {
+    "id": 555,
+    "testo": "Una sedia vicino alla finestra vale quanto un viaggio, se si sa guardare.",
+    "autore": null
+  },
+  {
+    "id": 556,
+    "testo": "Il mare si guarda meglio da soli.",
+    "autore": null
+  },
+  {
+    "id": 557,
+    "testo": "Certe verità si capiscono meglio scrivendole che pensandole.",
+    "autore": null
+  },
+  {
+    "id": 558,
+    "testo": "Nel momento più scuro, un abbraccio pesa più di una spiegazione.",
+    "autore": null
+  },
+  {
+    "id": 559,
+    "testo": "Il tempo giusto raramente coincide con quello comodo.",
+    "autore": null
+  },
+  {
+    "id": 560,
+    "testo": "Non smettere di meravigliarti: è il primo segno che sei vivo.",
+    "autore": null
+  },
+  {
+    "id": 561,
+    "testo": "Una famiglia felice non è quella senza crepe, ma quella che le ripara insieme.",
+    "autore": null
+  },
+  {
+    "id": 562,
+    "testo": "Ciò che si rompe e si ripara ha due storie da raccontare.",
+    "autore": null
+  },
+  {
+    "id": 563,
+    "testo": "Il tè va aspettato: è la sua prima lezione.",
+    "autore": null
+  },
+  {
+    "id": 564,
+    "testo": "Le stagioni non litigano: si passano il testimone.",
+    "autore": null
+  },
+  {
+    "id": 565,
+    "testo": "Chi parla per ferire dimentica che le parole tornano indietro.",
+    "autore": null
+  },
+  {
+    "id": 566,
+    "testo": "Le possibilità non gridano. Bisogna avvicinarsi per sentirle.",
+    "autore": null
+  },
+  {
+    "id": 567,
+    "testo": "Una cosa finita non è una cosa sprecata.",
+    "autore": null
+  },
+  {
+    "id": 568,
+    "testo": "Chi conosce le proprie ombre cammina più sicuro nella luce.",
+    "autore": null
+  },
+  {
+    "id": 569,
+    "testo": "Chi ti fa ridere nei giorni bui merita un posto speciale.",
+    "autore": null
+  },
+  {
+    "id": 570,
+    "testo": "La resilienza si allena nei giorni normali, non solo nelle tempeste.",
+    "autore": null
+  },
+  {
+    "id": 571,
+    "testo": "Chi ha fretta di vivere salta spesso le pagine più belle.",
+    "autore": null
+  },
+  {
+    "id": 572,
+    "testo": "Chi si conosce poco si offende spesso.",
+    "autore": null
+  },
+  {
+    "id": 573,
+    "testo": "Il silenzio dopo una lite è il primo passo, se uno dei due lo rompe con dolcezza.",
+    "autore": null
+  },
+  {
+    "id": 574,
+    "testo": "Quello che verrà non conosce ancora le nostre paure.",
+    "autore": null
+  },
+  {
+    "id": 575,
+    "testo": "Certe distanze si accorciano solo con gli anni.",
+    "autore": null
+  },
+  {
+    "id": 576,
+    "testo": "Si è ricchi di ciò che si sa dare.",
+    "autore": null
+  },
+  {
+    "id": 577,
+    "testo": "Le amicizie si misurano nelle notti in cui qualcuno ha risposto al telefono.",
+    "autore": null
+  },
+  {
+    "id": 578,
+    "testo": "Piangere non è arrendersi. È fare spazio.",
+    "autore": null
+  },
+  {
+    "id": 579,
+    "testo": "La felicità si misura in minuti, non in anni.",
+    "autore": null
+  },
+  {
+    "id": 580,
+    "testo": "Le querce non sanno di essere antiche: continuano a fare foglie.",
+    "autore": null
+  },
+  {
+    "id": 581,
+    "testo": "Una frase semplice ha il coraggio di non nascondersi.",
+    "autore": null
+  },
+  {
+    "id": 582,
+    "testo": "Un giardino incolto è pieno di fiori che nessuno ha piantato.",
+    "autore": null
+  },
+  {
+    "id": 583,
+    "testo": "Ricomincia sempre chi ha ancora qualcosa a cui tenere.",
+    "autore": null
+  },
+  {
+    "id": 584,
+    "testo": "Una parola gentile può cambiare il giorno di qualcuno, anche il tuo.",
+    "autore": null
+  },
+  {
+    "id": 585,
+    "testo": "Si ama meglio quando non si ha bisogno di essere salvati.",
+    "autore": null
+  },
+  {
+    "id": 586,
+    "testo": "Si sbaglia meno quando si smette di avere paura di sbagliare.",
+    "autore": null
+  },
+  {
+    "id": 587,
+    "testo": "Le cose ordinarie sono meraviglie travestite da abitudine.",
+    "autore": null
+  },
+  {
+    "id": 588,
+    "testo": "La pioggia è uguale per tutti, ma ogni terra la beve a modo suo.",
+    "autore": null
+  },
+  {
+    "id": 589,
+    "testo": "Leggere ci insegna che qualcuno, da qualche parte, ha già sentito quello che sentiamo.",
+    "autore": null
+  },
+  {
+    "id": 590,
+    "testo": "Credere nel domani è un atto di gentilezza verso sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 591,
+    "testo": "La pazienza ha le mani sporche di terra.",
+    "autore": null
+  },
+  {
+    "id": 592,
+    "testo": "La pace non è assenza di problemi, è presenza di senso.",
+    "autore": null
+  },
+  {
+    "id": 593,
+    "testo": "La cura degli altri comincia dal non fare rumore quando qualcuno dorme.",
+    "autore": null
+  },
+  {
+    "id": 594,
+    "testo": "Il fallimento fa rumore per un giorno; la lezione resta per anni.",
+    "autore": null
+  },
+  {
+    "id": 595,
+    "testo": "In una giornata storta, anche un pane ben riuscito è una vittoria.",
+    "autore": null
+  },
+  {
+    "id": 596,
+    "testo": "Essere sé stessi non è un punto fermo, è una direzione.",
+    "autore": null
+  },
+  {
+    "id": 597,
+    "testo": "La sincerità è un dono solo se chi la riceve può sopportarla.",
+    "autore": null
+  },
+  {
+    "id": 598,
+    "testo": "Il mare cambia colore ogni ora: niente resta grigio per sempre.",
+    "autore": null
+  },
+  {
+    "id": 599,
+    "testo": "Non serve correre verso il futuro: ti viene incontro comunque.",
+    "autore": null
+  },
+  {
+    "id": 600,
+    "testo": "Non vivere di rimpianti: sono lettere spedite a un indirizzo che non esiste più.",
+    "autore": null
+  },
+  {
+    "id": 601,
+    "testo": "Accorgersi che l'altro ha freddo prima che lo dica: questa è attenzione.",
+    "autore": null
+  },
+  {
+    "id": 602,
+    "testo": "Non è il vento a spezzare i rami, ma la loro rigidità.",
+    "autore": null
+  },
+  {
+    "id": 603,
+    "testo": "La mattina presto ha un silenzio che sembra fatto apposta per noi.",
+    "autore": null
+  },
+  {
+    "id": 604,
+    "testo": "Le lucciole non illuminano la notte: la rendono abitabile.",
+    "autore": null
+  },
+  {
+    "id": 605,
+    "testo": "Comunicare è anche saper aspettare che l'altro sia pronto ad ascoltare.",
+    "autore": null
+  },
+  {
+    "id": 606,
+    "testo": "Ogni volta che si ride dopo aver pianto, il mondo si rimette in piedi un po'.",
+    "autore": null
+  },
+  {
+    "id": 607,
+    "testo": "L'attesa è un ponte, non una casa.",
+    "autore": null
+  },
+  {
+    "id": 608,
+    "testo": "Il viaggio più lungo è quello verso sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 609,
+    "testo": "Un amore che ti fa sentire piccolo non è il posto giusto dove restare.",
+    "autore": null
+  },
+  {
+    "id": 610,
+    "testo": "Ogni rinuncia dettata dalla paura lascia una sedia vuota dentro.",
+    "autore": null
+  },
+  {
+    "id": 611,
+    "testo": "Ringraziare chi ci serve il caffè è il primo gesto gentile della giornata.",
+    "autore": null
+  },
+  {
+    "id": 612,
+    "testo": "Un cactus fiorisce proprio dove nessuno se lo aspettava.",
+    "autore": null
+  },
+  {
+    "id": 613,
+    "testo": "Le parole non dette si accumulano come polvere sugli scaffali.",
+    "autore": null
+  },
+  {
+    "id": 614,
+    "testo": "La fiducia cresce dove viene annaffiata, non dove viene pretesa.",
+    "autore": null
+  },
+  {
+    "id": 615,
+    "testo": "Le cose cambiano quando smettiamo di chiedere che restino uguali.",
+    "autore": null
+  },
+  {
+    "id": 616,
+    "testo": "A volte cadere è il solo modo per guardare il cielo.",
+    "autore": null
+  },
+  {
+    "id": 617,
+    "testo": "Il tavolo della cucina ha ascoltato più confidenze di qualsiasi salotto.",
+    "autore": null
+  },
+  {
+    "id": 618,
+    "testo": "Ci si rialza un po' diversi. Ed è proprio questo il punto.",
+    "autore": null
+  },
+  {
+    "id": 619,
+    "testo": "Ogni respiro è un piccolo ritorno a casa.",
+    "autore": null
+  },
+  {
+    "id": 620,
+    "testo": "La solitudine ha il passo lento di chi non deve raggiungere nessuno.",
+    "autore": null
+  },
+  {
+    "id": 621,
+    "testo": "Scrivere è un modo di restare, anche quando si va via.",
+    "autore": null
+  },
+  {
+    "id": 622,
+    "testo": "I sentieri migliori spesso non erano sulla mappa.",
+    "autore": null
+  },
+  {
+    "id": 623,
+    "testo": "Una ferita, un'amicizia, una pianta: niente ha fretta di diventare forte.",
+    "autore": null
+  },
+  {
+    "id": 624,
+    "testo": "La libertà comincia dove finisce il bisogno di approvazione.",
+    "autore": null
+  },
+  {
+    "id": 625,
+    "testo": "A volte aiutare significa solo non lasciare l'altro solo con la sua fatica.",
+    "autore": null
+  },
+  {
+    "id": 626,
+    "testo": "Il coraggio è decidere che una cosa conta più del proprio imbarazzo.",
+    "autore": null
+  },
+  {
+    "id": 627,
+    "testo": "Il semplice ha il coraggio di non stupire.",
+    "autore": null
+  },
+  {
+    "id": 628,
+    "testo": "Lontano dalle luci della città il cielo ricomincia a raccontare.",
+    "autore": null
+  },
+  {
+    "id": 629,
+    "testo": "Il silenzio a volte è l'unico modo per non dire una cosa falsa.",
+    "autore": null
+  },
+  {
+    "id": 630,
+    "testo": "Anche il silenzio dopo la tempesta ha qualcosa da dire.",
+    "autore": null
+  },
+  {
+    "id": 631,
+    "testo": "Il vento cambia direzione senza tradire nessuno.",
+    "autore": null
+  },
+  {
+    "id": 632,
+    "testo": "Ogni stagione ha il suo raccolto.",
+    "autore": null
+  },
+  {
+    "id": 633,
+    "testo": "La gentilezza non è ingenuità: è scegliere di non indurirsi.",
+    "autore": null
+  },
+  {
+    "id": 634,
+    "testo": "I passi incerti lasciano le impronte più profonde.",
+    "autore": null
+  },
+  {
+    "id": 635,
+    "testo": "I fiumi non hanno fretta, eppure arrivano tutti al mare.",
+    "autore": null
+  },
+  {
+    "id": 636,
+    "testo": "Il nome ce l'hanno scelto altri. Il modo di portarlo è nostro.",
+    "autore": null
+  },
+  {
+    "id": 637,
+    "testo": "In un buon libro le pagine finiscono, le domande no.",
+    "autore": null
+  },
+  {
+    "id": 638,
+    "testo": "Una mattina qualunque può diventare la mattina in cui tutto è cambiato.",
+    "autore": null
+  },
+  {
+    "id": 639,
+    "testo": "Ogni anno ci toglie qualcosa e ci lascia qualcosa che non sapevamo di cercare.",
+    "autore": null
+  },
+  {
+    "id": 640,
+    "testo": "Non sono gli anni a pesare, ma ciò che non abbiamo lasciato andare.",
+    "autore": null
+  },
+  {
+    "id": 641,
+    "testo": "Si perdona più facilmente quando ci si ricorda dei propri errori.",
+    "autore": null
+  },
+  {
+    "id": 642,
+    "testo": "Sbagliare davanti agli altri è una lezione di umiltà che non costa nulla.",
+    "autore": null
+  },
+  {
+    "id": 643,
+    "testo": "C'è più vita in un pranzo lungo che in un'agenda piena.",
+    "autore": null
+  },
+  {
+    "id": 644,
+    "testo": "La sabbia conserva le impronte solo fino all'onda successiva.",
+    "autore": null
+  },
+  {
+    "id": 645,
+    "testo": "Le confidenze si custodiscono come lettere che non sono nostre.",
+    "autore": null
+  },
+  {
+    "id": 646,
+    "testo": "Il possibile abita a due passi da casa, solo che non ci passiamo mai.",
+    "autore": null
+  },
+  {
+    "id": 647,
+    "testo": "A volte un nuovo inizio è solo un'abitudine in meno.",
+    "autore": null
+  },
+  {
+    "id": 648,
+    "testo": "Le persone non ricordano cosa hai detto, ma come le hai fatte sentire.",
+    "autore": null
+  },
+  {
+    "id": 649,
+    "testo": "Ci sono persone accanto a cui si respira meglio.",
+    "autore": null
+  },
+  {
+    "id": 650,
+    "testo": "La paura ha sempre fretta. La saggezza, quasi mai.",
+    "autore": null
+  },
+  {
+    "id": 651,
+    "testo": "La luce del pomeriggio sulle pareti è un quadro che nessuno firma.",
+    "autore": null
+  },
+  {
+    "id": 652,
+    "testo": "Non tutte le gabbie hanno sbarre: alcune hanno la forma di un'abitudine.",
+    "autore": null
+  },
+  {
+    "id": 653,
+    "testo": "Chi chiede scusa con poche parole di solito le pensa tutte.",
+    "autore": null
+  },
+  {
+    "id": 654,
+    "testo": "Si va avanti anche con la valigia mezza vuota.",
+    "autore": null
+  },
+  {
+    "id": 655,
+    "testo": "Si chiude una porta piano, quando si è in pace con la stanza.",
+    "autore": null
+  },
+  {
+    "id": 656,
+    "testo": "Chi sa ridere di sé non sarà mai a corto di gioia.",
+    "autore": null
+  },
+  {
+    "id": 657,
+    "testo": "Ogni famiglia ha una lingua segreta fatta di soprannomi e risate.",
+    "autore": null
+  },
+  {
+    "id": 658,
+    "testo": "Crescere non è diventare duri: è diventare capienti.",
+    "autore": null
+  },
+  {
+    "id": 659,
+    "testo": "Abbiamo bisogno di meno cose e di più tempo per quelle che restano.",
+    "autore": null
+  },
+  {
+    "id": 660,
+    "testo": "Ciò che sei resiste anche ai nomi che ti hanno dato.",
+    "autore": null
+  },
+  {
+    "id": 661,
+    "testo": "Ogni conversazione vera lascia entrambi un po' cambiati.",
+    "autore": null
+  },
+  {
+    "id": 662,
+    "testo": "Nella stanza più buia, gli occhi imparano piano a vedere.",
+    "autore": null
+  },
+  {
+    "id": 663,
+    "testo": "Il sole non recupera i giorni di pioggia. Torna e basta.",
+    "autore": null
+  },
+  {
+    "id": 664,
+    "testo": "La costanza batte il talento quando il talento si addormenta.",
+    "autore": null
+  },
+  {
+    "id": 665,
+    "testo": "Voler bene è anche dire no con dolcezza.",
+    "autore": null
+  },
+  {
+    "id": 666,
+    "testo": "Ci sono cadute che servono soltanto a insegnarci a chiedere una mano.",
+    "autore": null
+  },
+  {
+    "id": 667,
+    "testo": "Il presente non è un punto: è una stanza in cui si può restare.",
+    "autore": null
+  },
+  {
+    "id": 668,
+    "testo": "Un giardino incolto non è disordine: è un'altra idea di bellezza.",
+    "autore": null
+  },
+  {
+    "id": 669,
+    "testo": "Il foglio bianco non fa paura: fa spazio.",
+    "autore": null
+  },
+  {
+    "id": 670,
+    "testo": "L'attesa ha un sapore diverso quando si sa per cosa si aspetta.",
+    "autore": null
+  },
+  {
+    "id": 671,
+    "testo": "Certe persone si amano meglio da lontano, e col tempo lo si accetta.",
+    "autore": null
+  },
+  {
+    "id": 672,
+    "testo": "Il mare insegna che si può tornare sempre, anche dopo essersi ritirati.",
+    "autore": null
+  },
+  {
+    "id": 673,
+    "testo": "Prendersi cura stanca, ma è una stanchezza che ha un senso.",
+    "autore": null
+  },
+  {
+    "id": 674,
+    "testo": "Il coraggio comincia dove finisce la scusa.",
+    "autore": null
+  },
+  {
+    "id": 675,
+    "testo": "Quando ringraziamo, la memoria smette di essere un archivio e diventa una festa.",
+    "autore": null
+  },
+  {
+    "id": 676,
+    "testo": "Un albero cresce verso la luce senza mai lasciare la terra.",
+    "autore": null
+  },
+  {
+    "id": 677,
+    "testo": "La verità detta con amore lascia il segno, non la ferita.",
+    "autore": null
+  },
+  {
+    "id": 678,
+    "testo": "La neve copre tutto, ma sotto il prato continua a esistere.",
+    "autore": null
+  },
+  {
+    "id": 679,
+    "testo": "Il tempo è più gentile di come lo raccontiamo.",
+    "autore": null
+  },
+  {
+    "id": 680,
+    "testo": "Non spegnere la tua luce per non disturbare gli occhi degli altri.",
+    "autore": null
+  },
+  {
+    "id": 681,
+    "testo": "Gli addii fatti bene lasciano spazio alla gratitudine.",
+    "autore": null
+  },
+  {
+    "id": 682,
+    "testo": "Una pianta storta cresce comunque verso la luce.",
+    "autore": null
+  },
+  {
+    "id": 683,
+    "testo": "Le giornate felici raramente hanno una trama.",
+    "autore": null
+  },
+  {
+    "id": 684,
+    "testo": "La solitudine insegna che si può avere freddo e scaldarsi da soli.",
+    "autore": null
+  },
+  {
+    "id": 685,
+    "testo": "Ascoltare un vecchio racconto per la decima volta è un atto d'amore.",
+    "autore": null
+  },
+  {
+    "id": 686,
+    "testo": "Sperare non è ingenuità: è scegliere da che parte guardare.",
+    "autore": null
+  },
+  {
+    "id": 687,
+    "testo": "Quello che non è più non smette di averci insegnato.",
+    "autore": null
+  },
+  {
+    "id": 688,
+    "testo": "L'ordine fuori comincia dall'ordine dentro.",
+    "autore": null
+  },
+  {
+    "id": 689,
+    "testo": "Chi ci ama ci restituisce a noi stessi quando ci perdiamo.",
+    "autore": null
+  },
+  {
+    "id": 690,
+    "testo": "Fallire in qualcosa che ami vale più che riuscire in qualcosa che non senti.",
+    "autore": null
+  },
+  {
+    "id": 691,
+    "testo": "Un orto è una scuola di pazienza dove la lezione si mangia.",
+    "autore": null
+  },
+  {
+    "id": 692,
+    "testo": "Dopo il temporale anche la terra ha un odore più sincero.",
+    "autore": null
+  },
+  {
+    "id": 693,
+    "testo": "Le parole lente hanno il tempo di diventare vere.",
+    "autore": null
+  },
+  {
+    "id": 694,
+    "testo": "Chi ha attraversato una notte riconosce subito il primo grigio dell'alba.",
+    "autore": null
+  },
+  {
+    "id": 695,
+    "testo": "Anche la pazienza ha giorni no. Resta pazienza lo stesso.",
+    "autore": null
+  },
+  {
+    "id": 696,
+    "testo": "Il presente è l'unico posto dove la vita accade.",
+    "autore": null
+  },
+  {
+    "id": 697,
+    "testo": "Non serve capire tutto di una persona per volerle bene.",
+    "autore": null
+  },
+  {
+    "id": 698,
+    "testo": "Resiliente non è chi non crolla, ma chi ricostruisce con ciò che resta.",
+    "autore": null
+  },
+  {
+    "id": 699,
+    "testo": "C'è una felicità precisa nel rumore delle chiavi nella porta di casa.",
+    "autore": null
+  },
+  {
+    "id": 700,
+    "testo": "Ognuno porta un paesaggio dentro, e lo riconosce quando lo incontra fuori.",
+    "autore": null
+  },
+  {
+    "id": 701,
+    "testo": "Un libro sul comodino è una promessa che ci facciamo ogni sera.",
+    "autore": null
+  },
+  {
+    "id": 702,
+    "testo": "Ogni inizio porta con sé un po' di vertigine. È il segno che conta.",
+    "autore": null
+  },
+  {
+    "id": 703,
+    "testo": "Si cambia vita anche spostando una sedia verso la finestra.",
+    "autore": null
+  },
+  {
+    "id": 704,
+    "testo": "Si può essere fragili e forti nello stesso respiro.",
+    "autore": null
+  },
+  {
+    "id": 705,
+    "testo": "Una visita in ospedale dice più di cento auguri.",
+    "autore": null
+  },
+  {
+    "id": 706,
+    "testo": "Il dubbio non è nemico del coraggio: è il suo compagno di viaggio.",
+    "autore": null
+  },
+  {
+    "id": 707,
+    "testo": "Il superfluo pesa anche quando non lo si porta con sé.",
+    "autore": null
+  },
+  {
+    "id": 708,
+    "testo": "Le ali servono a poco se non si accetta il vuoto sotto.",
+    "autore": null
+  },
+  {
+    "id": 709,
+    "testo": "Si può essere chiari senza essere duri.",
+    "autore": null
+  },
+  {
+    "id": 710,
+    "testo": "Il futuro somiglia a un regalo che non si può scuotere per indovinare.",
+    "autore": null
+  },
+  {
+    "id": 711,
+    "testo": "Il momento giusto spesso ha l'aspetto di un giorno qualunque.",
+    "autore": null
+  },
+  {
+    "id": 712,
+    "testo": "Ogni scelta è anche una rinuncia, e va bene così.",
+    "autore": null
+  },
+  {
+    "id": 713,
+    "testo": "L'amicizia vera sopravvive ad anni di silenzio e riparte dalla stessa frase.",
+    "autore": null
+  },
+  {
+    "id": 714,
+    "testo": "Tremare non è fermarsi.",
+    "autore": null
+  },
+  {
+    "id": 715,
+    "testo": "Le ore lente sono quelle che ricordiamo meglio.",
+    "autore": null
+  },
+  {
+    "id": 716,
+    "testo": "Le maschere stancano più di ciò che nascondono.",
+    "autore": null
+  },
+  {
+    "id": 717,
+    "testo": "Il silenzio di chi ha capito è diverso da quello di chi si è arreso.",
+    "autore": null
+  },
+  {
+    "id": 718,
+    "testo": "Le farfalle non ricordano di essere state bruchi, e volano lo stesso.",
+    "autore": null
+  },
+  {
+    "id": 719,
+    "testo": "Restare fermi è anche un modo di scegliere.",
+    "autore": null
+  },
+  {
+    "id": 720,
+    "testo": "Chi coltiva la pazienza raccoglie la pace.",
+    "autore": null
+  },
+  {
+    "id": 721,
+    "testo": "I nonni insegnano la pazienza senza mai fare lezione.",
+    "autore": null
+  },
+  {
+    "id": 722,
+    "testo": "La fragilità condivisa diventa un luogo dove anche gli altri possono riposare.",
+    "autore": null
+  },
+  {
+    "id": 723,
+    "testo": "Gli occhi abituati alla bellezza la trovano anche nei giorni grigi.",
+    "autore": null
+  },
+  {
+    "id": 724,
+    "testo": "Il grano piegato dal vento è ancora grano.",
+    "autore": null
+  },
+  {
+    "id": 725,
+    "testo": "Scrivere ciò che si prova toglie al dolore un po' del suo buio.",
+    "autore": null
+  },
+  {
+    "id": 726,
+    "testo": "Restare aperti al mondo è già una forma di coraggio.",
+    "autore": null
+  },
+  {
+    "id": 727,
+    "testo": "Le cose non dette invecchiano peggio di quelle dette male.",
+    "autore": null
+  },
+  {
+    "id": 728,
+    "testo": "Non si possiede ciò che si ama: lo si custodisce.",
+    "autore": null
+  },
+  {
+    "id": 729,
+    "testo": "Amare è anche accettare di non poter proteggere l'altro da tutto.",
+    "autore": null
+  },
+  {
+    "id": 730,
+    "testo": "Chi accetta i propri limiti smette di sbatterci contro e comincia ad abitarli.",
+    "autore": null
+  },
+  {
+    "id": 731,
+    "testo": "Una risata a tavola vale più di ogni portata.",
+    "autore": null
+  },
+  {
+    "id": 732,
+    "testo": "A volte conoscere sé stessi vuol dire perdonarsi in anticipo.",
+    "autore": null
+  },
+  {
+    "id": 733,
+    "testo": "Tra le righe c'è spesso la frase più importante.",
+    "autore": null
+  },
+  {
+    "id": 734,
+    "testo": "Una lampadina sul comodino può salvare una notte intera.",
+    "autore": null
+  },
+  {
+    "id": 735,
+    "testo": "Ci vuole coraggio per tornare principianti.",
+    "autore": null
+  },
+  {
+    "id": 736,
+    "testo": "La vita non chiede di essere perfetta, ma presente.",
+    "autore": null
+  },
+  {
+    "id": 737,
+    "testo": "Si ricordano per sempre le persone che ci hanno fatto spazio quando eravamo di troppo.",
+    "autore": null
+  },
+  {
+    "id": 738,
+    "testo": "Dopo un fallimento, la prima cosa da ricostruire non è il progetto: è la fiducia.",
+    "autore": null
+  },
+  {
+    "id": 739,
+    "testo": "Restare dove si è, con tutta l'attenzione, è già un viaggio.",
+    "autore": null
+  },
+  {
+    "id": 740,
+    "testo": "L'aquilone è libero proprio grazie al filo che lo tiene.",
+    "autore": null
+  },
+  {
+    "id": 741,
+    "testo": "Le promesse migliori si fanno a bassa voce.",
+    "autore": null
+  },
+  {
+    "id": 742,
+    "testo": "Si può ricominciare il martedì, a metà mese, a metà vita.",
+    "autore": null
+  },
+  {
+    "id": 743,
+    "testo": "Il tempo non ci ruba niente: ci chiede solo di cambiare forma.",
+    "autore": null
+  },
+  {
+    "id": 744,
+    "testo": "Lo sguardo cambia il paesaggio.",
+    "autore": null
+  },
+  {
+    "id": 745,
+    "testo": "In ogni lite c'è un momento in cui si può scegliere la persona invece della ragione.",
+    "autore": null
+  },
+  {
+    "id": 746,
+    "testo": "Il coraggio si impara a piccole dosi, come una lingua straniera.",
+    "autore": null
+  },
+  {
+    "id": 747,
+    "testo": "Il dono più raro, oggi, è un'ora senza interruzioni.",
+    "autore": null
+  },
+  {
+    "id": 748,
+    "testo": "In montagna si parla meno e ci si capisce di più.",
+    "autore": null
+  },
+  {
+    "id": 749,
+    "testo": "Chi ti ascolta senza guardare l'orologio ti sta dando la cosa più rara.",
+    "autore": null
+  },
+  {
+    "id": 750,
+    "testo": "La meraviglia abita nei dettagli che la fretta calpesta.",
+    "autore": null
+  },
+  {
+    "id": 751,
+    "testo": "Dopo la pioggia la terra profuma di cose che ricominciano.",
+    "autore": null
+  },
+  {
+    "id": 752,
+    "testo": "Dove metti l'attenzione, lì metti la tua vita.",
+    "autore": null
+  },
+  {
+    "id": 753,
+    "testo": "La fiducia cresce nelle piccole promesse mantenute.",
+    "autore": null
+  },
+  {
+    "id": 754,
+    "testo": "Non si cresce mai tutto d'un colpo: si cresce a strappi.",
+    "autore": null
+  },
+  {
+    "id": 755,
+    "testo": "La felicità è un'abitudine che si allena con lo sguardo.",
+    "autore": null
+  },
+  {
+    "id": 756,
+    "testo": "Il mare che hai visto da bambino continua a muoversi dentro di te.",
+    "autore": null
+  },
+  {
+    "id": 757,
+    "testo": "Una bugia gentile resta una bugia. Una verità gentile resta un dono.",
+    "autore": null
+  },
+  {
+    "id": 758,
+    "testo": "Il domani è fatto della stessa materia delle cose che facciamo oggi.",
+    "autore": null
+  },
+  {
+    "id": 759,
+    "testo": "Si impara a lasciar andare come si impara a dormire: senza sforzarsi.",
+    "autore": null
+  },
+  {
+    "id": 760,
+    "testo": "Anche la notte più lunga finisce in un'alba.",
+    "autore": null
+  },
+  {
+    "id": 761,
+    "testo": "Le mani che si cercano al buio non hanno bisogno di parole.",
+    "autore": null
+  },
+  {
+    "id": 762,
+    "testo": "La paura merita ascolto, non obbedienza.",
+    "autore": null
+  },
+  {
+    "id": 763,
+    "testo": "Un grazie detto guardando negli occhi pesa il doppio.",
+    "autore": null
+  },
+  {
+    "id": 764,
+    "testo": "Ognuno ha una costa che solo il mare conosce fino in fondo.",
+    "autore": null
+  },
+  {
+    "id": 765,
+    "testo": "Si legge per capire gli altri e si finisce per capire sé stessi.",
+    "autore": null
+  },
+  {
+    "id": 766,
+    "testo": "Quando tutto tace, ascolta: qualcosa sta germogliando.",
+    "autore": null
+  },
+  {
+    "id": 767,
+    "testo": "L'attesa insegna la differenza tra volere e avere bisogno.",
+    "autore": null
+  },
+  {
+    "id": 768,
+    "testo": "Chi accende una luce per un altro illumina anche la propria strada.",
+    "autore": null
+  },
+  {
+    "id": 769,
+    "testo": "Avere qualcuno a cui raccontare la giornata è una ricchezza discreta.",
+    "autore": null
+  },
+  {
+    "id": 770,
+    "testo": "Un errore non è un'identità. È un episodio.",
+    "autore": null
+  },
+  {
+    "id": 771,
+    "testo": "Un libro letto senza fretta diventa un amico.",
+    "autore": null
+  },
+  {
+    "id": 772,
+    "testo": "Le stagioni dentro di noi non seguono il calendario.",
+    "autore": null
+  },
+  {
+    "id": 773,
+    "testo": "Le parole sono come i semi: alcune germogliano anni dopo.",
+    "autore": null
+  },
+  {
+    "id": 774,
+    "testo": "La fiducia non elimina il rischio. Lo rende sopportabile.",
+    "autore": null
+  },
+  {
+    "id": 775,
+    "testo": "Chi sa aspettare non resta indietro: arriva intero.",
+    "autore": null
+  },
+  {
+    "id": 776,
+    "testo": "Il rispetto è il linguaggio che tutti capiscono.",
+    "autore": null
+  },
+  {
+    "id": 777,
+    "testo": "Curare gli anziani è il modo in cui una famiglia dice grazie.",
+    "autore": null
+  },
+  {
+    "id": 778,
+    "testo": "Restare morbidi dopo essere stati feriti è una forza rara.",
+    "autore": null
+  },
+  {
+    "id": 779,
+    "testo": "Le piccole gioie non si accumulano: si vivono e lasciano posto alle prossime.",
+    "autore": null
+  },
+  {
+    "id": 780,
+    "testo": "La libertà si riconosce dal modo in cui si respira, non dal luogo in cui si sta.",
+    "autore": null
+  },
+  {
+    "id": 781,
+    "testo": "Il silenzio in montagna ricorda quanto rumore portiamo con noi.",
+    "autore": null
+  },
+  {
+    "id": 782,
+    "testo": "Anche un piccolo sì apre più strade di un grande forse.",
+    "autore": null
+  },
+  {
+    "id": 783,
+    "testo": "Le cose cambiano. Per fortuna, anche quelle che fanno male.",
+    "autore": null
+  },
+  {
+    "id": 784,
+    "testo": "Ci si salva spesso con piccole cose: un caffè, una telefonata, una finestra aperta.",
+    "autore": null
+  },
+  {
+    "id": 785,
+    "testo": "Ci si innamora di uno sguardo, si resta per la gentilezza dei giorni normali.",
+    "autore": null
+  },
+  {
+    "id": 786,
+    "testo": "Le cose rotte mostrano dove eravamo troppo tesi.",
+    "autore": null
+  },
+  {
+    "id": 787,
+    "testo": "Il mattino non sa cosa succederà, eppure arriva sempre puntuale.",
+    "autore": null
+  },
+  {
+    "id": 788,
+    "testo": "Stare soli è anche il modo di imparare a scegliere con chi stare.",
+    "autore": null
+  },
+  {
+    "id": 789,
+    "testo": "La lettera più difficile da scrivere è quella che nessuno ci ha chiesto.",
+    "autore": null
+  },
+  {
+    "id": 790,
+    "testo": "Le nuvole passano. È il loro mestiere.",
+    "autore": null
+  },
+  {
+    "id": 791,
+    "testo": "Ogni casa vuota è già pronta per un'altra vita.",
+    "autore": null
+  },
+  {
+    "id": 792,
+    "testo": "Non è tardi finché respiri.",
+    "autore": null
+  },
+  {
+    "id": 793,
+    "testo": "Il bene non fa notizia, ma tiene in piedi il mondo.",
+    "autore": null
+  },
+  {
+    "id": 794,
+    "testo": "Ricominciare cento volte non è un fallimento: è una pratica.",
+    "autore": null
+  },
+  {
+    "id": 795,
+    "testo": "Quasi tutto ciò che ci serve è già a portata di mano.",
+    "autore": null
+  },
+  {
+    "id": 796,
+    "testo": "La luce di novembre è più bassa, e per questo entra più lontano nelle stanze.",
+    "autore": null
+  },
+  {
+    "id": 797,
+    "testo": "Dire grazie guardando negli occhi vale più di cento messaggi.",
+    "autore": null
+  },
+  {
+    "id": 798,
+    "testo": "Una porta chiusa resta sempre una porta.",
+    "autore": null
+  },
+  {
+    "id": 799,
+    "testo": "Non si torna dove si è stati felici: si torna a esserlo altrove.",
+    "autore": null
+  },
+  {
+    "id": 800,
+    "testo": "Ogni nodo si scioglie con calma, mai con forza.",
+    "autore": null
+  },
+  {
+    "id": 801,
+    "testo": "Aiutare senza umiliare è la forma più alta di aiuto.",
+    "autore": null
+  },
+  {
+    "id": 802,
+    "testo": "La paura del giudizio costruisce gabbie con sbarre invisibili.",
+    "autore": null
+  },
+  {
+    "id": 803,
+    "testo": "La neve insegna a camminare piano e a guardare dove si mettono i piedi.",
+    "autore": null
+  },
+  {
+    "id": 804,
+    "testo": "Si cambia piano, come una collina: nessuno se ne accorge, ma un giorno è diversa.",
+    "autore": null
+  },
+  {
+    "id": 805,
+    "testo": "Chi rilegge ciò che scrive prima di inviarlo risparmia molti silenzi dopo.",
+    "autore": null
+  },
+  {
+    "id": 806,
+    "testo": "Ogni volta che un bambino chiede perché, il mondo diventa un po' più grande.",
+    "autore": null
+  },
+  {
+    "id": 807,
+    "testo": "Il cambiamento ha il passo di una lumaca e la forza di una marea.",
+    "autore": null
+  },
+  {
+    "id": 808,
+    "testo": "La saggezza è sapere cosa ignorare.",
+    "autore": null
+  },
+  {
+    "id": 809,
+    "testo": "Le promesse sussurrate pesano più di quelle gridate.",
+    "autore": null
+  },
+  {
+    "id": 810,
+    "testo": "Crescere somiglia a una spirale: si ripassa dagli stessi posti, ma un po' più in alto.",
+    "autore": null
+  },
+  {
+    "id": 811,
+    "testo": "Contentarsi non è rinunciare: è smettere di rincorrere ciò che non ci somiglia.",
+    "autore": null
+  },
+  {
+    "id": 812,
+    "testo": "Un ramo secco non smette di far parte dell'albero.",
+    "autore": null
+  },
+  {
+    "id": 813,
+    "testo": "Una frase onesta resiste a ogni interpretazione.",
+    "autore": null
+  },
+  {
+    "id": 814,
+    "testo": "Chi sa aspettare la luce impara anche a riconoscerla.",
+    "autore": null
+  },
+  {
+    "id": 815,
+    "testo": "Ricominciare è più facile quando si smette di contare i tentativi.",
+    "autore": null
+  },
+  {
+    "id": 816,
+    "testo": "Il silenzio non mente.",
+    "autore": null
+  },
+  {
+    "id": 817,
+    "testo": "Si guarisce prima quando qualcuno ti porta il brodo.",
+    "autore": null
+  },
+  {
+    "id": 818,
+    "testo": "Il primo nemico del coraggio è il confronto.",
+    "autore": null
+  },
+  {
+    "id": 819,
+    "testo": "Il profumo del caffè al mattino è una promessa che la casa mantiene.",
+    "autore": null
+  },
+  {
+    "id": 820,
+    "testo": "Chi non teme la propria compagnia non cerca rumore per riempire le sere.",
+    "autore": null
+  },
+  {
+    "id": 821,
+    "testo": "Leggere sotto una coperta è il modo più antico di stare al sicuro.",
+    "autore": null
+  },
+  {
+    "id": 822,
+    "testo": "Ci sono giorni in cui sperare significa soltanto alzarsi. E va benissimo.",
+    "autore": null
+  },
+  {
+    "id": 823,
+    "testo": "Le persone cambiano. Alcune verso di noi, altre verso sé stesse.",
+    "autore": null
+  },
+  {
+    "id": 824,
+    "testo": "Non ti serve tutto il percorso, ti basta il prossimo passo.",
+    "autore": null
+  },
+  {
+    "id": 825,
+    "testo": "Ogni amicizia ha bisogno di qualcuno che scriva per primo, e non sempre lo stesso.",
+    "autore": null
+  },
+  {
+    "id": 826,
+    "testo": "Accettare un consiglio è un piccolo coraggio di tutti i giorni.",
+    "autore": null
+  },
+  {
+    "id": 827,
+    "testo": "Essere qui, adesso, con chi si ama: il resto è contorno.",
+    "autore": null
+  },
+  {
+    "id": 828,
+    "testo": "La libertà è leggera solo per chi ha smesso di trascinare ciò che non è suo.",
+    "autore": null
+  },
+  {
+    "id": 829,
+    "testo": "Le parole d'amore più belle sono spesso quelle più semplici.",
+    "autore": null
+  },
+  {
+    "id": 830,
+    "testo": "I campi arati sembrano vuoti, ma stanno solo preparando qualcosa.",
+    "autore": null
+  },
+  {
+    "id": 831,
+    "testo": "La pazienza non è restare fermi: è restare.",
+    "autore": null
+  },
+  {
+    "id": 832,
+    "testo": "Si impara a nuotare solo entrando in acqua.",
+    "autore": null
+  },
+  {
+    "id": 833,
+    "testo": "L'amore è anche pazienza con le abitudini che non sopportiamo.",
+    "autore": null
+  },
+  {
+    "id": 834,
+    "testo": "Sotto ogni armatura c'è qualcuno che aspetta di poterla togliere.",
+    "autore": null
+  },
+  {
+    "id": 835,
+    "testo": "Una giornata semplice ben vissuta lascia addosso la stanchezza buona.",
+    "autore": null
+  },
+  {
+    "id": 836,
+    "testo": "Il gelo disegna sui vetri ciò che d'estate nessuno avrebbe notato.",
+    "autore": null
+  },
+  {
+    "id": 837,
+    "testo": "Ascoltare il proprio silenzio è il primo passo per non tradirsi.",
+    "autore": null
+  },
+  {
+    "id": 838,
+    "testo": "Il futuro è timido: si avvicina se non lo si fissa troppo.",
+    "autore": null
+  },
+  {
+    "id": 839,
+    "testo": "Il tempo che aspetti diventa tempo che conosci.",
+    "autore": null
+  },
+  {
+    "id": 840,
+    "testo": "L'amore vero non stringe: sostiene.",
+    "autore": null
+  },
+  {
+    "id": 841,
+    "testo": "Il modo in cui trattiamo chi ci serve al bar dice chi siamo.",
+    "autore": null
+  },
+  {
+    "id": 842,
+    "testo": "Le fondamenta si fanno scavando. Anche dentro.",
+    "autore": null
+  },
+  {
+    "id": 843,
+    "testo": "Le cose fatte a mano hanno il ritmo del cuore di chi le ha fatte.",
+    "autore": null
+  },
+  {
+    "id": 844,
+    "testo": "Non serve sapere chi sei per esserlo fino in fondo.",
+    "autore": null
+  },
+  {
+    "id": 845,
+    "testo": "Una conversazione finisce bene quando entrambi hanno avuto il tempo di dire.",
+    "autore": null
+  },
+  {
+    "id": 846,
+    "testo": "Basta una voce amica al telefono per accorciare la notte.",
+    "autore": null
+  },
+  {
+    "id": 847,
+    "testo": "Ripartire non è tornare al via. È partire con più strada addosso.",
+    "autore": null
+  },
+  {
+    "id": 848,
+    "testo": "Chi ti somiglia davvero non ti chiede di cambiare, ti invita a crescere.",
+    "autore": null
+  },
+  {
+    "id": 849,
+    "testo": "I legami forti non temono le differenze: ci crescono dentro.",
+    "autore": null
+  },
+  {
+    "id": 850,
+    "testo": "Un giorno storto non rende storta una vita.",
+    "autore": null
+  },
+  {
+    "id": 851,
+    "testo": "Si diventa ricchi il giorno in cui si smette di contare ciò che manca.",
+    "autore": null
+  },
+  {
+    "id": 852,
+    "testo": "Il papavero non si chiede se è fuori posto in mezzo al grano.",
+    "autore": null
+  },
+  {
+    "id": 853,
+    "testo": "Nei libri usati restano le orme di chi ci è passato prima.",
+    "autore": null
+  },
+  {
+    "id": 854,
+    "testo": "Ogni ricominciare ha la stessa forma di un respiro profondo.",
+    "autore": null
+  },
+  {
+    "id": 855,
+    "testo": "Le cose importanti si fanno con calma, anche le partenze.",
+    "autore": null
+  },
+  {
+    "id": 856,
+    "testo": "L'essenziale non fa rumore, ma resta.",
+    "autore": null
+  },
+  {
+    "id": 857,
+    "testo": "Un ombrello condiviso accorcia la distanza tra due persone.",
+    "autore": null
+  },
+  {
+    "id": 858,
+    "testo": "Tenere duro non significa tenere tutto.",
+    "autore": null
+  },
+  {
+    "id": 859,
+    "testo": "Le abitudini buone ci tengono compagnia senza chiedere niente.",
+    "autore": null
+  },
+  {
+    "id": 860,
+    "testo": "La solitudine è come il mare: spaventa da riva, culla quando ci sei dentro.",
+    "autore": null
+  },
+  {
+    "id": 861,
+    "testo": "La sincerità non alza la voce: la abbassa, perché sa di essere ascoltata.",
+    "autore": null
+  },
+  {
+    "id": 862,
+    "testo": "Le possibilità più belle hanno spesso l'aspetto di un imprevisto.",
+    "autore": null
+  },
+  {
+    "id": 863,
+    "testo": "Una stanza riordinata è già un piccolo ricominciare.",
+    "autore": null
+  },
+  {
+    "id": 864,
+    "testo": "Ogni giorno vissuto con cura è un giorno salvato.",
+    "autore": null
+  },
+  {
+    "id": 865,
+    "testo": "Restare è una parola semplice che pochi sanno coniugare.",
+    "autore": null
+  },
+  {
+    "id": 866,
+    "testo": "Esporsi è rischiare di essere visti davvero.",
+    "autore": null
+  },
+  {
+    "id": 867,
+    "testo": "Guardare il cielo non risolve nulla, eppure aiuta.",
+    "autore": null
+  },
+  {
+    "id": 868,
+    "testo": "L'identità si scrive a matita, e va bene così.",
+    "autore": null
+  },
+  {
+    "id": 869,
+    "testo": "Si scrive sempre a qualcuno, anche quando si scrive per sé.",
+    "autore": null
+  },
+  {
+    "id": 870,
+    "testo": "Una luce lontana non illumina il cammino, ma indica la direzione.",
+    "autore": null
+  },
+  {
+    "id": 871,
+    "testo": "Ascoltare è il primo modo di voler bene.",
+    "autore": null
+  },
+  {
+    "id": 872,
+    "testo": "Dire grazie guardando negli occhi cambia il peso della parola.",
+    "autore": null
+  },
+  {
+    "id": 873,
+    "testo": "Il coraggio di cambiare idea è più raro di quello di difenderla.",
+    "autore": null
+  },
+  {
+    "id": 874,
+    "testo": "Basta aprire la finestra per ricordarsi che il mondo è ancora lì.",
+    "autore": null
+  },
+  {
+    "id": 875,
+    "testo": "Anche le radici, ogni tanto, hanno bisogno di pioggia nuova.",
+    "autore": null
+  },
+  {
+    "id": 876,
+    "testo": "Quello che non sai dire, a volte, lo sa dire una pausa.",
+    "autore": null
+  },
+  {
+    "id": 877,
+    "testo": "Si spera anche per gli altri, quando loro non ce la fanno.",
+    "autore": null
+  },
+  {
+    "id": 878,
+    "testo": "La strada si fa chiara solo camminando.",
+    "autore": null
+  },
+  {
+    "id": 879,
+    "testo": "Il silenzio dopo una buona cena è un silenzio pieno.",
+    "autore": null
+  },
+  {
+    "id": 880,
+    "testo": "Il gelo non sa che sotto la corteccia la linfa ha già deciso.",
+    "autore": null
+  },
+  {
+    "id": 881,
+    "testo": "Non tutto ciò che perdi era tuo.",
+    "autore": null
+  },
+  {
+    "id": 882,
+    "testo": "Esistono albe che si vedono solo restando svegli nel dolore.",
+    "autore": null
+  },
+  {
+    "id": 883,
+    "testo": "Ci sono giorni per fiorire e giorni per mettere radici.",
+    "autore": null
+  },
+  {
+    "id": 884,
+    "testo": "Non serve vedere la cima per sapere che la montagna ha un'altra parte.",
+    "autore": null
+  },
+  {
+    "id": 885,
+    "testo": "Il coraggio a volte è solo una frase detta con la voce che trema.",
+    "autore": null
+  },
+  {
+    "id": 886,
+    "testo": "Il nuovo giorno non chiede chi eri ieri.",
+    "autore": null
+  },
+  {
+    "id": 887,
+    "testo": "Cura ciò che ti cura.",
+    "autore": null
+  },
+  {
+    "id": 888,
+    "testo": "Le cose che ancora non sappiamo sono la parte più luminosa del mondo.",
+    "autore": null
+  },
+  {
+    "id": 889,
+    "testo": "Una vita semplice non è una vita piccola.",
+    "autore": null
+  },
+  {
+    "id": 890,
+    "testo": "Fidarsi è prestare un po' del proprio cuore senza chiedere ricevuta.",
+    "autore": null
+  },
+  {
+    "id": 891,
+    "testo": "Chi trova pace in sé la porta ovunque.",
+    "autore": null
+  },
+  {
+    "id": 892,
+    "testo": "Un sentiero si apre sempre davanti a chi ha smesso di guardarsi indietro.",
+    "autore": null
+  },
+  {
+    "id": 893,
+    "testo": "Ricomincia da ciò che sei, non da ciò che ti manca.",
+    "autore": null
+  },
+  {
+    "id": 894,
+    "testo": "L'orizzonte non si raggiunge mai, ed è per questo che ci fa camminare.",
+    "autore": null
+  },
+  {
+    "id": 895,
     "testo": "Alla fine resta quello che abbiamo dato.",
+    "autore": null
+  },
+  {
+    "id": 896,
+    "testo": "La speranza più vera non ha fretta di avere ragione.",
+    "autore": null
+  },
+  {
+    "id": 897,
+    "testo": "Quando la sera sembra eterna, ricorda che anche lei ha un orario.",
+    "autore": null
+  },
+  {
+    "id": 898,
+    "testo": "Non tutto ciò che tace è vuoto.",
     "autore": null
   }
 ]
