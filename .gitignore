@@ -5,3 +5,4 @@ out/
 site/
 .env
 .idea/
+.DS_Store
