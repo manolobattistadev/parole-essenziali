@@ -117,6 +117,20 @@ Per un'anteprima: `python -m bot anteprima --raccolta film --id 3`.
 - `reel.condividi_nel_feed` in `config.json` decide se il reel appare anche nella griglia del profilo.
 - Il font è Playfair Display (SIL Open Font License, vedi `fonts/OFL.txt`).
 
+## Avvio puntuale: cron-job.org
+
+Il cron di GitHub Actions non è affidabile: può ritardare o saltare le esecuzioni, e su questo
+repo non è mai partito. Per questo il workflow `Pubblica` viene avviato da **cron-job.org** (gratuito)
+con una chiamata all'API di GitHub:
+
+- **URL:** `POST https://api.github.com/repos/manolobattistadev/parole-essenziali/actions/workflows/pubblica.yml/dispatches`
+- **Header:** `Authorization: Bearer <token>`, `Accept: application/vnd.github+json`, `X-GitHub-Api-Version: 2022-11-28`
+- **Body:** `{"ref":"main"}`
+- **Orario:** `0,30 9,13,19 * * *`, fuso **Europe/Rome**. La chiamata delle :30 è un recupero: il registro evita i doppioni.
+- **Token:** fine-grained PAT di `manolobattistadev`, solo questo repo, permesso **Actions: Read and write**.
+
+Il cron di GitHub resta attivo come riserva.
+
 ## Manutenzione: cosa può fermarlo
 
 Il bot è pensato per andare avanti senza interventi. Questi sono i soli punti da tenere d'occhio:
@@ -125,6 +139,7 @@ Il bot è pensato per andare avanti senza interventi. Questi sono i soli punti d
   Un errore isolato si ritenta da solo al giro successivo, uno che si ripete va guardato.
 - **Mail di Meta.** Meta può chiedere una volta l'anno la *Verifica dell'utilizzo dei dati*
   (Data Use Checkup) o altre conferme sull'app. Se non rispondi può limitare l'app, e il token smette di funzionare.
+- **Scadenza del token di cron-job.org.** Quando scade, gli avvii si fermano: rigeneralo e aggiornalo nell'header `Authorization`.
 - **Il repo deve restare pubblico**, altrimenti GitHub Pages non è più gratis.
 - **Versione API** (`graph_api_version`). Quando Meta ritira una versione, le chiamate passano da
   sole alla più vecchia ancora attiva. Se un giorno qualcosa si rompe, alzare il numero è il primo tentativo.
