@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 import random
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -78,10 +79,18 @@ def fascia_dovuta(cfg: dict, ora: dt.datetime | None = None) -> tuple[str, dict]
 
 
 def trova_fascia(cfg: dict, ora_fascia: str) -> dict:
-    for f in cfg["programma"]:
-        if f["ora"] == ora_fascia:
-            return f
-    raise SystemExit(f"Fascia {ora_fascia!r} non presente nel programma")
+    """Accetta "13:00", "13.10", "13" ecc.: restituisce la fascia del programma più vicina
+    che inizia entro quell'orario (o la prima, se l'orario è prima di tutte)."""
+    m = re.match(r"^\s*(\d{1,2})(?:[:.,h ](\d{1,2}))?\s*$", ora_fascia or "")
+    if not m:
+        raise SystemExit(f"Orario {ora_fascia!r} non valido: usa per esempio 09:00, 13:00, 19:00")
+    minuti = int(m.group(1)) * 60 + int(m.group(2) or 0)
+    def inizio(f):
+        h, mm = map(int, f["ora"].split(":"))
+        return h * 60 + mm
+    fasce = sorted(cfg["programma"], key=inizio)
+    precedenti = [f for f in fasce if inizio(f) <= minuti]
+    return precedenti[-1] if precedenti else fasce[0]
 
 
 def raccolta_di(fascia: dict) -> str:
