@@ -113,6 +113,7 @@ Per un'anteprima: `python -m bot anteprima --raccolta film --id 3`.
 
 - I cron di GitHub possono slittare di qualche minuto, a volte di più nelle ore di punta.
 - Via API non si può usare la libreria musicale di Instagram: per questo l'audio è generato.
+- `post.dimensione_testo` in `config.json` regola la grandezza del testo nei post (1.0 = grande, 0.75 = attuale).
 - `reel.condividi_nel_feed` in `config.json` decide se il reel appare anche nella griglia del profilo.
 - Il font è Playfair Display (SIL Open Font License, vedi `fonts/OFL.txt`).
 

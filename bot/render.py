@@ -40,8 +40,10 @@ def _wrap(draw: ImageDraw.ImageDraw, testo: str, font, larghezza: int) -> list[s
     return righe
 
 
-def disegna(aforisma: dict, firma: str, w: int, h: int, scala: int = 1) -> Image.Image:
-    """Testo bianco centrato su fondo nero; la dimensione del font si adatta alla lunghezza."""
+def disegna(aforisma: dict, firma: str, w: int, h: int, scala: int = 1,
+            dimensione: float = 1.0) -> Image.Image:
+    """Testo bianco centrato su fondo nero; la dimensione del font si adatta alla lunghezza.
+    `dimensione` scala il corpo del testo (1.0 = default, 0.8 = più piccolo)."""
     W, H = w * scala, h * scala
     img = Image.new("RGB", (W, H), NERO)
     d = ImageDraw.Draw(img)
@@ -51,13 +53,14 @@ def disegna(aforisma: dict, firma: str, w: int, h: int, scala: int = 1) -> Image
     box_h = int(min(H * 0.62, W * 1.0))
     testo = aforisma["testo"]
 
-    size = 84 * scala
+    size = int(84 * scala * dimensione)
+    minimo = int(36 * scala * dimensione)
     while True:
         font = ImageFont.truetype(str(FONT_TESTO), size)
         righe = _wrap(d, testo, font, box_w)
         interl = int(size * 1.42)
         alt = interl * len(righe)
-        if alt <= box_h or size <= 36 * scala:
+        if alt <= box_h or size <= minimo:
             break
         size -= 2 * scala
 
@@ -83,8 +86,8 @@ def disegna(aforisma: dict, firma: str, w: int, h: int, scala: int = 1) -> Image
     return img
 
 
-def immagine_post(aforisma: dict, firma: str, dest: Path) -> Path:
-    img = disegna(aforisma, firma, 1080, 1350)
+def immagine_post(aforisma: dict, firma: str, dest: Path, dimensione: float = 1.0) -> Path:
+    img = disegna(aforisma, firma, 1080, 1350, dimensione=dimensione)
     img.save(dest, "JPEG", quality=95, subsampling=0)
     return dest
 

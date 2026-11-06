@@ -60,6 +60,9 @@
       ]
     }
   },
+  "post": {
+    "dimensione_testo": 0.75
+  },
   "reel": {
     "durata_secondi": 9,
     "zoom_finale": 1.06,

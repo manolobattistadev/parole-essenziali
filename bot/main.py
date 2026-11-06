@@ -47,7 +47,8 @@ def genera(aforisma: dict, contenuti: list[str], cartella: Path, cfg: dict) -> N
     cartella.mkdir(parents=True, exist_ok=True)
     firma = cfg.get("firma", "")
     if "post" in contenuti:
-        render.immagine_post(aforisma, firma, cartella / FILE["post"])
+        render.immagine_post(aforisma, firma, cartella / FILE["post"],
+                             dimensione=cfg.get("post", {}).get("dimensione_testo", 1.0))
     if "storia" in contenuti:
         render.immagine_storia(aforisma, firma, cartella / FILE["storia"])
     if "reel" in contenuti:
