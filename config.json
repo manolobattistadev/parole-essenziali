@@ -2,6 +2,7 @@
   "nome_pagina": "parole essenziali",
   "firma": "@parole.essenziali",
   "timezone": "Europe/Rome",
+  "sfondo": "background/background.png",
   "programma": [
     {
       "ora": "09:00",

@@ -4,13 +4,15 @@ from __future__ import annotations
 import subprocess
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from functools import lru_cache
 
-from .core import FONTS
+from PIL import Image, ImageDraw, ImageFont, ImageOps
+
+from .core import FONTS, ROOT, config
 
 NERO = (0, 0, 0)
 BIANCO = (255, 255, 255)
-GRIGIO = (140, 140, 140)
+GRIGIO = (175, 175, 175)
 
 FONT_TESTO = FONTS / "PlayfairDisplay.ttf"
 FONT_FIRMA = FONTS / "PlayfairDisplay-Italic.ttf"
@@ -24,6 +26,22 @@ ACCORDI = [
     [73.42, 110.00, 146.83, 174.61, 220.00],   # Re minore
     [82.41, 123.47, 164.81, 196.00, 246.94],   # Mi minore
 ]
+
+
+@lru_cache(maxsize=1)
+def _texture() -> Image.Image | None:
+    percorso = config().get("sfondo")
+    if not percorso or not (ROOT / percorso).exists():
+        return None
+    return Image.open(ROOT / percorso).convert("RGB")
+
+
+def sfondo(W: int, H: int) -> Image.Image:
+    """Lo sfondo di config.json (ritagliato a riempire il formato) oppure nero pieno."""
+    tex = _texture()
+    if tex is None:
+        return Image.new("RGB", (W, H), NERO)
+    return ImageOps.fit(tex, (W, H), Image.LANCZOS)
 
 
 def _wrap(draw: ImageDraw.ImageDraw, testo: str, font, larghezza: int) -> list[str]:
@@ -45,7 +63,7 @@ def disegna(aforisma: dict, firma: str, w: int, h: int, scala: int = 1,
     """Testo bianco centrato su fondo nero; la dimensione del font si adatta alla lunghezza.
     `dimensione` scala il corpo del testo (1.0 = default, 0.8 = più piccolo)."""
     W, H = w * scala, h * scala
-    img = Image.new("RGB", (W, H), NERO)
+    img = sfondo(W, H)
     d = ImageDraw.Draw(img)
 
     margine = int(W * 0.13)
